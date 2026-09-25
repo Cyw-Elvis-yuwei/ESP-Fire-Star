@@ -1,0 +1,14 @@
+{
+  "pid": 8594,
+  "command": [
+    "/home/demo/can-diagnostic-bench/diagnostics/build-app/can-diagnostic-bench",
+    "--interface",
+    "can0"
+  ],
+  "binary_sha256": "54320ae33e4527801cfc034ed6961fc8b7429b8902a73cf1ddd69e389ade8996",
+  "session": [
+    "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-104024-272"
+  ],
+  "user_button_acceptance": "not_yet_observed",
+  "automatic_physical_60s_test": "passed"
+}

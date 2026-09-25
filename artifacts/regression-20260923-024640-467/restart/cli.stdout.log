@@ -1,0 +1,3 @@
+initial_set_on seq=1 success 1 ms
+recovery_query seq=2 success 0 ms
+PASS restart

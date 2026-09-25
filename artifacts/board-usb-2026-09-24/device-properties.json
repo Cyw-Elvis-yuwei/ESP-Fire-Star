@@ -1,0 +1,28 @@
+{
+  "CapturedAt": "2026-09-24T17:00:35.0033959+08:00",
+  "UserReported": "开发板灯已经亮了",
+  "Source": "Get-PnpDevice -PresentOnly and Get-PnpDeviceProperty",
+  "Devices": [
+    {
+      "Status": "OK",
+      "Class": "Ports",
+      "FriendlyName": "USB-SERIAL CH340 (COM10)",
+      "InstanceId": "USB\\VID_1A86&PID_7523\\7&25C82436&0&2",
+      "Properties": [
+        {
+          "KeyName": "DEVPKEY_Device_Service",
+          "Data": "CH341SER_A64"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_ProblemCode",
+          "Data": 0
+        },
+        {
+          "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+          "Data": "USB Serial"
+        }
+      ]
+    }
+  ],
+  "Scope": "Board indicator and USB-serial enumeration only; no SWD, MCU firmware or CAN verification"
+}

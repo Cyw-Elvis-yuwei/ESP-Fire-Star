@@ -1,0 +1,17 @@
+[
+  {
+    "KeyName": "DEVPKEY_Device_HardwareIds",
+    "Data": [
+      "USB\\VID_0483&PID_DF11&REV_0200",
+      "USB\\VID_0483&PID_DF11"
+    ]
+  },
+  {
+    "KeyName": "DEVPKEY_Device_ProblemCode",
+    "Data": 28
+  },
+  {
+    "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+    "Data": "DFU in FS Mode"
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "CapturedAt": "2026-09-24T16:56:02.2351663+08:00",
+  "Source": "Windows Get-PnpDevice -PresentOnly and Get-PnpDeviceProperty",
+  "DeviceSelector": "USB/HID VID_C251 PID_F001",
+  "Devices": [
+    {
+      "Status": "OK",
+      "Class": "HIDClass",
+      "FriendlyName": "USB 输入设备",
+      "InstanceId": "USB\\VID_C251&PID_F001&MI_02\\8&30B5AAE7&0&0002",
+      "Properties": [
+        {
+          "KeyName": "DEVPKEY_Device_Service",
+          "Data": "HidUsb"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_Manufacturer",
+          "Data": "(标准系统设备)"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_ProblemCode",
+          "Data": 0
+        },
+        {
+          "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+          "Data": "CMSIS-DAP HID"
+        }
+      ]
+    },
+    {
+      "Status": "OK",
+      "Class": "USB",
+      "FriendlyName": "USB Composite Device",
+      "InstanceId": "USB\\VID_C251&PID_F001\\DAP_ID_REDACTED",
+      "Properties": [
+        {
+          "KeyName": "DEVPKEY_Device_Service",
+          "Data": "usbccgp"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_Manufacturer",
+          "Data": "(标准 USB 主控制器)"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_ProblemCode",
+          "Data": 0
+        },
+        {
+          "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+          "Data": "CMSIS-DAP"
+        }
+      ]
+    },
+    {
+      "Status": "OK",
+      "Class": "HIDClass",
+      "FriendlyName": "符合 HID 标准的供应商定义设备",
+      "InstanceId": "HID\\VID_C251&PID_F001&MI_02\\9&147C1A3D&0&0000",
+      "Properties": [
+        {
+          "KeyName": "DEVPKEY_Device_Manufacturer",
+          "Data": "(标准系统设备)"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_ProblemCode",
+          "Data": 0
+        }
+      ]
+    },
+    {
+      "Status": "OK",
+      "Class": "Ports",
+      "FriendlyName": "USB 串行设备 (COM8)",
+      "InstanceId": "USB\\VID_C251&PID_F001&MI_00\\8&30B5AAE7&0&0000",
+      "Properties": [
+        {
+          "KeyName": "DEVPKEY_Device_Service",
+          "Data": "usbser"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_Manufacturer",
+          "Data": "Microsoft"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_FriendlyName",
+          "Data": "USB 串行设备 (COM8)"
+        },
+        {
+          "KeyName": "DEVPKEY_Device_ProblemCode",
+          "Data": 0
+        },
+        {
+          "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+          "Data": "CMSIS-DAP CDC"
+        }
+      ]
+    }
+  ],
+  "Boundary": "USB enumeration only; no STM32 SWD connection or flash verification"
+}

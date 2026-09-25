@@ -1,0 +1,45 @@
+QMake version 3.1
+Using Qt version 5.12.8 in /usr/lib/x86_64-linux-gnu
+make: Nothing to be done for 'first'.
+make: Nothing to be done for 'first'.
+/usr/lib/qt5/bin/moc -DQT_NO_DEBUG -DQT_TESTLIB_LIB -DQT_SERIALBUS_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-tests"' --include /home/demo/can-diagnostic-bench/diagnostics/build-tests/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/demo/can-diagnostic-bench/diagnostics/tests -I/home/demo/can-diagnostic-bench/diagnostics/core -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5/QtSerialBus -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../tests/test_engine.cpp -o test_engine.moc
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_TESTLIB_LIB -DQT_SERIALBUS_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-tests"' -I../tests -I. -I../core -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialBus -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -o test_engine.o ../tests/test_engine.cpp
+g++ -Wl,-O1 -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu -o canbench-tests test_engine.o diagnosticengine.o moc_diagnosticengine.o   /usr/lib/x86_64-linux-gnu/libQt5Test.so /usr/lib/x86_64-linux-gnu/libQt5SerialBus.so /usr/lib/x86_64-linux-gnu/libQt5Core.so -lpthread   
+make: Entering directory '/home/demo/can-diagnostic-bench/diagnostics/firmware'
+./build/native_test
+PASS: 139 native firmware checks (protocol + heartbeat)
+make: Leaving directory '/home/demo/can-diagnostic-bench/diagnostics/firmware'
+********* Start testing of EngineTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : EngineTest::initTestCase()
+PASS   : EngineTest::requestEncodingAndSinglePending()
+PASS   : EngineTest::responseMatchingAndDuplicates()
+PASS   : EngineTest::malformedResponse(short)
+PASS   : EngineTest::malformedResponse(long)
+PASS   : EngineTest::malformedResponse(version)
+PASS   : EngineTest::malformedResponse(unsupported_op)
+PASS   : EngineTest::malformedResponse(result)
+PASS   : EngineTest::malformedResponse(led)
+PASS   : EngineTest::malformedResponse(reserved6)
+PASS   : EngineTest::malformedResponse(reserved7)
+PASS   : EngineTest::malformedResponse(extended)
+PASS   : EngineTest::malformedResponse(fd)
+PASS   : EngineTest::malformedResponse(rtr)
+PASS   : EngineTest::malformedResponse(error)
+PASS   : EngineTest::malformedResponse(brs)
+PASS   : EngineTest::malformedResponse(esi)
+PASS   : EngineTest::responseErrorsAndLedMismatch()
+PASS   : EngineTest::deadlineAndNewSequence()
+PASS   : EngineTest::heartbeatFreshnessAndDeadline()
+PASS   : EngineTest::heartbeatFlagsAndFields()
+PASS   : EngineTest::rolloverIsNotRestart()
+PASS   : EngineTest::staleHeartbeatSequenceDoesNotRestart()
+PASS   : EngineTest::conservativeRestartAndRecovery()
+PASS   : EngineTest::disconnectAndTransportFailure()
+PASS   : EngineTest::boundedHistoryAndReports()
+PASS   : EngineTest::failedLogIsVisible()
+PASS   : EngineTest::cleanupTestCase()
+Totals: 28 passed, 0 failed, 0 skipped, 0 blacklisted, 12ms
+********* Finished testing of EngineTest *********
+
+Build and native tests completed. SocketCAN acceptance is a separate step.

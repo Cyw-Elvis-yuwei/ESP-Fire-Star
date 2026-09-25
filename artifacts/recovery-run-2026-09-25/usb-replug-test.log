@@ -1,0 +1,8 @@
+********* Start testing of UsbRecoveryTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : UsbRecoveryTest::initTestCase()
+QINFO  : UsbRecoveryTest::explicitlyCoordinatedReplug() USB_RECOVERY_REPORT /home/demo/can-diagnostic-bench/diagnostics/artifacts/recovery-run-2026-09-25/usb-replug-1
+PASS   : UsbRecoveryTest::explicitlyCoordinatedReplug()
+PASS   : UsbRecoveryTest::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 248032ms
+********* Finished testing of UsbRecoveryTest *********

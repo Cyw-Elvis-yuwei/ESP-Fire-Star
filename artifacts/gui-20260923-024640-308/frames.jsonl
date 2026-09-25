@@ -1,0 +1,17 @@
+{"detail": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260923-024640-308/frames.jsonl", "kind": "event", "monotonic_ms": 0, "name": "log_started", "utc": "2026-09-23T02:46:40.308Z"}
+{"detail": "vcan0", "kind": "event", "monotonic_ms": 0, "name": "connected", "utc": "2026-09-23T02:46:40.308Z"}
+{"brs": false, "direction": "rx", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 291, "kind": "frame", "local_echo": false, "monotonic_ms": 78, "payload_hex": "0100010066000000", "type": 1, "utc": "2026-09-23T02:46:40.386Z"}
+{"detail": "Fresh protocol heartbeat observed", "kind": "event", "monotonic_ms": 78, "name": "heartbeat_online", "utc": "2026-09-23T02:46:40.387Z"}
+{"brs": false, "direction": "tx_attempt", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 801, "kind": "frame", "local_echo": false, "monotonic_ms": 108, "payload_hex": "0101010001000000", "type": 1, "utc": "2026-09-23T02:46:40.417Z"}
+{"detail": "seq=1 op=1", "kind": "event", "monotonic_ms": 108, "name": "tx_accepted", "utc": "2026-09-23T02:46:40.417Z"}
+{"brs": false, "direction": "rx", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 802, "kind": "frame", "local_echo": false, "monotonic_ms": 110, "payload_hex": "0101010000010000", "type": 1, "utc": "2026-09-23T02:46:40.419Z"}
+{"kind": "command_result", "latency_ms": 2, "monotonic_ms": 110, "op": 1, "outcome": "success", "seq": 1, "success": true, "utc": "2026-09-23T02:46:40.419Z"}
+{"brs": false, "direction": "tx_attempt", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 801, "kind": "frame", "local_echo": false, "monotonic_ms": 111, "payload_hex": "0102020000000000", "type": 1, "utc": "2026-09-23T02:46:40.420Z"}
+{"detail": "seq=2 op=2", "kind": "event", "monotonic_ms": 111, "name": "tx_accepted", "utc": "2026-09-23T02:46:40.420Z"}
+{"brs": false, "direction": "rx", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 802, "kind": "frame", "local_echo": false, "monotonic_ms": 112, "payload_hex": "0102020000010000", "type": 1, "utc": "2026-09-23T02:46:40.421Z"}
+{"kind": "command_result", "latency_ms": 1, "monotonic_ms": 112, "op": 2, "outcome": "success", "seq": 2, "success": true, "utc": "2026-09-23T02:46:40.421Z"}
+{"brs": false, "direction": "tx_attempt", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 801, "kind": "frame", "local_echo": false, "monotonic_ms": 113, "payload_hex": "0101030000000000", "type": 1, "utc": "2026-09-23T02:46:40.422Z"}
+{"detail": "seq=3 op=1", "kind": "event", "monotonic_ms": 113, "name": "tx_accepted", "utc": "2026-09-23T02:46:40.422Z"}
+{"brs": false, "direction": "rx", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 802, "kind": "frame", "local_echo": false, "monotonic_ms": 114, "payload_hex": "0101030000000000", "type": 1, "utc": "2026-09-23T02:46:40.422Z"}
+{"kind": "command_result", "latency_ms": 1, "monotonic_ms": 114, "op": 1, "outcome": "success", "seq": 3, "success": true, "utc": "2026-09-23T02:46:40.422Z"}
+{"detail": "vcan0", "kind": "event", "monotonic_ms": 139, "name": "disconnected", "utc": "2026-09-23T02:46:40.447Z"}

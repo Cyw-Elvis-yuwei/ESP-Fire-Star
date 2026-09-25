@@ -1,0 +1,30 @@
+{
+  "original_option_bytes": "a55aff00ff00ff00ff00ff00ff00ff00",
+  "before_reset_bytes": "ffffffffffffffffffffffffffffffff",
+  "before_reset_halfwords": [
+    "0xffff",
+    "0xffff",
+    "0xffff",
+    "0xffff",
+    "0xffff",
+    "0xffff",
+    "0xffff",
+    "0xffff"
+  ],
+  "after_reset_bytes": "a55aff00ff00ff00ff00ff00ff00ff00",
+  "after_reset_halfwords": [
+    "0x5aa5",
+    "0xff",
+    "0xff",
+    "0xff",
+    "0xff",
+    "0xff",
+    "0xff",
+    "0xff"
+  ],
+  "core_state": "HALTED",
+  "flash_sr": "0x0",
+  "flash_cr": "0x80",
+  "systick_csr": "0x0",
+  "primask": "0x0"
+}

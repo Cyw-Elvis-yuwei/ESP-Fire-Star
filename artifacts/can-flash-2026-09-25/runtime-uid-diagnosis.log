@@ -1,0 +1,5 @@
+Setting SWD clock to 100 kHz
+Core 0 (None):  Sleeping
+e0042000:  10036414 00000007                      |..d.....|
+1ffff7e8:  ffffffff ffffffff ffffffff             |............|
+1ffff7e8:  ffffffff ffffffff ffffffff             |............|

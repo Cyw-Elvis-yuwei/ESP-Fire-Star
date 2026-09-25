@@ -1,0 +1,26 @@
+{
+  "usb_stage": "passed",
+  "sudo_helper_verified_pids": [
+    11158,
+    11159
+  ],
+  "usb_observer_pid": 12877,
+  "exec_session_id": 3165,
+  "output": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/recovery-run-2026-09-25/usb-replug-1",
+  "before_ifindex": "4",
+  "before_log": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-105750-550/frames.jsonl",
+  "user_confirmed_ready": true,
+  "user_confirmed_unplug": true,
+  "unplug_observed_utc": "2026-09-25T10:59:28.749Z",
+  "can0_removed": true,
+  "offline_query": "transport_error",
+  "user_confirmed_replug": true,
+  "windows_device": "USB VID_16D0 PID_117E serial CANABLE_SERIAL_REDACTED COM11 OK",
+  "ubuntu_device_present": false,
+  "user_confirmed_vmware_assignment": true,
+  "new_ifindex": "5",
+  "board_reset_completed": true,
+  "recovered_query_ms": 2,
+  "observer_finished": true,
+  "helper_finished": true
+}

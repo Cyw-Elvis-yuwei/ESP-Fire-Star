@@ -1,0 +1,58 @@
+{
+  "interface": "can0",
+  "simulated": false,
+  "success": true,
+  "physical_led_user_confirmed": false,
+  "results": [
+    {
+      "seq": 9473,
+      "op": 2,
+      "led": 0,
+      "success": true,
+      "latency_ms": 1.351,
+      "response_hex": "0102012500000000"
+    },
+    {
+      "seq": 9474,
+      "op": 1,
+      "led": 1,
+      "success": true,
+      "latency_ms": 1.064,
+      "response_hex": "0101022500010000"
+    },
+    {
+      "seq": 9475,
+      "op": 2,
+      "led": 1,
+      "success": true,
+      "latency_ms": 1.547,
+      "response_hex": "0102032500010000"
+    }
+  ],
+  "usb_serial_path": "/dev/serial/by-id/usb-Openlight_Labs_CANable2_b158aa7_github.com_normaldotcom_canable2.git_CANABLE_SERIAL_REDACTED-if00",
+  "interface_snapshot": {
+    "ifindex": 4,
+    "ifname": "can0",
+    "flags": [
+      "NOARP",
+      "UP",
+      "LOWER_UP"
+    ],
+    "mtu": 16,
+    "qdisc": "pfifo_fast",
+    "operstate": "UNKNOWN",
+    "linkmode": "DEFAULT",
+    "group": "default",
+    "txqlen": 10,
+    "link_type": "can",
+    "promiscuity": 0,
+    "min_mtu": 0,
+    "max_mtu": 0,
+    "num_tx_queues": 1,
+    "num_rx_queues": 1,
+    "gso_max_size": 65536,
+    "gso_max_segs": 65535
+  },
+  "heartbeats_observed": 3,
+  "led_left_on": true
+}

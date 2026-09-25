@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-09-24T21:16:35.535251+08:00",
+  "state_before": "HALTED",
+  "registers": {
+    "pc": "0xfffffffe",
+    "lr": "0xfffffff1",
+    "sp": "0x2000fad0",
+    "xpsr": "0x1000003",
+    "primask": "0x0",
+    "basepri": "0x0",
+    "faultmask": "0x0",
+    "control": "0x0"
+  },
+  "peripheral": {
+    "ICSR": "0x400f003",
+    "VTOR": "0x8000000",
+    "CFSR": "0x1",
+    "HFSR": "0x40000000",
+    "MMFAR": "0xe000edf8",
+    "BFAR": "0xe000edf8",
+    "FLASH_SR": "0x20",
+    "FLASH_CR": "0x2",
+    "SYST_CSR": "0x10007"
+  },
+  "page0_matches_original": false,
+  "page0_all_ff": true,
+  "option_bytes_unchanged": false
+}

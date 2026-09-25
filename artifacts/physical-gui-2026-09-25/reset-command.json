@@ -1,0 +1,10 @@
+{
+  "started_at": "2026-09-25T18:06:02.739742+08:00",
+  "reset_type": "SYSRESETREQ",
+  "flashed": false,
+  "success": true,
+  "state_before": "SLEEPING",
+  "identity_and_vector_prefix_match": true,
+  "reset_issued_at": "2026-09-25T18:06:03.556927+08:00",
+  "state_after": "SLEEPING"
+}

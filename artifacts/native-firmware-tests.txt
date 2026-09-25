@@ -1,0 +1,12 @@
+2026-09-22 — actual Ubuntu SSH execution
+Working directory: /home/demo/can-diagnostic-bench/diagnostics/firmware
+Command: make test
+
+mkdir -p build
+cc -std=c99 -O2 -Wall -Wextra -Werror -pedantic app_protocol.c app_heartbeat.c native_test.c -o build/native_test
+./build/native_test
+PASS: 139 native firmware checks (protocol + heartbeat)
+Exit code: 0
+
+Evidence level: native C build and tests on x86_64 Ubuntu. Not an ARM build,
+not firmware flashing, and not validation of the actual STM32/CAN hardware.

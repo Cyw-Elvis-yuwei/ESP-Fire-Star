@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "date": "2026-09-25",
+  "scope": "Independent public snapshot build and real CAN normal regression; no flash or USB fault injection",
+  "local_link_targets_checked": 377,
+  "missing_links": [],
+  "historical_json_jsonl_numeric_boolean_invariants_checked": 135,
+  "python_scripts_syntax_checked": 8,
+  "secret_pattern_findings": [],
+  "personal_identifier_pattern_findings": [],
+  "original_working_tree_files_unchanged": 546,
+  "source_comparison": "source-check.json",
+  "image_inventory": "images.json",
+  "arm_build_exit": 0,
+  "arm_bin_matches_previously_verified_sha256": true,
+  "host_c_protocol_checks": 139,
+  "host_hal_adapter_scenarios": 11,
+  "qt_build_exit": 0,
+  "qt_test_summaries": [
+    "Totals: 28 passed, 0 failed, 0 skipped, 0 blacklisted, 11ms",
+    "Totals: 14 passed, 0 failed, 1 skipped, 0 blacklisted, 0ms",
+    "Totals: 14 passed, 0 failed, 0 skipped, 0 blacklisted, 15288ms",
+    "Totals: 13 passed, 0 failed, 0 skipped, 0 blacklisted, 39ms",
+    "Totals: 12 passed, 0 failed, 0 skipped, 0 blacklisted, 43ms"
+  ],
+  "real_can_normal_regression": {
+    "steps": 7,
+    "passed": true,
+    "duration_ms": 2395,
+    "initial_state_restored": true
+  },
+  "usb_helper_guards": {
+    "bash_syntax_passed": true,
+    "missing_serial_refused_before_device_access": true,
+    "nonexistent_serial_refused": true,
+    "replug_not_reexecuted": true
+  },
+  "fresh_captures": 2,
+  "total_evidence_images": 20,
+  "flash_performed": false,
+  "camera_capture_available": false,
+  "whitespace_review": {
+    "crlf_preserved_for_source_hashes": true,
+    "historical_whitespace_files": 49,
+    "findings_scope": "Existing generated logs/maps/reports and unchanged vendor LED source; preserved rather than rewriting evidence",
+    "new_authored_source_whitespace_issues": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "actor": "assistant automation on real STM32 and can0",
+  "query_outcomes": [
+    "success",
+    "expected_timeout",
+    "success"
+  ],
+  "latencies_ms": [
+    13,
+    517,
+    2
+  ],
+  "heartbeat_timeout_count": 1,
+  "restart_observations": 1,
+  "recovery_new_sequence": 3,
+  "node_recovery_passed": true,
+  "physical_usb_unplug_tested": false,
+  "injection": "DAP debug halt for 3000ms",
+  "restoration": "DAP SYSRESETREQ without flash write",
+  "original_report_sha256": "ebad6c8de062cd029fc8d132fa082ae671a8d0a7cf282c4d593dae579d3a46ac",
+  "raw_frames_sha256": "c94016796136650a5c8da7411f50733b2bc53267e7725cce555a60b6e33cd522"
+}

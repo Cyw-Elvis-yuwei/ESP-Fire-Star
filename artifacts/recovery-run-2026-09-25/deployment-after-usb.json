@@ -1,0 +1,11 @@
+{
+  "pid": 17596,
+  "session": [
+    "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-110222-990"
+  ],
+  "interface": "can0",
+  "ifindex": "5",
+  "binary_sha256": "79850a397e37a0e6f4660619628bb35c6ff8514cd92868d2e6802c6aa36fdeaf",
+  "node_recovery": "passed",
+  "physical_usb_recovery": "passed with user replug, VMware reassignment, privileged interface helper and DAP reset"
+}

@@ -1,0 +1,51 @@
+INFO: Target type is stm32f103ze
+INFO: debugvar 'DbgMCU_CR' = 0x7 (7)
+INFO: DP IDR = 0x1ba01477 (v1 rev1)
+INFO: AHB-AP#0 IDR = 0x14770011 (AHB-AP var1 rev1)
+INFO: AHB-AP#0 Class 0x1 ROM table #0 @ 0xe00ff000 (designer=020:ST part=410)
+INFO: [0]<e000e000:SCS v7-M class=14 designer=43b:Arm part=000>
+INFO: [1]<e0001000:DWT v7-M class=14 designer=43b:Arm part=002>
+INFO: [2]<e0002000:FPB v7-M class=14 designer=43b:Arm part=003>
+INFO: [3]<e0000000:ITM v7-M class=14 designer=43b:Arm part=001>
+INFO: [4]<e0040000:TPIU M3 class=9 designer=43b:Arm part=923 devtype=11 archid=0000 devid=ca1:0:0>
+INFO: [5]<e0041000:ETM M3 class=9 designer=43b:Arm part=924 devtype=13 archid=0000 devid=0:0:0>
+INFO: CPU core #0: Cortex-M3 r1p1, v7.0-M architecture
+INFO: 4 hardware watchpoints
+INFO: 6 hardware breakpoints, 4 literal comparators
+Before-write comparison: 64/512 KB
+Before-write comparison: 128/512 KB
+Before-write comparison: 192/512 KB
+Before-write comparison: 256/512 KB
+Before-write comparison: 320/512 KB
+Before-write comparison: 384/512 KB
+Before-write comparison: 448/512 KB
+Before-write comparison: 512/512 KB
+PROGRAM: 692 application bytes; sector erase only; preserve unwritten bytes
+INFO: Erasing...
+[---|---|---|---|---|---|---|---|---|----]
+Traceback (most recent call last):
+  File "LOCAL_PROJECT_REDACTED\tools\program_led_baseline.py", line 161, in <module>
+    main()
+  File "LOCAL_PROJECT_REDACTED\tools\program_led_baseline.py", line 115, in main
+    trust_crc=False, keep_unwritten=True).program(str(build / "led.hex"), file_format="hex")
+                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\file_programmer.py", line 199, in program
+    self.commit()
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\file_programmer.py", line 173, in commit
+    self._loader.commit()
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\loader.py", line 299, in commit
+    builder.erase(chip_erase=self._chip_erase,
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\builder.py", line 536, in erase
+    self._erase_sectors(progress_cb)
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\builder.py", line 874, in _erase_sectors
+    self.flash.erase_sector(addr)
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\flash.py", line 377, in erase_sector
+    result = self._call_function_and_wait(self.flash_algo['pc_erase_sector'], address,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\flash.py", line 684, in _call_function_and_wait
+    return self.wait_for_completion(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "LOCAL_PROJECT_REDACTED\.venv-pyocd\Lib\site-packages\pyocd\flash\flash.py", line 671, in wait_for_completion
+    raise exceptions.FlashFailure("target was not halted as expected after calling "
+pyocd.core.exceptions.FlashFailure: target was not halted as expected after calling flash algorithm routine (IPSR=3)
+[

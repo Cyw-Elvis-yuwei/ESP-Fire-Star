@@ -1,0 +1,9 @@
+{
+  "pid": 11085,
+  "binary_sha256": "79850a397e37a0e6f4660619628bb35c6ff8514cd92868d2e6802c6aa36fdeaf",
+  "session": [
+    "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-105622-253"
+  ],
+  "node_recovery_auto_test": "passed",
+  "usb_replug_test": "pending local sudo helper and physical replug"
+}

@@ -1,0 +1,35 @@
+{
+  "user_clicked": true,
+  "report_directory": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-102436-559/normal-20260925-102636-092-24629ea5",
+  "verified_request_reply_pairs": 7,
+  "all_steps_passed": true,
+  "duration_ms": 2455,
+  "latencies_ms": [
+    3,
+    3,
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "passive_post_dap_heartbeats": [
+    {
+      "led": false,
+      "counter": 13490,
+      "uptime_ms": 1349000
+    },
+    {
+      "led": false,
+      "counter": 13491,
+      "uptime_ms": 1349100
+    },
+    {
+      "led": false,
+      "counter": 13492,
+      "uptime_ms": 1349200
+    }
+  ],
+  "commands_sent_by_this_check": 0,
+  "optical_confirmation": false
+}

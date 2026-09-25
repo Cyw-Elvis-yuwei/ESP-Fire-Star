@@ -1,0 +1,54 @@
+INFO: Target type is stm32f103ze
+INFO: debugvar 'DbgMCU_CR' = 0x7 (7)
+INFO: DP IDR = 0x1ba01477 (v1 rev1)
+INFO: AHB-AP#0 IDR = 0x14770011 (AHB-AP var1 rev1)
+INFO: AHB-AP#0 Class 0x1 ROM table #0 @ 0xe00ff000 (designer=020:ST part=410)
+INFO: [0]<e000e000:SCS v7-M class=14 designer=43b:Arm part=000>
+INFO: [1]<e0001000:DWT v7-M class=14 designer=43b:Arm part=002>
+INFO: [2]<e0002000:FPB v7-M class=14 designer=43b:Arm part=003>
+INFO: [3]<e0000000:ITM v7-M class=14 designer=43b:Arm part=001>
+INFO: [4]<e0040000:TPIU M3 class=9 designer=43b:Arm part=923 devtype=11 archid=0000 devid=ca1:0:0>
+INFO: [5]<e0041000:ETM M3 class=9 designer=43b:Arm part=924 devtype=13 archid=0000 devid=0:0:0>
+INFO: CPU core #0: Cortex-M3 r1p1, v7.0-M architecture
+INFO: 4 hardware watchpoints
+INFO: 6 hardware breakpoints, 4 literal comparators
+Before-write comparison: 64/512 KB
+Before-write comparison: 128/512 KB
+Before-write comparison: 192/512 KB
+Before-write comparison: 256/512 KB
+Before-write comparison: 320/512 KB
+Before-write comparison: 384/512 KB
+Before-write comparison: 448/512 KB
+Before-write comparison: 512/512 KB
+PROGRAM: first 2KB page from trusted backup plus 692-byte LED image; sector erase only
+INFO: Erasing...
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+INFO: Programming...
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+INFO: Erased 2048 bytes (1 sector), programmed 2048 bytes (2 pages), identical 0 bytes (0 pages) at 4.76 kB/s
+After-write verification: 64/512 KB
+After-write verification: 128/512 KB
+After-write verification: 192/512 KB
+After-write verification: 256/512 KB
+After-write verification: 320/512 KB
+After-write verification: 384/512 KB
+After-write verification: 448/512 KB
+After-write verification: 512/512 KB
+{
+  "full_flash_matches_expected": true,
+  "option_bytes_unchanged": true,
+  "runtime": {
+    "was_running": true,
+    "pc": 134218392,
+    "rcc_apb2enr": 8,
+    "gpiob_crl": 1145586753,
+    "gpiob_odr": 16,
+    "pc_in_main": true,
+    "pb0_output_low": true,
+    "running_after_check": true
+  },
+  "physical_led_confirmed": false
+}
+PROGRAM AND READBACK VERIFIED; waiting for user LED observation

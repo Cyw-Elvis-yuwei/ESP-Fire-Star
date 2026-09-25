@@ -1,0 +1,14 @@
+{
+  "report_checked": true,
+  "generated_utc": "2026-09-24T14:35:46.957Z",
+  "commands": 10,
+  "successful": 9,
+  "expected_timeout": 1,
+  "heartbeat_timeout": 1,
+  "unmatched_response": 1,
+  "physical_can_verified": false,
+  "files": {
+    "report.json": "59e2a9f691beb5b7f6dc159b31761eb0ffe021fc97ba9fdc13a9b4e0189e728d",
+    "report.md": "a74cde13b0bbbd5499da75fcbc6a7167f1f939dc3258bce75e314c0de76f86eb"
+  }
+}

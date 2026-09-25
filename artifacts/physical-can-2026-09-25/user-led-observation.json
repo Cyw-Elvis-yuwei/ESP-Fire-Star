@@ -1,0 +1,8 @@
+{
+  "recorded_at": "2026-09-25T18:00:20.615692+08:00",
+  "actor": "user",
+  "question": "真实CAN开灯后的三色LED是否绿色常亮",
+  "answer": "绿色常亮",
+  "physical_led_user_confirmed": true,
+  "evidence_type": "User text observation, not assistant photograph"
+}

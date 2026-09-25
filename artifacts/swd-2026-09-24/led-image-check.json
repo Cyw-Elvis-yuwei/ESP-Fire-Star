@@ -1,0 +1,24 @@
+{
+  "binary_bytes": 692,
+  "initial_sp": "0x20000660",
+  "reset_vector": "0x80001b1",
+  "hex_start": "0x8000000",
+  "hex_end": "0x80002b3",
+  "segments": [
+    {
+      "load_addr": 134217728,
+      "run_addr": 134217728,
+      "file_size": 692,
+      "memory_size": 2324
+    }
+  ],
+  "sha256": "d659ad7df99108cf90f1b5005c441315b53cfa3c67c3b10e37ebaa704f22716a",
+  "checks": {
+    "stack_in_64KB_RAM": true,
+    "reset_thumb_bit": true,
+    "reset_in_flash": true,
+    "hex_only_application_flash": true,
+    "hex_matches_binary": true
+  },
+  "flashed": false
+}

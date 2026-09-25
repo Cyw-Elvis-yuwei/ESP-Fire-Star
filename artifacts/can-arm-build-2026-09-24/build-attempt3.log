@@ -1,0 +1,17 @@
+Compile main.c
+Compile can_app.c
+Compile ../app_protocol.c
+Compile ../app_heartbeat.c
+Compile vendor/User/system_stm32f1xx.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
+Compile vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+CAN ARM candidate built. No device has been programmed.

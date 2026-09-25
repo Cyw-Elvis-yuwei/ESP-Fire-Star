@@ -1,0 +1,12 @@
+Compile main.c
+"vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h", line 689: Error:  #5: cannot open source input file "stm32f1xx_hal_can_ex.h": No such file or directory
+  #include "stm32f1xx_hal_can_ex.h"
+                                   ^
+main.c: 0 warnings, 1 error
+Compile failed: main.c (1)
+At $LOCAL_PROJECT\firmware\stm32-can\build.ps1:25 char:36
++ ... STEXITCODE -ne 0) { throw "Compile failed: $source ($LASTEXITCODE)" }
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (Compile failed: main.c (1):String) [], RuntimeException
+    + FullyQualifiedErrorId : Compile failed: main.c (1)
+ 

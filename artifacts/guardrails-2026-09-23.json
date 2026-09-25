@@ -1,0 +1,27 @@
+{
+  "checks": [
+    {
+      "check": "simulator rejects non-vcan lo",
+      "pass": true,
+      "exit_code": 2,
+      "stderr": "simulator error: refusing interface that is not verified info_kind=vcan"
+    },
+    {
+      "check": "CLI rejects non-vcan lo",
+      "pass": true,
+      "exit_code": 2,
+      "stderr": "Configuration error: Regression refuses an interface that is not verified info_kind=vcan"
+    },
+    {
+      "check": "runner refuses populated report directory without overwriting",
+      "pass": true,
+      "exit_code": 2
+    },
+    {
+      "check": "no project test processes left running",
+      "pass": true,
+      "pids": []
+    }
+  ],
+  "hardware_verified": false
+}

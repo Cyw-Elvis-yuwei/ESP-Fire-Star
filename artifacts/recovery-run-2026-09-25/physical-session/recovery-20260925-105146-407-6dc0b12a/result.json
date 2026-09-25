@@ -1,0 +1,129 @@
+{
+  "commands": [
+    {
+      "elapsed_ms": 49,
+      "latency_ms": 13,
+      "op": 2,
+      "outcome": "success",
+      "phase": "baseline_query",
+      "seq": 1,
+      "success": true,
+      "utc": "2026-09-25T10:51:46.455Z"
+    },
+    {
+      "elapsed_ms": 23856,
+      "latency_ms": 517,
+      "op": 2,
+      "outcome": "timeout",
+      "phase": "probing_outage",
+      "seq": 2,
+      "success": false,
+      "utc": "2026-09-25T10:52:10.262Z"
+    },
+    {
+      "elapsed_ms": 26335,
+      "latency_ms": 2,
+      "op": 2,
+      "outcome": "success",
+      "phase": "verifying_recovery",
+      "seq": 3,
+      "success": true,
+      "utc": "2026-09-25T10:52:12.742Z"
+    }
+  ],
+  "elapsed_ms": 26335,
+  "end_counters": {
+    "commands_attempted": 3,
+    "commands_failed": 1,
+    "commands_rejected": 0,
+    "commands_sent": 3,
+    "commands_succeeded": 2,
+    "commands_timeouts": 1,
+    "duplicate_heartbeats": 0,
+    "heartbeat_timeouts": 1,
+    "ignored_frames": 0,
+    "invalid_frames": 0,
+    "local_echo_frames": 0,
+    "log_errors": 0,
+    "restart_observations": 1,
+    "results_dropped": 0,
+    "rx_frames": 233,
+    "stale_heartbeats": 1,
+    "transport_errors": 0,
+    "tx_frames": 3,
+    "unmatched_responses": 0,
+    "valid_heartbeats": 230
+  },
+  "end_monotonic_ms": 26346,
+  "events": [
+    {
+      "elapsed_ms": 1,
+      "event": "baseline_query",
+      "utc": "2026-09-25T10:51:46.408Z"
+    },
+    {
+      "elapsed_ms": 49,
+      "event": "waiting_for_outage",
+      "utc": "2026-09-25T10:51:46.455Z"
+    },
+    {
+      "elapsed_ms": 23337,
+      "event": "probing_outage",
+      "utc": "2026-09-25T10:52:09.744Z"
+    },
+    {
+      "elapsed_ms": 23856,
+      "event": "waiting_for_recovery",
+      "utc": "2026-09-25T10:52:10.262Z"
+    },
+    {
+      "detail": "Two progressing reset samples; hardware reset and command recovery unverified",
+      "elapsed_ms": 26320,
+      "event": "restart_observed",
+      "utc": "2026-09-25T10:52:12.727Z"
+    },
+    {
+      "elapsed_ms": 26320,
+      "event": "verifying_recovery",
+      "utc": "2026-09-25T10:52:12.727Z"
+    }
+  ],
+  "fault_injection": "external; see separate evidence",
+  "finished_utc": "2026-09-25T10:52:12.742Z",
+  "interface": "can0",
+  "note": "保持CAN适配器及接口存在。检查节点心跳消失、一次查询超时，再以恢复后的新查询确认通信。故障原因与恢复动作须另附证据；不等于USB拔插自动重连。",
+  "outcome": "passed",
+  "pending_at_end": false,
+  "phase": "verifying_recovery",
+  "physical_unplug_verified": false,
+  "protocol_passed": true,
+  "raw_log": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-105146-397/frames.jsonl",
+  "report_saved": true,
+  "schema_version": 1,
+  "simulated": false,
+  "start_counters": {
+    "commands_attempted": 0,
+    "commands_failed": 0,
+    "commands_rejected": 0,
+    "commands_sent": 0,
+    "commands_succeeded": 0,
+    "commands_timeouts": 0,
+    "duplicate_heartbeats": 0,
+    "heartbeat_timeouts": 0,
+    "ignored_frames": 0,
+    "invalid_frames": 0,
+    "local_echo_frames": 0,
+    "log_errors": 0,
+    "restart_observations": 0,
+    "results_dropped": 0,
+    "rx_frames": 1,
+    "stale_heartbeats": 0,
+    "transport_errors": 0,
+    "tx_frames": 0,
+    "unmatched_responses": 0,
+    "valid_heartbeats": 1
+  },
+  "start_monotonic_ms": 11,
+  "started_utc": "2026-09-25T10:51:46.407Z",
+  "suite": "node-recovery-v1"
+}

@@ -1,0 +1,13 @@
+armcc.exe --cpu Cortex-M3 --c99 -O0 --debug --apcs=interwork --split_sections -c main.c -o build/main.o
+armasm.exe --cpu Cortex-M3 --debug --apcs=interwork startup_stm32f10x_hd.s -o build/startup.o
+armlink.exe build/startup.o build/main.o --scatter led.sct --entry Reset_Handler --map --list build/led.map --info sizes --output build/led.axf
+fromelf.exe --i32 --output build/led.hex build/led.axf
+fromelf.exe --bin --output build/led.bin build/led.axf
+Get-FileHash : The term 'Get-FileHash' is not recognized as the name of a cmdlet, function, script file, or operable pr
+ogram. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At $LOCAL_PROJECT\firmware\led-baseline\build.ps1:22 char:5
++     Get-FileHash -Algorithm SHA256 -LiteralPath 'build/led.axf','buil ...
++     ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Get-FileHash:String) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 

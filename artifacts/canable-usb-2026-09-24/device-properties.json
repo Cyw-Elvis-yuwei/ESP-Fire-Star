@@ -1,0 +1,39 @@
+{
+  "ObservedAt": "2026-09-24T21:28:24.9344487+08:00",
+  "Device": {
+    "Status": "OK",
+    "Class": "Ports",
+    "FriendlyName": "USB 串行设备 (COM11)",
+    "InstanceId": "USB\\VID_16D0&PID_117E\\CANABLE_SERIAL_REDACTED"
+  },
+  "Properties": [
+    {
+      "KeyName": "DEVPKEY_Device_HardwareIds",
+      "Data": [
+        "USB\\VID_16D0&PID_117E&REV_0200",
+        "USB\\VID_16D0&PID_117E"
+      ]
+    },
+    {
+      "KeyName": "DEVPKEY_Device_Service",
+      "Data": "usbser"
+    },
+    {
+      "KeyName": "DEVPKEY_Device_Manufacturer",
+      "Data": "Microsoft"
+    },
+    {
+      "KeyName": "DEVPKEY_Device_ProblemCode",
+      "Data": 0
+    },
+    {
+      "KeyName": "DEVPKEY_Device_BusReportedDeviceDesc",
+      "Data": "CANable2 b158aa7 github.com/normaldotcom/canable2.git"
+    },
+    {
+      "KeyName": "DEVPKEY_Device_DriverVersion",
+      "Data": "10.0.26100.9278"
+    }
+  ],
+  "PhysicalCanVerified": false
+}

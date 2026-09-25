@@ -1,0 +1,19 @@
+{
+  "started_utc": "2026-09-25T10:52:08.740314+00:00",
+  "probe_id": "DAP_ID_REDACTED",
+  "hold_ms": 3000,
+  "interruption_kind": "debug_halt",
+  "recovery_action": "SYSRESETREQ",
+  "physical_unplug": false,
+  "flashed": false,
+  "reset_requested": true,
+  "reset_completed": true,
+  "success": true,
+  "state_before": "SLEEPING",
+  "halted_utc": "2026-09-25T10:52:09.426140+00:00",
+  "identity_and_vector_prefix_match": true,
+  "reset_requested_utc": "2026-09-25T10:52:12.455611+00:00",
+  "resumed_utc": "2026-09-25T10:52:12.667913+00:00",
+  "state_after": "SLEEPING",
+  "finished_utc": "2026-09-25T10:52:12.802572+00:00"
+}

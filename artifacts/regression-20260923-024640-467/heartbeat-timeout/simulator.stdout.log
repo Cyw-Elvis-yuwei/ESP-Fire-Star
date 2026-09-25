@@ -1,0 +1,2 @@
+READY {"interface": "vcan0", "scenario": "pause-heartbeat", "simulated": true, "hardware_verified": false}
+STOPPED

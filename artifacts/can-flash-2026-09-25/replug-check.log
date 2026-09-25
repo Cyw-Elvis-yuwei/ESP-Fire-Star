@@ -1,0 +1,5 @@
+Setting SWD clock to 100 kHz
+Core 0 (None):  Halted
+e0042000:  10036414                               |..d.|
+Successfully resumed device
+Core 0 (None):  Running

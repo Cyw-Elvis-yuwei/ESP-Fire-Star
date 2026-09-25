@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-09-24T21:22:19.3107970+08:00",
+  "actor": "user",
+  "question": "开发板三色LED是否绿色常亮（不是电源灯）",
+  "answer": "绿色常亮",
+  "physical_led_confirmed": true,
+  "evidence_type": "User text report, not assistant camera observation",
+  "stage": "Independent PB0 LED baseline"
+}

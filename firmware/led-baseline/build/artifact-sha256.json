@@ -1,0 +1,17 @@
+[
+    {
+        "Path":  "LOCAL_PROJECT_REDACTED\\firmware\\led-baseline\\build\\led.axf",
+        "Algorithm":  "SHA256",
+        "Hash":  "348589055cbec7d183d9c1f8632fe221fb5d86b8874aa04735e8e8b44538d8ff"
+    },
+    {
+        "Path":  "LOCAL_PROJECT_REDACTED\\firmware\\led-baseline\\build\\led.hex",
+        "Algorithm":  "SHA256",
+        "Hash":  "09b6874d6e4a29305ffa41a4b38f8da2e9715e763d589ec5f6449c3f556e9ede"
+    },
+    {
+        "Path":  "LOCAL_PROJECT_REDACTED\\firmware\\led-baseline\\build\\led.bin",
+        "Algorithm":  "SHA256",
+        "Hash":  "d659ad7df99108cf90f1b5005c441315b53cfa3c67c3b10e37ebaa704f22716a"
+    }
+]

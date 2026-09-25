@@ -1,0 +1,21 @@
+{
+  "application_matches_reviewed": true,
+  "application_sha256": "231407bd9f23191dc61f92862b31c3241791c1bdfcd7c4599b46c537a6503b1e",
+  "state_before": "SLEEPING",
+  "state_after": "SLEEPING",
+  "tick_delta_ms": 157,
+  "boot_stage": 3,
+  "diagnostics": {
+    "rx_frames": 3,
+    "rx_dropped": 0,
+    "rejected_frames": 0,
+    "tx_completed": 2089,
+    "tx_busy_retries": 0,
+    "last_hal_error": 0,
+    "fault": 0
+  },
+  "reset_performed": false,
+  "brief_halted_snapshots": 2,
+  "flashed": false,
+  "success": true
+}

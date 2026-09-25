@@ -1,0 +1,6 @@
+armcc.exe --cpu Cortex-M3 --c99 -O0 --debug --apcs=interwork --split_sections -c main.c -o build/main.o
+armasm.exe --cpu Cortex-M3 --debug --apcs=interwork startup_stm32f10x_hd.s -o build/startup.o
+armlink.exe build/startup.o build/main.o --scatter led.sct --entry Reset_Handler --map --list build/led.map --info sizes --output build/led.axf
+fromelf.exe --i32 --output build/led.hex build/led.axf
+fromelf.exe --bin --output build/led.bin build/led.axf
+LED baseline compiled. This script does not flash a device.

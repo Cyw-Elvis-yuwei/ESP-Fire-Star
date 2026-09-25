@@ -1,0 +1,11 @@
+{
+  "source_files_byte_identical": 123,
+  "intentional_portability_changes": [
+    "firmware/stm32-can/test-host.ps1",
+    "tools/backup_stm32_flash.py",
+    "tools/restore_can0.sh"
+  ],
+  "business_logic_changed": false,
+  "firmware_bin_sha256": "231407bd9f23191dc61f92862b31c3241791c1bdfcd7c4599b46c537a6503b1e",
+  "original_source_workspace_modified": false
+}

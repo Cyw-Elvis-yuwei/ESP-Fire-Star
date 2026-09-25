@@ -1,0 +1,24 @@
+********* Start testing of PhysicalNormalTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : PhysicalNormalTest::initTestCase()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QWARN  : PhysicalNormalTest::explicitlyRequestedHardwareRun() This plugin does not support propagateSizeHints()
+QINFO  : PhysicalNormalTest::explicitlyRequestedHardwareRun() NORMAL_REPORT /home/demo/can-publication-20260925/clean-build/artifacts/gui-20260925-113121-646/normal-20260925-113121-757-d9dffdf6
+PASS   : PhysicalNormalTest::explicitlyRequestedHardwareRun()
+PASS   : PhysicalNormalTest::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 2609ms
+********* Finished testing of PhysicalNormalTest *********

@@ -1,0 +1,9 @@
+{
+  "preflight_valid": true,
+  "device_opened": false,
+  "image_sha256": "231407bd9f23191dc61f92862b31c3241791c1bdfcd7c4599b46c537a6503b1e",
+  "image_bytes": 7044,
+  "erase_start": "0x8000000",
+  "erase_bytes": 8192,
+  "preserved_tail_in_last_sector": 1148
+}

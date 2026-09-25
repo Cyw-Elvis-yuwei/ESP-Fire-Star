@@ -1,0 +1,8 @@
+{
+  "replaced_pid": 4391,
+  "new_pid": 5481,
+  "interface": "can0",
+  "binary": "/home/demo/can-diagnostic-bench/diagnostics/build-app/can-diagnostic-bench",
+  "sha256": "a5e5244cc7c33fdb830e4a135e50ed1c6eb7848f62aba16606b088eac5194f48",
+  "note": "Receive only; no commands automatically sent. Original user report preserved separately."
+}

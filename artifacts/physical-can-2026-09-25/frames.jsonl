@@ -1,0 +1,9 @@
+{"direction": "rx", "time": 1790330355.0440135, "id": 291, "dlc": 8, "payload_hex": "0100db068dad0200"}
+{"direction": "rx", "time": 1790330355.144059, "id": 291, "dlc": 8, "payload_hex": "0100dc06f1ad0200"}
+{"direction": "rx", "time": 1790330355.244181, "id": 291, "dlc": 8, "payload_hex": "0100dd0655ae0200"}
+{"direction": "tx", "time": 1790330355.2442505, "id": 801, "dlc": 8, "payload_hex": "0102012500000000"}
+{"direction": "rx", "time": 1790330355.2455704, "id": 802, "dlc": 8, "payload_hex": "0102012500000000"}
+{"direction": "tx", "time": 1790330355.2455978, "id": 801, "dlc": 8, "payload_hex": "0101022501000000"}
+{"direction": "rx", "time": 1790330355.2466474, "id": 802, "dlc": 8, "payload_hex": "0101022500010000"}
+{"direction": "tx", "time": 1790330355.2466729, "id": 801, "dlc": 8, "payload_hex": "0102032500000000"}
+{"direction": "rx", "time": 1790330355.2482035, "id": 802, "dlc": 8, "payload_hex": "0102032500010000"}

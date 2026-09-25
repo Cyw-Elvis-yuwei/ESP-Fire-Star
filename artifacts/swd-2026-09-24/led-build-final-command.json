@@ -1,0 +1,11 @@
+{
+  "at": "2026-09-24T21:02:43.122630+08:00",
+  "command": [
+    "powershell.exe",
+    "-NoProfile",
+    "-File",
+    "$LOCAL_PROJECT\\firmware\\led-baseline\\build.ps1"
+  ],
+  "exit_code": 0,
+  "flashed": false
+}

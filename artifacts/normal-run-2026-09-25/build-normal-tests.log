@@ -1,0 +1,41 @@
+/usr/lib/qt5/bin/moc -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' --include /home/demo/can-diagnostic-bench/diagnostics/build-normal-tests/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/demo/can-diagnostic-bench/diagnostics/tests -I/home/demo/can-diagnostic-bench/diagnostics/core -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtSerialBus -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../tests/test_normalrun.cpp -o test_normalrun.moc
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' -I../tests -I. -I../core -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialBus -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -o normalrun.o ../core/normalrun.cpp
+/usr/lib/qt5/bin/moc -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' --include /home/demo/can-diagnostic-bench/diagnostics/build-normal-tests/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/demo/can-diagnostic-bench/diagnostics/tests -I/home/demo/can-diagnostic-bench/diagnostics/core -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtSerialBus -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../core/normalrun.h -o moc_normalrun.cpp
+/usr/lib/qt5/bin/moc -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' --include /home/demo/can-diagnostic-bench/diagnostics/build-normal-tests/moc_predefs.h -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/home/demo/can-diagnostic-bench/diagnostics/tests -I/home/demo/can-diagnostic-bench/diagnostics/core -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtSerialBus -I/usr/include/x86_64-linux-gnu/qt5/QtTest -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/include/c++/9 -I/usr/include/x86_64-linux-gnu/c++/9 -I/usr/include/c++/9/backward -I/usr/lib/gcc/x86_64-linux-gnu/9/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include ../core/diagnosticengine.h -o moc_diagnosticengine.cpp
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' -I../tests -I. -I../core -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialBus -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -o test_normalrun.o ../tests/test_normalrun.cpp
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' -I../tests -I. -I../core -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialBus -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -o moc_normalrun.o moc_normalrun.cpp
+../tests/test_normalrun.cpp: In lambda function:
+../tests/test_normalrun.cpp:34:25: warning: ISO C++ says that these are ambiguous, even though the worst conversion for the first is better than the worst conversion for the second:
+   34 |             if (p[1] == 1) led = p[4] != 0;
+      |                         ^
+In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:49,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h:43,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:6,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtTest/QtTestDepends:3,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtTest/QtTest:3,
+                 from ../tests/test_normalrun.cpp:1:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:548:17: note: candidate 1: ‘bool QByteRef::operator==(char) const’
+  548 |     inline bool operator==(char c) const
+      |                 ^~~~~~~~
+../tests/test_normalrun.cpp:34:25: note: candidate 2: ‘operator==(int, int)’ <built-in>
+   34 |             if (p[1] == 1) led = p[4] != 0;
+      |                         ^
+../tests/test_normalrun.cpp:34:42: warning: ISO C++ says that these are ambiguous, even though the worst conversion for the first is better than the worst conversion for the second:
+   34 |             if (p[1] == 1) led = p[4] != 0;
+      |                                          ^
+In file included from /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:49,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:47,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractanimation.h:43,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtCore/QtCore:6,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtTest/QtTestDepends:3,
+                 from /usr/include/x86_64-linux-gnu/qt5/QtTest/QtTest:3,
+                 from ../tests/test_normalrun.cpp:1:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h:550:17: note: candidate 1: ‘bool QByteRef::operator!=(char) const’
+  550 |     inline bool operator!=(char c) const
+      |                 ^~~~~~~~
+../tests/test_normalrun.cpp:34:42: note: candidate 2: ‘operator!=(int, int)’ <built-in>
+   34 |             if (p[1] == 1) led = p[4] != 0;
+      |                                          ^
+g++ -c -pipe -O2 -std=gnu++11 -Wall -W -D_REENTRANT -fPIC -DQT_NO_DEBUG -DQT_SERIALBUS_LIB -DQT_TESTLIB_LIB -DQT_CORE_LIB -DQT_TESTCASE_BUILDDIR='"/home/demo/can-diagnostic-bench/diagnostics/build-normal-tests"' -I../tests -I. -I../core -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtSerialBus -isystem /usr/include/x86_64-linux-gnu/qt5/QtTest -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -I. -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -o moc_diagnosticengine.o moc_diagnosticengine.cpp
+g++ -Wl,-O1 -Wl,-rpath-link,/usr/lib/x86_64-linux-gnu -o canbench-normal-tests test_normalrun.o normalrun.o diagnosticengine.o moc_normalrun.o moc_diagnosticengine.o   /usr/lib/x86_64-linux-gnu/libQt5SerialBus.so /usr/lib/x86_64-linux-gnu/libQt5Test.so /usr/lib/x86_64-linux-gnu/libQt5Core.so -lpthread   

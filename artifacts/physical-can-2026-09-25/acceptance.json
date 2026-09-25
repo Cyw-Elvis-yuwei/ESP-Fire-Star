@@ -1,0 +1,20 @@
+{
+  "physical_can_baseline_passed": true,
+  "user_led_confirmed": true,
+  "heartbeats_in_passive_capture": 995,
+  "commands_passed": 3,
+  "simulated": false,
+  "not_verified": [
+    "Qt physical-interface user demo",
+    "board RESET/reconnection acceptance",
+    "sustained load",
+    "automatic fault recovery",
+    "firmware upgrade"
+  ],
+  "files": {
+    "report.json": "b60ff4a06426356185cf1988063a92416db76d303542794316deae3a43e429a2",
+    "frames.jsonl": "993ff3dd7998f4ab177c73a8cfd3042c86368e06eb6e952071aa7ca3f5979443",
+    "heartbeat-capture.jsonl": "226e372ba37b234a97c44e390fb64915998c3e34141bb8e2a6cdafc1ef0cfd87",
+    "user-led-observation.json": "b457c68bfb669a2f187b4f65ccef22c4bd5014d431f393acc16f25e602dacf51"
+  }
+}

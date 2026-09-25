@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-09-25T18:05:42.048946+08:00",
+  "interface": "can0",
+  "commands": 9,
+  "successful": 9,
+  "latency_ms_min": 2,
+  "latency_ms_max": 3,
+  "matched_requests_and_responses": true,
+  "user_confirmation": "1~5都挺正常",
+  "simulated": false,
+  "reset_not_yet_performed": true
+}

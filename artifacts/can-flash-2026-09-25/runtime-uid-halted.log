@@ -1,0 +1,6 @@
+Setting SWD clock to 100 kHz
+Successfully halted device
+1ffff7e8:  05d8ff37 334e4232 43157027             |...73NB2C.p'|
+1ffff7e0:  0200                                       |..|
+Device entered sleep
+Core 0 (None):  Sleeping

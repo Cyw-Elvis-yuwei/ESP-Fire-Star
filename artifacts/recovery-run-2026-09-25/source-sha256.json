@@ -1,0 +1,17 @@
+{
+  "app/mainwindow.cpp": "800288d2e37db13773ea89daba25ceb910f559935d9a6836125480b4db3f07cf",
+  "app/mainwindow.h": "e63f80feda1e99b26defa25d98d346a436493e561194628e6866e6f94bfcd808",
+  "app/can.pro": "54e3fe111961d8e18575d996c297a070e266a5740fa65f725533a4fb1f6b8e43",
+  "tests/gui.pro": "dfc32bcac3a388e7c6f4e8d5dfb90bdb1cbd0f0f6cb56f3e58d5d6e0d2ad9c55",
+  "tools/build.sh": "4dabb20f7e6608cd63130eccea7e08e434ca6b2b0e9be84722f6dd333b97285e",
+  "core/recoveryrun.cpp": "4455178b305064b2855049d6029f67ffeb5d81f797f9cb20438d2e21f6e66e4f",
+  "core/recoveryrun.h": "c9e4fc8dd54df6d656d3140aeae471c862a1dc5b156a641b7bb6256245af15d7",
+  "tests/recovery.pro": "c7c639685a317b4b9e489fe1133b61c13b3a5b01dffbb4b24e579cb4b39bfe68",
+  "tests/test_recoveryrun.cpp": "de0c675cd4506dd0e8f13184baed519ee7d0f5ddf37572d720e62f968caa2f71",
+  "tests/physical_recovery.pro": "feed4e275da20e32470d5f25dab66e91254017a190071c7660d0803b010485aa",
+  "tests/test_physical_recovery.cpp": "4a459b6ea3b6ec01a500ded1fed9d65026ea2059d14f8e6c9e1327eb569bc2ac",
+  "tools/exercise_node_recovery.py": "5fd876a5609366aa483eb693ca83c60836d382f5dcdb6b34e44ab2e968e80b02",
+  "tools/restore_can0.sh": "d3b6b1129394fbbbaa249763559675532a8a4b32d1c9b1bd3c340290d2ca874a",
+  "tests/physical_usb_recovery.pro": "29699851a1976b4224fa689bc847ab7cfac18b5bbdf4fa8b2c270431a632ea58",
+  "tests/test_physical_usb_recovery.cpp": "f556c469ffe21cc7a2cc2fadfebeb4e1549dbbb59ae6384594db0f2877e4cb31"
+}

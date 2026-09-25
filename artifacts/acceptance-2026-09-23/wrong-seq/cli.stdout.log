@@ -1,0 +1,3 @@
+initial_set_on seq=1 timeout 500 ms
+recovery_query seq=2 success 0 ms
+PASS wrong-seq

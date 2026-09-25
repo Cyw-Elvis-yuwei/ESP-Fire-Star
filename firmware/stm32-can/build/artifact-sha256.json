@@ -1,0 +1,17 @@
+[
+  {
+    "File": "canbench.axf",
+    "Bytes": 550736,
+    "SHA256": "21a2053b30404afa996fab0acfe8f79d7a4ca023127ce314403b4e7ab24c199d"
+  },
+  {
+    "File": "canbench.hex",
+    "Bytes": 19872,
+    "SHA256": "01156823e8b5b0ba35caa4cd78c0722e5a6704e791b32118e35bc3234ff79f74"
+  },
+  {
+    "File": "canbench.bin",
+    "Bytes": 7044,
+    "SHA256": "231407bd9f23191dc61f92862b31c3241791c1bdfcd7c4599b46c537a6503b1e"
+  }
+]

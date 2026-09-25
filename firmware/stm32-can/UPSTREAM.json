@@ -1,0 +1,311 @@
+{
+  "commit": "6afb695f68d33c2a4e84b1cc1147fd8a422912f6",
+  "files": [
+    {
+      "path": "Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h",
+      "git_blob": "d48474c4374df9781565e90b9297f7c49e61076e",
+      "sha256": "66bab4d3d39120ba0e23bbecae1c2112d1905c4259bc767c8c10c62e0b2dab90"
+    },
+    {
+      "path": "Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+      "git_blob": "64dbeb879d2d7a1e6be4f36cde972fb88154ecc6",
+      "sha256": "a68d2b0be3962c991ce43ecbda6c637ca887f891b1db0496641b1983b3cd65c3"
+    },
+    {
+      "path": "Libraries/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+      "git_blob": "20628d85d5a117a5c1067662df6887a4d1a0d27e",
+      "sha256": "462966f1212ba23aaff7c68e403128d69fab6dc80b1a113ee6381148bda5d237"
+    },
+    {
+      "path": "Libraries/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xe.s",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xe.s",
+      "git_blob": "27b64d123d18c07192459c1dc4475245c990c0f4",
+      "sha256": "dcd6f1af809e2949a305226b99420ba8a01a5e9a4e31bbf9fc5b6a3131bce4f6"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/cmsis_armcc.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/cmsis_armcc.h",
+      "git_blob": "74c49c67defb6382f28a359d5678c5996add541c",
+      "sha256": "9f1711b4c540a294c6ed57da21b6fca9eba032022899e1588c4ba3d3ac4105fb"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/cmsis_armcc_V6.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/cmsis_armcc_V6.h",
+      "git_blob": "cd13240ce360250f496f1fd8c04df7ee23c0a8c9",
+      "sha256": "3e025edb744f0ca79e19afc91c4de43f2b417de58f374548738463b56d1964df"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/cmsis_gcc.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/cmsis_gcc.h",
+      "git_blob": "bb89fbba9e40005859e15a8d584e998cbdb6ae59",
+      "sha256": "6c7e75d09887cb3035f18bc6f4fdbd7392a50379cd556315deb3bcb762d99078"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/core_cm3.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/core_cm3.h",
+      "git_blob": "b4ac4c7b05a799590575c0b5c8e24c51748ee20b",
+      "sha256": "03a80f17ff18c5d0e3b234009f98698cd402b8ea972df687a6cfafd8b8a78654"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/core_cmFunc.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/core_cmFunc.h",
+      "git_blob": "652a48af07a93d9a48ea9bfa818eebd6429045da",
+      "sha256": "1fdd226d82bde2a90231ba47a59377158b8907e4cada2a6215f32dcf13ab35cd"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/core_cmInstr.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/core_cmInstr.h",
+      "git_blob": "f474b0e6f362c73223e59af36ad30d2b87b9a61d",
+      "sha256": "c9b8e36d05097da5d493f197aa7f81ce517f4532536925b568ccbd6e2c01eb8a"
+    },
+    {
+      "path": "Libraries/CMSIS/Include/core_cmSimd.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/CMSIS/Include/core_cmSimd.h",
+      "git_blob": "66bf5c2a725b6d1986ce32f2bd765ebe5aa481ea",
+      "sha256": "5d338d36730ccbd138126078e17f69c308a015f0a88d85bd639af072e527d53d"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+      "git_blob": "985c37fdf1c3f96ed2d7e8302f83b939b4b61977",
+      "sha256": "da9899c5f08c2ce8d34b45e7aaf2f90f99c4acc6a97478a55c34a4ccfed7dd4b"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h",
+      "git_blob": "1e2e755b2e1170e58a6b157dc9b950a773570cb8",
+      "sha256": "b012760ff81355bf251f0ccdca9c79908e741e255258f8d970acd316bc43079f"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+      "git_blob": "515363e8649e382bc8c490ad7a7d147496e30d3d",
+      "sha256": "58a018d894ffa80c12236b6ea1d1adeaba61c7fd05deef4b0658d1e9cc50c251"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+      "git_blob": "267b1101c8cbcb43e949ec9a564b1d025320d528",
+      "sha256": "d561416fcd0e65d4ec43a4a06dc8c41e6bed7691446b884b652ca7b5afd0ea6b"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+      "git_blob": "d545e31b1b6c017d9371aed0fa25685587018757",
+      "sha256": "cdd29db5e7c9c169fdde58952072f3fa0466d87dbd5bdc3c8c5e94cd8833fc62"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+      "git_blob": "3ad72508374afdadcb2e3c042f8320964d421825",
+      "sha256": "6ac752a39d19b5ab29915dc4e00c6c377556b2bf8f26b36cab2d483286dc3613"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+      "git_blob": "7b4690e0a5b2a460b6b47a5cbe6075b8b0d552cc",
+      "sha256": "2a5f0d7c0184d0b8659677a9b46448c48338724288121e45d0f04023c34638e8"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+      "git_blob": "3a86cefaf2afb393a7c6f3a04dc4fb7eae868b9f",
+      "sha256": "c1f2f50394f33bb20ca571506ef20c6b20cd04a548e762ee155d310687e9ec56"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+      "git_blob": "2a02184153e6940435a828836708933fb7a199ee",
+      "sha256": "7d40c8b302ba4caa1b4f1808e08509a4ea08853f25c38a0396c94dd5c3613652"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+      "git_blob": "968e7c9d27c29eeab45878c58dff6b9469430dbe",
+      "sha256": "cf243764068fd589945e0840c1f918fa2b269306c1a3045f113a22e01851137e"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+      "git_blob": "f098d9caa0d5a435cd7f8cf98b734b3f8ca23faa",
+      "sha256": "ac13890dd1fa03834c5cd5e92b1a3ec6a91da656cfb648e1ea296db4909cab27"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+      "git_blob": "227aecb3e620ccee7bd69a9d4ef06e1d3016c838",
+      "sha256": "ab3bfa1f1acd4dafa367fccce93dd3579ccdff1382339668aec061ebfaa35697"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+      "git_blob": "e3019e51f3678902a522b3c85bd6d306321f3d19",
+      "sha256": "c71091bd92a484b4379d9b7982a635caa013d9a21bff36478a16b57c43712aa8"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c",
+      "git_blob": "e4dd0be9b1ef0b98c82be21df9f3758ca43ed227",
+      "sha256": "fb74d315c1460acb588167fbae6a27c5c92435e34fb9b44dda64a3d5aed945a1"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+      "git_blob": "cf8056f223345bb111d349a07c97d2b06e1c0613",
+      "sha256": "b42c4465a617f3fab532343b3c493e9c92b9c9901897d9dbb4555d7629be8502"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+      "git_blob": "ff60573d7d2c2ddb026c6530c79e40cb86981595",
+      "sha256": "aadc59f63e8308230274b19fae1a672badc007d23a453d502f6e2ff3cb1f9d8f"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+      "git_blob": "9899b0be18911613334db7e0452d1bc157021675",
+      "sha256": "8dc2dd3f7aef7e0b28400f2af00793f59f196e93206608693d349d403aa39cbc"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+      "git_blob": "cdb64de1d4afdcac50a70f24f031dfd75e9d29a4",
+      "sha256": "5fbd7c0f92be9cc4f2d192060b2a69246f07f4e093aff86b5e43a1e2456b4ab3"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+      "git_blob": "fc080c07927385d00bc244b82e6eceb026b78f36",
+      "sha256": "5ddb8faa5b1131a9145fcfd349741a4bf913064457654fb345e75e7ca5c758c6"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+      "git_blob": "e9f1fae4918ff0cdbf203bf9b81e70ccbfe0a961",
+      "sha256": "aa42cbf0d5057656578cb05495186b79260e59972570a94bacd30fda22ea8e2b"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+      "git_blob": "1d9884e33bd4d1af0564d3fb814792cf5d7a1854",
+      "sha256": "0e3974b9f9607be328db7d73296bb3345d144ca5a552f3cc99b1e996934301fa"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+      "git_blob": "58bcf620c1b41254fdc0724ffb835c566390cac8",
+      "sha256": "7fc219c8b90a82c4f972da7f0adfe6b2c8bebd6562978d3affb1d05dff142127"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+      "git_blob": "4b4af00f6942428a75db09644ea504528b22eb81",
+      "sha256": "811a2abc46b40917976788ba7a4e6d69c362046270f1f7be3d425af1ebb3d8af"
+    },
+    {
+      "path": "Project/Fire_F103ZE.uvprojx",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Project/Fire_F103ZE.uvprojx",
+      "git_blob": "16483f34e8a835bc49daa136bdcd27a91ebc4e27",
+      "sha256": "8c80195a7f6dc23b5495374aded8c7dedfb09f698c558cd72a7879ca25749b58"
+    },
+    {
+      "path": "User/can/bsp_can.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/can/bsp_can.c",
+      "git_blob": "3e7de47b78dedfcccc2848532f72f047c856563b",
+      "sha256": "35aef242ba38f67cf95ed89a55a30f7f3651a502a14401c4820d51ebfd538f97"
+    },
+    {
+      "path": "User/can/bsp_can.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/can/bsp_can.h",
+      "git_blob": "66c191c29f073a58cc43bf529fa8f239dc8ed604",
+      "sha256": "82118238cd73a57027f004eee737cd99cbc118f15a65d444ef670bd7da211865"
+    },
+    {
+      "path": "User/key/bsp_key.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/key/bsp_key.c",
+      "git_blob": "ce5ee9b797172f2754968f68bd7db0b41782d1ee",
+      "sha256": "a1403c86751c345254dd3261c7ba72415b5302b2738cfdab8d3e04dfda6ca189"
+    },
+    {
+      "path": "User/key/bsp_key.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/key/bsp_key.h",
+      "git_blob": "f32ee11962650f6f0b7063d3e7796f48a5a5af09",
+      "sha256": "4c5f2c2539405e1949f4ab853007ea6341705caf68af2f39ab54b7cb69972229"
+    },
+    {
+      "path": "User/led/bsp_led.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/led/bsp_led.c",
+      "git_blob": "d6fc5630090981da8e9125b6e1cd40537064320a",
+      "sha256": "7a61a511066950ca6450aab857fee15070d470ee1efa7df40c4dc6452d513169"
+    },
+    {
+      "path": "User/led/bsp_led.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/led/bsp_led.h",
+      "git_blob": "dda1dd4025bdaf19d34c137910c618ea6b9f90ea",
+      "sha256": "366724f0164d2d606bc37187e41bfe1b560c6a993a720daba959a80dc889a7b6"
+    },
+    {
+      "path": "User/main.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/main.c",
+      "git_blob": "80c42367dd5a831f7e4e974654331f3c75462786",
+      "sha256": "ff5abfdc94e7b27d2e34f9d03384a68ab8211bb462844718a28183baa513a2ac"
+    },
+    {
+      "path": "User/main.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/main.h",
+      "git_blob": "d68538d122fd2cd3c681f3ca43ad23b460937b8d",
+      "sha256": "a73e841142610c577efe336959f3de862d882f2c01209bee4074452ce3d95428"
+    },
+    {
+      "path": "User/stm32f1xx_hal_conf.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/stm32f1xx_hal_conf.h",
+      "git_blob": "aa35d685dd8a1b959f2f702461d42d88e8e92325",
+      "sha256": "7c39872e8aee0fbae91b45813200cc8906d628245df6a0c4fc264d320ec80110"
+    },
+    {
+      "path": "User/stm32f1xx_it.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/stm32f1xx_it.c",
+      "git_blob": "c38eecc8ad20a4ceb99221a530abd4c53fc4998e",
+      "sha256": "792c15f8eaa44ca83267b53343898b94b680bc02739b210d153e1f0506ec4a82"
+    },
+    {
+      "path": "User/stm32f1xx_it.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/stm32f1xx_it.h",
+      "git_blob": "bb59719bd1316ded034322dba2b837e0f8f9be51",
+      "sha256": "6382b65736f909d421a1b6c594f1b0122285f1abb5b490338b1db662ed10557a"
+    },
+    {
+      "path": "User/system_stm32f1xx.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/system_stm32f1xx.c",
+      "git_blob": "cdd760dc3fc8c9134eb5680ea70acf3bc8716bb0",
+      "sha256": "bd512da6eb9ac6cf91248b5b64a04b66917e89b37684341758c8f26b8ec64a06"
+    },
+    {
+      "path": "User/usart/bsp_debug_usart.c",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/usart/bsp_debug_usart.c",
+      "git_blob": "972394eb16e4145508b6361dbb2d05e05609af2d",
+      "sha256": "3de8be7ef28f6e590ea8f014a46cdb8a727cb8b445d8cf1d3aa17887c5d134e1"
+    },
+    {
+      "path": "User/usart/bsp_debug_usart.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/User/usart/bsp_debug_usart.h",
+      "git_blob": "0b3fc8697c8cb55d45fec2a028d68a80a0e98914",
+      "sha256": "bc4d33eb2f4501c11667cdc53d17fa7e4bb4a43cb35161b7857a61cf54a50541"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+      "git_blob": "e6e395c125c0bde8cb1ef27845e9f64c5fbcd084",
+      "sha256": "8ba0aa328561e81f7551c3e3e237bc456c0f8ab9c71f4568740ce667b8088669"
+    },
+    {
+      "path": "Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h",
+      "url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/39-CAN%E9%80%9A%E8%AE%AF/CAN%E2%80%94%E5%8F%8C%E6%9C%BA%E9%80%9A%E8%AE%AF/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h",
+      "git_blob": "0954f2290f7da388ef4167c3e43add1ad84257b6",
+      "sha256": "f1335e22de2a0f3a89e8cbe52e5b22e80656806970b9aed45d4012b94831d6ad"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-25",
+  "scope": "physical CAN Qt control, query, one DAP SYSRESETREQ and post-reset query",
+  "physical_gui_baseline_passed": true,
+  "interface": "can0",
+  "audited_simulated": false,
+  "original_report_simulated": true,
+  "classification_defect": "Qt 5.12 isVirtual reports true for sysfs virtual path used by physical SLCAN",
+  "user_observation": "用户确认步骤1至5正常，并在复位后完成查询和保存报告",
+  "original_hardware_verified": false,
+  "checks": [
+    {
+      "seq": 1,
+      "op": 1,
+      "request": "0101010000000000",
+      "response": "0101010000000000",
+      "led": false,
+      "latency_ms": 3,
+      "utc": "2026-09-25T10:03:16.403Z"
+    },
+    {
+      "seq": 2,
+      "op": 1,
+      "request": "0101020001000000",
+      "response": "0101020000010000",
+      "led": true,
+      "latency_ms": 2,
+      "utc": "2026-09-25T10:03:20.345Z"
+    },
+    {
+      "seq": 3,
+      "op": 2,
+      "request": "0102030000000000",
+      "response": "0102030000010000",
+      "led": true,
+      "latency_ms": 2,
+      "utc": "2026-09-25T10:03:22.129Z"
+    },
+    {
+      "seq": 4,
+      "op": 2,
+      "request": "0102040000000000",
+      "response": "0102040000010000",
+      "led": true,
+      "latency_ms": 2,
+      "utc": "2026-09-25T10:04:23.286Z"
+    },
+    {
+      "seq": 5,
+      "op": 1,
+      "request": "0101050000000000",
+      "response": "0101050000000000",
+      "led": false,
+      "latency_ms": 3,
+      "utc": "2026-09-25T10:04:29.568Z"
+    },
+    {
+      "seq": 6,
+      "op": 2,
+      "request": "0102060000000000",
+      "response": "0102060000000000",
+      "led": false,
+      "latency_ms": 3,
+      "utc": "2026-09-25T10:04:30.127Z"
+    },
+    {
+      "seq": 7,
+      "op": 1,
+      "request": "0101070000000000",
+      "response": "0101070000000000",
+      "led": false,
+      "latency_ms": 3,
+      "utc": "2026-09-25T10:04:33.590Z"
+    },
+    {
+      "seq": 8,
+      "op": 1,
+      "request": "0101080001000000",
+      "response": "0101080000010000",
+      "led": true,
+      "latency_ms": 3,
+      "utc": "2026-09-25T10:04:34.214Z"
+    },
+    {
+      "seq": 9,
+      "op": 2,
+      "request": "0102090000000000",
+      "response": "0102090000010000",
+      "led": true,
+      "latency_ms": 3,
+      "utc": "2026-09-25T10:04:35.638Z"
+    },
+    {
+      "seq": 10,
+      "op": 2,
+      "request": "01020a0000000000",
+      "response": "01020a0000000000",
+      "led": false,
+      "latency_ms": 4,
+      "utc": "2026-09-25T10:07:05.119Z"
+    }
+  ],
+  "restart_observed": {
+    "detail": "Two progressing reset samples; hardware reset and command recovery unverified",
+    "kind": "event",
+    "monotonic_ms": 196672,
+    "name": "restart_observed",
+    "utc": "2026-09-25T10:06:04.003Z"
+  },
+  "reset_evidence": "reset-command.json",
+  "limits": [
+    "No unplug recovery acceptance",
+    "No sustained load acceptance",
+    "No bootloader or update recovery implementation"
+  ],
+  "original_file_sha256": {
+    "report.json": "040d1802b20399d5178001f402bc72bf012de91359b9c26a3dc6f48fd21c0ab7",
+    "report.md": "5c62227370c56bba74edb7c81975eb094f45acc81a8368098c4dac7fbae1e55a",
+    "frames.jsonl": "d3da5924c3c0cef79e7c0023dd4402294667e4fa80a83268a9a70be378969607"
+  }
+}

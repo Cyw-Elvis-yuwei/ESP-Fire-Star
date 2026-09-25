@@ -1,0 +1,18 @@
+********* Start testing of NormalTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : NormalTest::initTestCase()
+PASS   : NormalTest::successRestoresState(off)
+PASS   : NormalTest::successRestoresState(on)
+PASS   : NormalTest::queryMismatchStops()
+PASS   : NormalTest::timeoutAndLateReplyDoNotContinue()
+PASS   : NormalTest::connectionAndCancellation(disconnect)
+PASS   : NormalTest::connectionAndCancellation(cancel)
+PASS   : NormalTest::connectionAndCancellation(heartbeat)
+PASS   : NormalTest::connectionAndCancellation(transport)
+PASS   : NormalTest::connectionAndCancellation(restart)
+PASS   : NormalTest::connectionAndCancellation(log)
+PASS   : NormalTest::prerequisitesAndWriteFailure()
+PASS   : NormalTest::senderFailure()
+PASS   : NormalTest::cleanupTestCase()
+Totals: 14 passed, 0 failed, 0 skipped, 0 blacklisted, 15250ms
+********* Finished testing of NormalTest *********

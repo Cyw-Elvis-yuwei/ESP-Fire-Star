@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-09-24T21:14:09.688239+08:00",
+  "probe_id": "DAP_ID_REDACTED",
+  "target": "stm32f103ze",
+  "options": {
+    "target_override": "stm32f103ze",
+    "pack": "C:\\Keil_v5\\ARM\\Pack\\Keil\\STM32F1xx_DFP\\2.4.1",
+    "connect_mode": "halt",
+    "frequency": 1000000,
+    "auto_unlock": false,
+    "resume_on_disconnect": false,
+    "pack.debug_sequences.enable": true,
+    "cache.enable_memory": false,
+    "cache.enable_register": false,
+    "cache.read_code_from_elf": false,
+    "chip_erase": "sector",
+    "keep_unwritten": true,
+    "smart_flash": false,
+    "fast_program": false,
+    "load.pre_reset": "off",
+    "load.post_reset": "off",
+    "no_config": true,
+    "project_dir": "$LOCAL_PROJECT\\artifacts\\led-flash-2026-09-24"
+  },
+  "backup_sha256": "00450a0fa2c364f125943dda3edb93b223e34775248b2f48050db3a90ebe1f77",
+  "application_sha256": "d659ad7df99108cf90f1b5005c441315b53cfa3c67c3b10e37ebaa704f22716a",
+  "application_bytes": 692,
+  "expected_full_flash_sha256": "a86a77e1fcb81e61dfd756d7672377e6dd3cd4dde78528d5a58d1bbd1e49653a",
+  "physical_led_confirmed": false,
+  "phase": "programming",
+  "success": false,
+  "erase_region": {
+    "start": 134217728,
+    "bytes": 2048,
+    "program_page_bytes": 1024
+  },
+  "error": "target was not halted as expected after calling flash algorithm routine (IPSR=3)"
+}

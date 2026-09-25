@@ -1,0 +1,8 @@
+{
+  "ObservedAt": "2026-09-24T21:28:35.8924558+08:00",
+  "Port": "COM11",
+  "Command": "V followed by CR (version query only)",
+  "Response": "16e7497-dirty github.com/normaldotcom/canable2.git\r",
+  "CanChannelOpened": false,
+  "CanFramesSent": false
+}

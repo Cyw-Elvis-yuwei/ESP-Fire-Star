@@ -1,0 +1,13 @@
+RUN normal
+PASS normal
+RUN response-timeout
+PASS response-timeout
+RUN heartbeat-timeout
+PASS heartbeat-timeout
+RUN restart
+PASS restart
+RUN wrong-seq
+PASS wrong-seq
+RUN late-response
+PASS late-response
+Summary: /home/demo/can-diagnostic-bench/diagnostics/artifacts/acceptance-2026-09-23/summary.json

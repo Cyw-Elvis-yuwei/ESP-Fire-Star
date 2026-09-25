@@ -1,0 +1,17 @@
+********* Start testing of ContinuousTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : ContinuousTest::initTestCase()
+PASS   : ContinuousTest::fullDurationAndAllSamples()
+PASS   : ContinuousTest::timeoutCountAndLateReply()
+PASS   : ContinuousTest::cancelSettlesPendingAndNeverPasses()
+PASS   : ContinuousTest::lastReplyCanSettleAfterDuration()
+PASS   : ContinuousTest::errors(transport)
+PASS   : ContinuousTest::errors(disconnect)
+PASS   : ContinuousTest::errors(heartbeat)
+PASS   : ContinuousTest::errors(restart)
+PASS   : ContinuousTest::errors(log)
+PASS   : ContinuousTest::gatesAndReportFailure()
+PASS   : ContinuousTest::synchronousSendFailureCountedOnce()
+PASS   : ContinuousTest::cleanupTestCase()
+Totals: 13 passed, 0 failed, 0 skipped, 0 blacklisted, 42ms
+********* Finished testing of ContinuousTest *********

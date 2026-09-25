@@ -1,0 +1,6 @@
+Setting SWD clock to 100 kHz
+e0042000:  10036414                               |..d.|
+e000ed00:  411fc231                               |A..1|
+1ffff7e0:  0200                                       |..|
+08000000:  20000660 080001b1                      | ..`....|
+Core 0 (None):  Running

@@ -1,0 +1,26 @@
+{
+  "physical_usb_recovery_passed": true,
+  "user_confirmed_unplug": true,
+  "user_confirmed_replug": true,
+  "user_confirmed_vmware_assignment": true,
+  "old_ifindex": "4",
+  "new_ifindex": "5",
+  "offline_request_outcome": "transport_error",
+  "new_session_query_latency_ms": 2,
+  "board_fault_before_reset": 4,
+  "hal_error_before_reset": 32,
+  "hal_error_name": "HAL_CAN_ERROR_ACK",
+  "firmware_self_recovery": false,
+  "recovery_steps": [
+    "user physical USB replug",
+    "user VMware USB assignment",
+    "one-shot privileged helper recreates can0",
+    "Qt reconnects with new socket/session",
+    "assistant verified identity and performed SYSRESETREQ",
+    "new-session status query succeeds"
+  ],
+  "flash_written": false,
+  "root_helper_exited": true,
+  "original_result_sha256": "8aa57fbfbbc5d5785ab1c8d12dcb76de83d9478cdcb586ea32deedab978b16f7",
+  "reset_action_sha256": "65411254b26d6acccc5d96d11969479cbd522ebbce762b886cb3fce3f920c1ed"
+}

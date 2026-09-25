@@ -1,0 +1,9 @@
+QT += core serialbus
+QT -= gui
+TEMPLATE = app
+TARGET = canbench-cli
+CONFIG += console c++11
+CONFIG -= app_bundle
+INCLUDEPATH += ../core
+SOURCES += main.cpp ../core/diagnosticengine.cpp
+HEADERS += ../core/diagnosticengine.h

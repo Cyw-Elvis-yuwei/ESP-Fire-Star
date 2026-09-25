@@ -1,0 +1,2945 @@
+{
+  "date": "2026-09-25",
+  "evidence_policy": "Public sanitized copies; untouched originals remain private. Historical hash references refer to originals.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "original_sha256": "b571006feee0f0a087b2301612d0eac4544ebe7223175890a61cb15bcabff8d1",
+      "public_sha256": "676b96b77eefb71f38356a9f1fef7d5402e45526094de83d3b9a4b48fe54577d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "app/bitratebox.cpp",
+      "original_sha256": "870a471905d04aa3b01801ad1add3433afb071cb2542b46bea3606f2c96f7622",
+      "public_sha256": "870a471905d04aa3b01801ad1add3433afb071cb2542b46bea3606f2c96f7622",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/bitratebox.h",
+      "original_sha256": "52f91c0f17f725e781d9707e393f67fae30df63346ed5e2989d303266779c939",
+      "public_sha256": "52f91c0f17f725e781d9707e393f67fae30df63346ed5e2989d303266779c939",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/can.pro",
+      "original_sha256": "54e3fe111961d8e18575d996c297a070e266a5740fa65f725533a4fb1f6b8e43",
+      "public_sha256": "54e3fe111961d8e18575d996c297a070e266a5740fa65f725533a4fb1f6b8e43",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/can.qrc",
+      "original_sha256": "835e089a34a8d8f30c8c63f7631d8c571ce81323c41b2233fcb8e254549633fc",
+      "public_sha256": "835e089a34a8d8f30c8c63f7631d8c571ce81323c41b2233fcb8e254549633fc",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/connectdialog.cpp",
+      "original_sha256": "ef9363082a0ab426ece2a43dd9d63e1d6c2ad53457a1c096a4709f27fb239c29",
+      "public_sha256": "ef9363082a0ab426ece2a43dd9d63e1d6c2ad53457a1c096a4709f27fb239c29",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/connectdialog.h",
+      "original_sha256": "a8474fe48f68043a9a69b36f9b33e57bef6740f623531d8dc05fc9c473e0b60a",
+      "public_sha256": "a8474fe48f68043a9a69b36f9b33e57bef6740f623531d8dc05fc9c473e0b60a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/connectdialog.ui",
+      "original_sha256": "67180df7e00df384b76e73c317645cdf586f252960493dd07e86dc40e0c2109b",
+      "public_sha256": "67180df7e00df384b76e73c317645cdf586f252960493dd07e86dc40e0c2109b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/images/application-exit.png",
+      "original_sha256": "830bb1bdef7baf3c88e64579da1c5e78c51e312da5f67bd3cd17c51500b363e2",
+      "public_sha256": "830bb1bdef7baf3c88e64579da1c5e78c51e312da5f67bd3cd17c51500b363e2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/images/clear.png",
+      "original_sha256": "46382da096fdcf67457456a78e497487cbab6ff4c5aca45e5eb12ee412bc8c82",
+      "public_sha256": "46382da096fdcf67457456a78e497487cbab6ff4c5aca45e5eb12ee412bc8c82",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/images/connect.png",
+      "original_sha256": "c3a8aae892736aec474cb9aee364957a25abdce73cfac88d8ea84efcfe3fdcec",
+      "public_sha256": "c3a8aae892736aec474cb9aee364957a25abdce73cfac88d8ea84efcfe3fdcec",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/images/disconnect.png",
+      "original_sha256": "231f4a36ec1099893d8d2ea29ac5eed343c05d6c7fd7d8e03141a27038617f3d",
+      "public_sha256": "231f4a36ec1099893d8d2ea29ac5eed343c05d6c7fd7d8e03141a27038617f3d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/main.cpp",
+      "original_sha256": "82e5175d3e7ed00b1600d6b0f91afc5a01b05a285a8dafc56cc94e4924e384f6",
+      "public_sha256": "82e5175d3e7ed00b1600d6b0f91afc5a01b05a285a8dafc56cc94e4924e384f6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/mainwindow.cpp",
+      "original_sha256": "800288d2e37db13773ea89daba25ceb910f559935d9a6836125480b4db3f07cf",
+      "public_sha256": "800288d2e37db13773ea89daba25ceb910f559935d9a6836125480b4db3f07cf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/mainwindow.h",
+      "original_sha256": "e63f80feda1e99b26defa25d98d346a436493e561194628e6866e6f94bfcd808",
+      "public_sha256": "e63f80feda1e99b26defa25d98d346a436493e561194628e6866e6f94bfcd808",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/mainwindow.ui",
+      "original_sha256": "14012f402b553eec48c1d4e3e2137621d4b068fe59dcdd8d5a70e09241149e7b",
+      "public_sha256": "14012f402b553eec48c1d4e3e2137621d4b068fe59dcdd8d5a70e09241149e7b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/sendframebox.cpp",
+      "original_sha256": "c776d2253e4fa8df689cdc5544b670244c672b48a5fb6aace18ce5b0ee3e61ff",
+      "public_sha256": "c776d2253e4fa8df689cdc5544b670244c672b48a5fb6aace18ce5b0ee3e61ff",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/sendframebox.h",
+      "original_sha256": "83b57fb65e35719f02da0339d0b1d8934baddb7f6eb27e2f9146b3266100be27",
+      "public_sha256": "83b57fb65e35719f02da0339d0b1d8934baddb7f6eb27e2f9146b3266100be27",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "app/sendframebox.ui",
+      "original_sha256": "588614778a76399bff8383cd4ea16377d7412afed4b47326a2bf9a0bb6a6ddcf",
+      "public_sha256": "588614778a76399bff8383cd4ea16377d7412afed4b47326a2bf9a0bb6a6ddcf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/.gitkeep",
+      "original_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "public_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/cli.stdout.log",
+      "original_sha256": "26d2f0c5f8f0a3f73af18c9594f4febe48af74450365015f2fc082938616b8c6",
+      "public_sha256": "6ea319bf757a0ca2bde74b704e19c85cc4dce356992f134155ecbcba8655777e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/engine/report.json",
+      "original_sha256": "6b0db4c726a791e98278e2c04dd2e69413e8372a0a6641bcc8f318273d6259f7",
+      "public_sha256": "7dba1918836ee45f913b4299cab31981f2e223a32879a837317568ff84023f9e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/engine/report.md",
+      "original_sha256": "8c592cea3115b6288c78ec0a6e3b09e9edd39908bdf3f3ef8956046f2ff63351",
+      "public_sha256": "a565c9fc2fce66f90d3b057a77afb0722cee8548aaa640927814c476c28da8d8",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/raw.jsonl",
+      "original_sha256": "8ec5f6fe9206a3db863c94e8ea329627ee4ad6387be41876a694fa2b0ad44d34",
+      "public_sha256": "f806484de7a849ddf5616a791d7934665f134ec0bb67595ec5845b585e37a27b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/result.json",
+      "original_sha256": "2cfb5e033ca2f8445b9bafad7d26499154933fa4d31463031dee8eee025a3582",
+      "public_sha256": "c50d579a652e76f56a57129843f281482ca7276080f187b94f80422954966eb4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/heartbeat-timeout/simulator.stdout.log",
+      "original_sha256": "42cc538d0a8d8cfcc23f04b1ee7d7ec31f94dcccd82b06b9b0173c3bad70c569",
+      "public_sha256": "78fbe0acb7123ba5f9e79a1c1ed7f54567d25698516b84395f48a17c9eb094ee",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/cli.stdout.log",
+      "original_sha256": "2d11880e1ad76c2867f02d58c9c8833072b66e2fe90f4df79393c01356757729",
+      "public_sha256": "bc3f270622cc224c814cff9a51c04c1823bea94afacf2ca41fbeab26989d9481",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/engine/report.json",
+      "original_sha256": "b937ef1748619b9254d72fb4a74466dcf23f7bd88b8f92f8df29c293fbaaa36f",
+      "public_sha256": "e745c3ee84cce76f2cb4d9d586f44df083e5da2274e74dd87f69582921d680bc",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/engine/report.md",
+      "original_sha256": "7e7b314adc773ed301fcf41ed301d30c700ba70bb0d9444f370189a90c5d7c86",
+      "public_sha256": "3534f8706eab170b3f1a80bfd2eb2abe3837a9c62b9e5ec539e35197b7c5f852",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/raw.jsonl",
+      "original_sha256": "c3ace3751a6fc360f960bf003985c8415c52b4b2609ac2f5992a68378ad99023",
+      "public_sha256": "bb6176cd015fbed1ca0905b36f9c67e4a491d447fb2358440ca7820cf6ec9084",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/result.json",
+      "original_sha256": "2e237bd713d26a0ee93106e7605bfb9c335f7010c00d3f2c8446bfb75bee5dff",
+      "public_sha256": "9f5165c508352cca8412ca1b408b6f1ed8a5abe4b1f8af54082cffb46be27688",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/late-response/simulator.stdout.log",
+      "original_sha256": "eb16728c1112055177d0d94f2c19ff075b895739d9eacf43364de86ca0ab2156",
+      "public_sha256": "1fa7e2c0790d6430396224ff783cd9f0e3483400c57f2247ab22b3aafe915b68",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/cli.stdout.log",
+      "original_sha256": "7511666a9d64636be9128c681ba30558e7666ace95fdc4154abcdc4c7e9c72a8",
+      "public_sha256": "9176bc51d4e9f648c477cf2fe5a23b2629e2d93fc0ee93528b8ca97806b0e028",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/engine/report.json",
+      "original_sha256": "bd98d72e2c35f19ecec89b21a1aebf8da8701586245a0d45368de1d433a2311b",
+      "public_sha256": "0d902249495f5512545740099affc7f1f63953501b426a183dde6e625c430650",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/engine/report.md",
+      "original_sha256": "5df7c08da80e7cc1cf619b52fbd5ee616eead6a69cace8a70dc0eae531f716d3",
+      "public_sha256": "35b04bb3890afca5964328dbc1c14fe934dfedd89fb489502a8f3cad593237eb",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/raw.jsonl",
+      "original_sha256": "21db8ad140a8b711a36c9ba9b4c67db01afefbd0979b77bceb4d206afa787d81",
+      "public_sha256": "fd8b030c592c39e0374f4e653d2b8c90cd653007c0d117749ed7c1a78ae8da4b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/result.json",
+      "original_sha256": "c63133241872d61da6ab0617c7bc50c7781d9621a86bf60a6402a841d27478ff",
+      "public_sha256": "263e7e649ce274759cd019fe38e2a267876bad08fbcee60b75c14c2c6beaa2a6",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/normal/simulator.stdout.log",
+      "original_sha256": "5ca3b208d3730fb102f700895b9e273dab40113e88f82dff5f5ee4ced6a4e650",
+      "public_sha256": "6b69cd9f957d82a0b1618430612f114d6b2072f22879010636c1be6f9ab2d75e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/cli.stdout.log",
+      "original_sha256": "44ddcac846bfb5d4c5f929e68b24ef7902bb1a2d5cc4f6e5bb11ba6ef062b9ef",
+      "public_sha256": "1c5be6d80e264466f20e6624c989a78fa340942e9eaaf27e4bb9ad68ac74b69d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/engine/report.json",
+      "original_sha256": "6843cfb87a8d4a56485dbf550b67d8dea6f88077b805b6eaa2a3cf02d35e0f58",
+      "public_sha256": "a0f0d64a05127bdfc27b22290f688adb81867bc0025b7a59eb48476d200127f5",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/engine/report.md",
+      "original_sha256": "8c01f7eb34c265641d923a6f7516c9b75b85de4b7d8f61326c61e74ba745b53e",
+      "public_sha256": "9276125abac9dca662f13a4ef8d8d7d32bd09ff2382682d109825cda8e0262e6",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/raw.jsonl",
+      "original_sha256": "51a488f7d4f240704456d1269a88b5768e893ecca0f84293ff76187fb25d3013",
+      "public_sha256": "4914a8df96b0d46fd6092f8769a65fe27b312520cd4cc9658f7902db5679eb1e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/result.json",
+      "original_sha256": "9821967c636d6a26b7ffc6cefa2b9022d8eadbea3b5248890a508dcc263be33f",
+      "public_sha256": "2b18dc012c37d8473eaf94a5e595db994e4c5ba1949a951bb82af88e00099b20",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/response-timeout/simulator.stdout.log",
+      "original_sha256": "cec392cde7cb1d7e342ff4356b8d770902848ea4e0d00fa8ba0fb86e75bb6f22",
+      "public_sha256": "d4137c622800f1c848ac862677b82ec62a6859edd730d8c2abd2c9c2e6bdd0bf",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/cli.stdout.log",
+      "original_sha256": "d809e9bce34e88e2985d21b684a8b595c88b6779034da17066b3e71dff338dee",
+      "public_sha256": "422319cacd9f41ca07c5182bb6e13f34cf547b731c8c50f00f5418a0927334a4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/engine/report.json",
+      "original_sha256": "edb2b330e0719f52b9acd157fdeb9c19a943ec7032997e11178b49aaafedd3db",
+      "public_sha256": "3b12af2e7deb05cd7f632c38b7de4ad6ac26f63d7b1d207e78a5d5d1e226621f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/engine/report.md",
+      "original_sha256": "064fb10324b44aecf0c075615df788d1a96df0a07ac9b38ad68363b29dc11f4c",
+      "public_sha256": "5a8419c81e0419d8ddadb155b96a7f521cc3598e533dd578eda661cde377b207",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/raw.jsonl",
+      "original_sha256": "3448da0b68648c535f53c9956e9c76addf7b4c1c0ffa39cf5d2377c3aa8e5896",
+      "public_sha256": "6be0e294b4e4a679c564fdf7bbbc2a3e26d5309438fbe5da425fc06bf13443fe",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/result.json",
+      "original_sha256": "015e7ca398d323c7046b7d9b3b15ad07e2b529a04714d5c3d4cfbcebbdce31eb",
+      "public_sha256": "ef200b782b9164d065a085377c76b50f55716d94c21bc49f2b1a25287515bec9",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/restart/simulator.stdout.log",
+      "original_sha256": "d4934cbd2cdf762336468588dcbac56b1acc0141a451d61c566d214908bda9bf",
+      "public_sha256": "7460ab15591439e316aa0ce39006e7bc611eb583023329d962c3f4ec90871055",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/summary.json",
+      "original_sha256": "0fc6e33011f333eda1c39552b08c87d3a061a2c9c78ad88ad00200f105ae56fa",
+      "public_sha256": "ec8e0abc82da01a51ab8ef621f8ce172953d4ad2b529b27a93011b50052e8c7f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/summary.md",
+      "original_sha256": "db331ec263ced37d462bff969099f1a6a5e90a6d74d884e01c992e74bf1000df",
+      "public_sha256": "e8f46ff9aa24262f293b5bdeaa22e1405bb21b89a5817c6f1179c81d25b3474d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/cli.stdout.log",
+      "original_sha256": "1c88ba2669aded801418e1dc7d45205eabbb7d6bc526701a16e99f72e294732b",
+      "public_sha256": "08392c240cfd613accb551f6c80f703b38c95313a8366b574a685f31bfcd8361",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/engine/report.json",
+      "original_sha256": "aad6ecf48320ba391018530faca22f5432ddb42bda22dbff330074cc007da324",
+      "public_sha256": "62202f11ade66f8cc90b57d38318388b85a5839ede32d283ee2a9f7de5186df1",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/engine/report.md",
+      "original_sha256": "f600a3d52e991a813a463148db431302162ec434b5095e2bf6276af830d043e4",
+      "public_sha256": "b1678aced82a44f888740e9d4e55629942581c4c8c49f14bc7d4a60a5bc29aaa",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/raw.jsonl",
+      "original_sha256": "ac89344773e9fd40dea5f2d046856a5862117e89c3ef9640cb9af4f15a2956ab",
+      "public_sha256": "40b752ff896684d1d56d95cf27b0d7daa5b4db8179635d5d3d89339d5a20dc96",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/result.json",
+      "original_sha256": "6149263dd45edc0384819b36db705c261215390f40c09c86a3241f9bce244696",
+      "public_sha256": "dbd733d5fe1627149c9a1856fabd1ae43ae22fd60e6b9fbbaa3ce5d7d275021d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23/wrong-seq/simulator.stdout.log",
+      "original_sha256": "6a57ce0193aaa60a390a316f5773b2f5c54a9b3aea909aaa2b857438774033d5",
+      "public_sha256": "18aae0a230894645f43ac2b794217b698dc7736692949d7df096f29c689181f2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/acceptance-2026-09-23.log",
+      "original_sha256": "93baa01475c33617d338b774cf6138e04c52e98b89435a6eca693b8d11d76639",
+      "public_sha256": "15048f951525c4cb655885b2ce374837f0cc525d9b24f25e931b641d7ab15181",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/board-usb-2026-09-24/device-manager-com10.png",
+      "original_sha256": "f5b6d95df8964a4803b8d03c4d220dcf21f8fa9ed90cf2c6345783d98fb480e6",
+      "public_sha256": "f5b6d95df8964a4803b8d03c4d220dcf21f8fa9ed90cf2c6345783d98fb480e6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/board-usb-2026-09-24/device-properties.json",
+      "original_sha256": "fa3d1dd70d21b2f88d2b8a94ddd399d552fdad9028763719c08d53a4199400cd",
+      "public_sha256": "fa3d1dd70d21b2f88d2b8a94ddd399d552fdad9028763719c08d53a4199400cd",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/board-usb-2026-09-24/README.md",
+      "original_sha256": "78deb9287ef471faeec3af9bb50142c4681195c513756dc5c9094a23e0ab5a32",
+      "public_sha256": "f8d50d06a785f4671fd49f1a085996a60e83f50e1071c845ab32a93617da3d87",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/board-usb-2026-09-24/user-swd-connectors.jpg",
+      "original_sha256": "7214d77582c857ac4ec16746e7d05336705c43454f954996dcfda7572b37d431",
+      "public_sha256": "7214d77582c857ac4ec16746e7d05336705c43454f954996dcfda7572b37d431",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/build-2026-09-23-final.txt",
+      "original_sha256": "17ccf98c8945f5886c7c0f1f0cf619dfe16d82951407b657f190ffd5cf5ab6c5",
+      "public_sha256": "7c96c8417e2ba0401b68fcd373531748dd5bc251e9c51ba72fa8d178a3aef593",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/build-2026-09-23-fixed.txt",
+      "original_sha256": "979a1464d8c5b340d8fbc04417fe7456cc1d2a1e3efa3b9619a0a28f90fe7dfc",
+      "public_sha256": "4ebaf7a38c6389fd5a31db8a06ffe91f0749785bec425116a236038de0008742",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/build-2026-09-23.txt",
+      "original_sha256": "2853375af8ae5a53f545fdf839d317219ff9d80dc673296dcff2bcd9a33baf03",
+      "public_sha256": "f92ec410a208aebaa0649b5f2d7361db2fcfe11a33af287b6401297c4263214d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/build-attempt1.log",
+      "original_sha256": "efda39b6ac7b3872e9b95982e1a75162678f73c7010e70fa86aa65889c8cf03f",
+      "public_sha256": "5fd5a3cfa2ffe5885cb154cad06f4f9265d867a174130ec90bb133453af32804",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/build-attempt2.log",
+      "original_sha256": "05ef701787fbbaed0fcf98114dd6e6980bb750839663a016ab6077b825f871d3",
+      "public_sha256": "a64391ce81d22acd75544cb91100bdbc37a2bd15ac7f2bb5b3db1e7023466f1d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/build-attempt3.log",
+      "original_sha256": "06966cae3d97dff6e18bf3d86359e922a497a5d61d43929e3c2bae1fa862677f",
+      "public_sha256": "06966cae3d97dff6e18bf3d86359e922a497a5d61d43929e3c2bae1fa862677f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/build-final.log",
+      "original_sha256": "06966cae3d97dff6e18bf3d86359e922a497a5d61d43929e3c2bae1fa862677f",
+      "public_sha256": "06966cae3d97dff6e18bf3d86359e922a497a5d61d43929e3c2bae1fa862677f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/build-inputs.json",
+      "original_sha256": "6bdddb2cccd6faed6135fa2534ab08a6040811e87419b1de49f5c357963b785a",
+      "public_sha256": "64e695e41636afc39c28e06042f840ccee494d934eaedb97966c4592f8bf576a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/host-tests.log",
+      "original_sha256": "c9545ddd699d70aad0d352d038020e105a3555d8e613483a5dbafbce875f1637",
+      "public_sha256": "c9545ddd699d70aad0d352d038020e105a3555d8e613483a5dbafbce875f1637",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/image-check.log",
+      "original_sha256": "b27f9102a6528ebff806541a9fd404e4f6fd82e73b58804b0e8cf291b91ce615",
+      "public_sha256": "b27f9102a6528ebff806541a9fd404e4f6fd82e73b58804b0e8cf291b91ce615",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/README.md",
+      "original_sha256": "d6dc1151d7806af9096108475af622820c0d02d4ef70b92e943f005f37fe32b4",
+      "public_sha256": "b7173de88aad8f8ee27fc9c8a185eb8d8b064b41ec17f28785e8f403d139118c",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-arm-build-2026-09-24/vendor-tree.json",
+      "original_sha256": "f9e83cb7a7533969fb9daaba467b9074d84d45746f3695b9956b4722fff54253",
+      "public_sha256": "b4af7b916fe5e4271bdd371112b7431f7f6dc49d4873e53e122440ef375362fc",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/after-stall-probe.log",
+      "original_sha256": "0ab487c32af647e23f29af365d6c190515974f74a7b061458b0847c16141f292",
+      "public_sha256": "0ab487c32af647e23f29af365d6c190515974f74a7b061458b0847c16141f292",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/backup-attempt2-command.json",
+      "original_sha256": "098ef9560a6323de0f8fec821fc7b7907c967cc1fd0023c55c330d2aeecd7374",
+      "public_sha256": "0445f63fbc2df74de8978da7ddcb15881aa72ddb50887ea6f89a751af4fa69b8",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/backup-attempt2.log",
+      "original_sha256": "400d78ce23384020887f3c4772f308b5cbd2bed4e92b65b9a43ea872877ec8d2",
+      "public_sha256": "400d78ce23384020887f3c4772f308b5cbd2bed4e92b65b9a43ea872877ec8d2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/backup-stalled-attempt1.log",
+      "original_sha256": "938e18841d0546aae049f6cef054a26a35acb7d003ea30158160bcfca5d9001a",
+      "public_sha256": "938e18841d0546aae049f6cef054a26a35acb7d003ea30158160bcfca5d9001a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/backup.json",
+      "original_sha256": "d0e21019c1c9af9d779f4b3d72142e483a040674ec72c3cb4379b8314ed64f52",
+      "public_sha256": "dbc816748b2fa92a5357b934a118ddbb586f9b67c09148f63e0af91b6292d403",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/backup.log",
+      "original_sha256": "938e18841d0546aae049f6cef054a26a35acb7d003ea30158160bcfca5d9001a",
+      "public_sha256": "938e18841d0546aae049f6cef054a26a35acb7d003ea30158160bcfca5d9001a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/preflight.json",
+      "original_sha256": "ff99575c5462736a0ecebfbc02efe3e2fed7c1507da5499271c1c36a5c092e66",
+      "public_sha256": "ff99575c5462736a0ecebfbc02efe3e2fed7c1507da5499271c1c36a5c092e66",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/program-command.json",
+      "original_sha256": "a63c559d0439b8709b27385e41be1cb38011b55cf595323914694de09bf6816d",
+      "public_sha256": "e293ea0b8fb351e1a049da6ff51d112b9d709d23237d2659733ec90633b14f7d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/program-result.json",
+      "original_sha256": "f645d1d191b554862e88d4fefd28c253a07e8177cf00c3ef6d71e86ff32d17e2",
+      "public_sha256": "eb40bfd2bbddbdb5403dd6063cf0bf36912fd5e6633b6f3265094e3f8c989277",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/program.log",
+      "original_sha256": "96faea62c4fa0bf0676c8d001718c08894b46d618d8532446400bc1010a7335f",
+      "public_sha256": "1984cc94673b5b6b4deab069bef606a8b99d1a32a928a95c8e5b1dad0ddea56c",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/README.md",
+      "original_sha256": "540f287f6753f7376d3b5d2f0302d7ede0c9f6020b1194d85739d4864fb63b16",
+      "public_sha256": "68e57a2ac2e7b9f51a63b7ede351872516a90af6ab05bb3970543f50b4e9019b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/replug-check.log",
+      "original_sha256": "aaee5b412aad1d360f45de1ead523915943c7b929c85020371db4f85e59cbf5c",
+      "public_sha256": "aaee5b412aad1d360f45de1ead523915943c7b929c85020371db4f85e59cbf5c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-asleep-ram-attempt.json",
+      "original_sha256": "d7774f7db54410dd77e1d5a1fdf9d4934bc49534b324ce64ae2dae885575878f",
+      "public_sha256": "d7774f7db54410dd77e1d5a1fdf9d4934bc49534b324ce64ae2dae885575878f",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-asleep-ram-attempt.log",
+      "original_sha256": "5503b5a4b113ba46ae086b021ba23fbf7b04f6bf5c9fa1c29e68708e4697c27b",
+      "public_sha256": "45281015bac12fddb40949248dfc7fd08c1ad6e0888c90fb958445f3640c39a1",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-uid-diagnosis.log",
+      "original_sha256": "4f5566f29729160d6eeb2d095301748f8381806a3e06b52a2ed61ede2de05d79",
+      "public_sha256": "4f5566f29729160d6eeb2d095301748f8381806a3e06b52a2ed61ede2de05d79",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-uid-halted.log",
+      "original_sha256": "f8487e7f2098fe2dd68b4bb7c6dab5759db16e9687f62de4be6dcc7b40e36fae",
+      "public_sha256": "f8487e7f2098fe2dd68b4bb7c6dab5759db16e9687f62de4be6dcc7b40e36fae",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-verification-sleep-uid-attempt.log",
+      "original_sha256": "5a4e34a516621e5d185c611bf360fda044d09f85de9e7e5de343404d80bfe94a",
+      "public_sha256": "69ece0b362fb43014d66c356cac74241eeb4d15200f8a1c6c1516068d8333d2a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-verification.json",
+      "original_sha256": "ea4ee3ebf0f261d642fd43cd1900f156dc1a10435f63c61e52a3a1b53746f4d4",
+      "public_sha256": "ea4ee3ebf0f261d642fd43cd1900f156dc1a10435f63c61e52a3a1b53746f4d4",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/can-flash-2026-09-25/runtime-verification.log",
+      "original_sha256": "ea4ee3ebf0f261d642fd43cd1900f156dc1a10435f63c61e52a3a1b53746f4d4",
+      "public_sha256": "ea4ee3ebf0f261d642fd43cd1900f156dc1a10435f63c61e52a3a1b53746f4d4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/canable-usb-2026-09-24/device-properties.json",
+      "original_sha256": "3df1dacf55fb13e2e7be2ce343bc98a57143f77134da18072fb3f355240d19dc",
+      "public_sha256": "4055aa3e0853a8e43d18e71564d21773b50403fe8ecd7e076f93cb2d95b79936",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/canable-usb-2026-09-24/README.md",
+      "original_sha256": "2919230358a2a17d4e1b36525b24bb4509af1a0c9245e45a3add01ffda7a22d6",
+      "public_sha256": "7f622d109ae25d492eb19c93ffb63ba73ac92898bf4ecd61e9526087f39fc035",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/canable-usb-2026-09-24/ubuntu-interface.md",
+      "original_sha256": "c695fdfde4ae7069fd3d2ec3e775dacfae94f3a39f5d880406393b09236670f0",
+      "public_sha256": "942c35ac1e7023210fa83abb8cb15981d198031795e7f27fffc5bb38f1643722",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/canable-usb-2026-09-24/user-board-j40.jpg",
+      "original_sha256": "dc016c658997685c5e275d1bfc42b65a0f0a6439fcfa71fa0b148a8194745503",
+      "public_sha256": "dc016c658997685c5e275d1bfc42b65a0f0a6439fcfa71fa0b148a8194745503",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/canable-usb-2026-09-24/user-canable-case.jpg",
+      "original_sha256": "2c4c9ebb9eedcc6b9a9f8085bedbb3e7b7528b607acb7a6cfa90be291bc33cf5",
+      "public_sha256": "2c4c9ebb9eedcc6b9a9f8085bedbb3e7b7528b607acb7a6cfa90be291bc33cf5",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/canable-usb-2026-09-24/version-query.json",
+      "original_sha256": "bdfbaf88b84d9b9bd64b92ef1cda4a1b541df9c50f96101e4d81bfe69839238b",
+      "public_sha256": "bdfbaf88b84d9b9bd64b92ef1cda4a1b541df9c50f96101e4d81bfe69839238b",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/audit.json",
+      "original_sha256": "3cd17bbb9a0ebcd675def11c6dcec8e8f0f56ff0a8de72a14c0c9886460c6c97",
+      "public_sha256": "3cd17bbb9a0ebcd675def11c6dcec8e8f0f56ff0a8de72a14c0c9886460c6c97",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/build-app-continuous.log",
+      "original_sha256": "aedfe320b85bad09367928e3974db1078bc21cda2a87bc451831f821d9ef70a0",
+      "public_sha256": "4a2acfa31a359998563d7c2c74ab86d0edde2fd0795514d5ae341767881712f1",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/build-continuous-tests.log",
+      "original_sha256": "d54a441c7994bd09034d7abe0bc9151621119d64908eb5614b2f9e65cdc26433",
+      "public_sha256": "1b8ebb4330642aa2db4748f6a02c7369a2ce608f137405d377f2d1a5e8ee7d31",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/build-physical-continuous.log",
+      "original_sha256": "c17c3a9df272ca3730d6d1c37af9f02f64578c1d47a987d513f971618e6878fe",
+      "public_sha256": "ae277702e92aaeb0e57a303de446c29170bd2394a50da1819ba568802ca97594",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/canbench-continuous-tests.log",
+      "original_sha256": "c2250ad826950910a36a05a3614907eb756e1994b4d414e70abb176297928ba3",
+      "public_sha256": "25b775d3acf41eaff6864c7865fa0d4c5ce559acd9a69d5411142ad920ad5753",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/canbench-normal-tests.log",
+      "original_sha256": "d4c5f7224ed3fc8d3cd51c36861430378efd5b898da8dab7960ba8c2d7ecde4b",
+      "public_sha256": "e176abc8dc0f52cc57eac32ec76b938a4669b04edd91cfbcb042c9ba664fd496",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/canbench-tests.log",
+      "original_sha256": "77e2f8830c6f0e9d12ed6a0b4def198b79e41ff20e5ec488ccb37fff0c0720ca",
+      "public_sha256": "ea34b8c9907351e180c4aac275215d3331c038e03f06a3ddeb0fa2a33e640b90",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/deployment.json",
+      "original_sha256": "942f25ca529a848c7c62c85d6a059df05c40b190db6cd15d2cbadf66a2fc223c",
+      "public_sha256": "bfbcbf4dd70510068669854756baad8b63369f1f5532a4be318de4b95d616070",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-continuous-pass.png",
+      "original_sha256": "1294035af70daaf39c5a943b6e9b914b7cf1c1a42350bbfd62809690aa9e73d2",
+      "public_sha256": "1294035af70daaf39c5a943b6e9b914b7cf1c1a42350bbfd62809690aa9e73d2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-continuous-test.log",
+      "original_sha256": "3a048c78eb227369461447d11e1aa73712c8b13ab4b1c5ecefea234a7365ae70",
+      "public_sha256": "1d99e38616cbeb3444cd4dc67cf0bece62b225719b78eded7ff697d476a99267",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/continuous-20260925-103847-716-54399e28/result.json",
+      "original_sha256": "5fd89be43898c5f3b6d39f52b75acd1c2b5e614de6d03bd495722255b8b39910",
+      "public_sha256": "3f6315e916518802e943333f8192850554aa40e506c0347a715a48d8fbeb2df7",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/continuous-20260925-103847-716-54399e28/result.md",
+      "original_sha256": "2eeb855a273d8ac7be1395cb0f8913ed89df655bc85b702fbb74c5b5b8c141b3",
+      "public_sha256": "f1e8e0452bd41373b4c302139d142d6c2bd7ef2161cb520433c47d89cffe9d41",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/frames.jsonl",
+      "original_sha256": "298aa9ddeafa54faee60a134956c1f0bccf7045c27f5f11271f844be91ea741f",
+      "public_sha256": "a5548ad968bfd095840c679684c14271f552460fc5b396e0efac135ab3d7de90",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/normal-20260925-103845-270-8b28726c/result.json",
+      "original_sha256": "931b2923f1d90735204843d5e1569b2c6be93d3ea95387826f913b684f02d9bf",
+      "public_sha256": "68300ce1fd0ceb26f38571c96220bbb13215e0f8d2b4bfa3e29f21653b95d364",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/normal-20260925-103845-270-8b28726c/result.md",
+      "original_sha256": "f147252374f8ac1d59ac47a052f27bcb95c8a27df6269668de8d73ca5e02edc4",
+      "public_sha256": "9f2faf496da88805fd7203c6927bc9448452da110bfb9821d135f0a834c5c68e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/report.json",
+      "original_sha256": "cdeadbf938d266d8a8994a6708266b69ab77dece147ebe787c9d5169a32769a5",
+      "public_sha256": "4b5c9bd368f470e1be8a2d7bc5ba100a786079779d8644ddbe4e38923e2c55b9",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/physical-session/report.md",
+      "original_sha256": "615342c9f97ebab334cf9b0b2b9ba4137ee0e33e7996e20e242d63d23e11a704",
+      "public_sha256": "5b216f3ef83f7c4ee1059b0e0810129a0694ff9949df3ce350d6f25a6ecef4d1",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/previous-user-session/frames.jsonl",
+      "original_sha256": "a4701da55987bcf4c23f8f75d218224288df51bba1763e46601cc0ea869e22b6",
+      "public_sha256": "68ffca0ef7cccc1c0c383621254d7b5f4e5290142eaebbcbc7db879e5bb5aa0b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/previous-user-session/normal-20260925-102636-092-24629ea5/result.json",
+      "original_sha256": "5eac3fefcec7e29f3e2ea6e9c93b76cdf204010735e55b4b1cacc365295eb7c5",
+      "public_sha256": "43a7cb7e3361e226ef61f1417911c8ff9cb6cdc0e5457d68fce05cea875ce980",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/previous-user-session/normal-20260925-102636-092-24629ea5/result.md",
+      "original_sha256": "759b64c867abde563d7361f364504e5feaec9cf4e71f3f616bbd0df84c177748",
+      "public_sha256": "b659783268ab806c5d8026e82757be627ffd0ea3f480d3b5b42cce6ca14a9b54",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/process-samples.jsonl",
+      "original_sha256": "fc1f6aa4f94618120e9c3852fcc1691aabac41dcebabb04cf3b0f680efc8ae4e",
+      "public_sha256": "fc1f6aa4f94618120e9c3852fcc1691aabac41dcebabb04cf3b0f680efc8ae4e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/README.md",
+      "original_sha256": "f212ac55cb03dd1c77d6a79ffd8b1027d637d3bddf7b9367ac1d08d8671a8404",
+      "public_sha256": "5354861f1a3e7e7a2aad9461bfd60cd46f674419c0dfdb396a9a46d6a9f466cf",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/source-sha256.json",
+      "original_sha256": "f542c678ed25ecc7e29ca176ec820e7b04549082b11c9b4ed99d3eaf02976d50",
+      "public_sha256": "a7eb2417676e98e9a7102d23afae0d5c58186667aa3d3a42b56191a40ae1b10a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/continuous-run-2026-09-25/test-process.json",
+      "original_sha256": "0ca03d398adb99f5bf88b9d964087d80a13b1b228e3d9a2aac868c94e3c6e7f0",
+      "public_sha256": "b9132447ca55d8907d2cd11cc4f03df2c6c37bd1b990b0f723ed641c947bd4f3",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/dap-usb-2026-09-24/01-device-manager-com8.png",
+      "original_sha256": "b9e2d15170e2febdeb594cdb5ea7a1c9cd3aa3c815a46cb318d53373f4654569",
+      "public_sha256": "b9e2d15170e2febdeb594cdb5ea7a1c9cd3aa3c815a46cb318d53373f4654569",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/dap-usb-2026-09-24/02-device-properties.json",
+      "original_sha256": "9e28a7c3058cbe19046bc01094a82131ef76b73b2364623c5b6f05c44253c4fb",
+      "public_sha256": "e51849a153cdcf89d35dc814760b3db31a0a0109c6d2262b0f72f924bbb0428b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/dap-usb-detection-2026-09-24.md",
+      "original_sha256": "31abb711418e3bfb7e21023231b258c6b3a6532bab6a8ff2897a6059ff539b10",
+      "public_sha256": "921c727d3bc1554b8c2280b33d1678fb714130bad1ac52f5be66e5accf643a71",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/guardrail-cli-lo/result.json",
+      "original_sha256": "339024113ff69e725b8446c854d82679628aa1130386a906d807c91d83c487a3",
+      "public_sha256": "c668a29675f070eea17090749d49df17bdc28d891254b2e1bd83a3210f084cc4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/guardrails-2026-09-23.json",
+      "original_sha256": "cedba8853abddc7c517ebe8cebb742242f0d3e9db094c608f235d976cdd33198",
+      "public_sha256": "0e4f45730b07148c755c99c5fe0b423c5584af55eefd985a19a220ee85f398dd",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-20260923-024326-309/frames.jsonl",
+      "original_sha256": "54a6591f24d88d87a6664c6f87b001075883997e6c50af59e07f596e673d87ef",
+      "public_sha256": "97a32d3c2f444404302614c0645bca2a5076f8061a50cea1491e8ecb12bfe4e4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-20260923-024326-309/report.json",
+      "original_sha256": "eb808427ac22154933adf8e73c2b34895e6e02bf5b9657cf516ecfe596e49e42",
+      "public_sha256": "c9fad0c45c8baf2c75095b8b9f93bb9014473e6b87639d7f2325cfb89d23e922",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-20260923-024326-309/report.md",
+      "original_sha256": "71603c66a2f6b9df3e7588e289398e52f61fbba60614026db32ef83417737007",
+      "public_sha256": "6242923d3cab09b5fb2fdb39d7c5d88dded0c10bb2e9de8116165c95e345c5ef",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-20260923-024640-308/frames.jsonl",
+      "original_sha256": "247c0cacf18605e8e5a764522f9fed04c25eae1108d86f75e1498fdba1b9426e",
+      "public_sha256": "3f77a3f7bd455d78d1b6d3f484cb7af1465e8c39ac5fdbf3eebf2ae25a86b51f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-20260923-024640-308/report.json",
+      "original_sha256": "15d02eea423887d6c8ae864aa4730cebbb7f6e538c5ff14e4da6deee917cfe12",
+      "public_sha256": "a9ca390aa80530e4445ccac811ae31feb6bb87cc9ed729729f6c01765bb21547",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-20260923-024640-308/report.md",
+      "original_sha256": "05ee7988694251c8f9102e1e9aafbf7cd6eb18780a97dadd4be70ce85a8f2953",
+      "public_sha256": "e05d1ff38930950759e5f01c570e72712e1ae38ac6f1e6d3ef5d9b1e5d0d38c5",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/gui-buttons-2026-09-23.png",
+      "original_sha256": "1ef72ab808914f947171da19eaa0a6bc46e3a6614346f42b8ecede3f7766b7fd",
+      "public_sha256": "1ef72ab808914f947171da19eaa0a6bc46e3a6614346f42b8ecede3f7766b7fd",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/gui-smoke-initial.png",
+      "original_sha256": "e534707c2acca2151ad7726f8194b5041eb63fc9c06a2abb02b10ac554f00bc8",
+      "public_sha256": "e534707c2acca2151ad7726f8194b5041eb63fc9c06a2abb02b10ac554f00bc8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/gui-tests-2026-09-23.txt",
+      "original_sha256": "9f7a01aa7a356ca6fddb08841554b3faa83a434f257012aeb9cda1604f76c3e7",
+      "public_sha256": "968d542f07fb078bca62d3d7e2911d169c8ff06b8cefbcf50381395795868484",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/build-app-identityfix.log",
+      "original_sha256": "5879886ba51f04f5ba6b2ad96c933ff321ceb8b6faa1eccc74d2b45ab3d24392",
+      "public_sha256": "aed1b6c2621b6153a14b9e3eab6861cc3d7120ec44742894fd30b839bb00748f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/build-identity-tests.log",
+      "original_sha256": "f06720585a610ca525b2c900c7c9e57a3c7fe1e98ed663790313cb33c2d89fad",
+      "public_sha256": "2c33d19ea3d798c61ddf7dc9d1cff131c2e9dfae0e76740ac6ea6b01fea78aeb",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/corrected-smoke-session/frames.jsonl",
+      "original_sha256": "f1fa5438d83be4ad7bac019ecbac6a31c697578bececa0b23ec2abb80e31dd89",
+      "public_sha256": "bda557574f04085b0db8448814ed3c4a0ec7d235d3d1c9afd3ea9762135a4836",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/corrected-smoke-session/report.json",
+      "original_sha256": "2af619c2270c0d1ac421886b211e273429828a9ee47020606a4e8421f459c200",
+      "public_sha256": "8c512bc6ea1cc4f551698c73b8f6a967d43e9a9b9606929c2cd8f853b92a6722",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/corrected-smoke-session/report.md",
+      "original_sha256": "51e3b192f2a95eaeb7211e0beba700971450398186950c4bfcfb0ed1a6651754",
+      "public_sha256": "22d3a02dcb8100314d3f97d963ea4f42bf078222802a6a1809e61a19ed0ee787",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/deployment.json",
+      "original_sha256": "4f73a75e562aaf9022cd7939223a1f45d917adc35538d8928ea73982fc3cd86f",
+      "public_sha256": "b80e6c6b08095d376bce442e034a89071530a9f2f25e47548498e742d7162674",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/fixed-desktop.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/gui-smoke-verification.json",
+      "original_sha256": "6c0773f0c37bb3aeac7a5c3ed8b3d2649432426589480358d92a0075cbc71cb3",
+      "public_sha256": "a02a2656fea3200df95e34681e117cc357ad74b301aa44de2525cf1a9c91de1f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/gui-smoke.log",
+      "original_sha256": "31ef831540038ffe9ba794965c33031c7ef60591786e4ced6a2b8fb5f2a7e03c",
+      "public_sha256": "6b0c87603eabea730d7f25f7957a875c2abef12dcfbc68d2ebc80cfd265c7403",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/identity-tests.log",
+      "original_sha256": "212bad357faa623d80f66b3cd2b91b68ed7e65b00d1326cdd56cf9c218aa1ce3",
+      "public_sha256": "923dd24ce8686d9e73290540009dc2ba7f90a3502cc3ef38c76fe2f82d9b8655",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/old-session-before-relaunch/frames.jsonl",
+      "original_sha256": "22510e768cb85a3184bcff5ff1af00b9abf10b81b86d199a99268680c0780861",
+      "public_sha256": "a74935abf60f9c4f9624a61de2f4f65f2b6d9825e89f0e23b4418a6e1891437a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/old-session-before-relaunch/report.json",
+      "original_sha256": "040d1802b20399d5178001f402bc72bf012de91359b9c26a3dc6f48fd21c0ab7",
+      "public_sha256": "2d5674d351c638a37c64110eab2560c430606cc7d68dbe238cb8dd8d126e274e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/old-session-before-relaunch/report.md",
+      "original_sha256": "5c62227370c56bba74edb7c81975eb094f45acc81a8368098c4dac7fbae1e55a",
+      "public_sha256": "ca9b4e932061a2b46b02fae8d680d5753f894ecf60a9d888534f6b1ef8f0cd6e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/physical-interface-smoke.png",
+      "original_sha256": "81ea87a1e4043c21c8063436a14b2c00c1d98c8df7096645eb6afa311c2c25cc",
+      "public_sha256": "81ea87a1e4043c21c8063436a14b2c00c1d98c8df7096645eb6afa311c2c25cc",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/identity-fix-2026-09-25/README.md",
+      "original_sha256": "c28734f95b34e87a0e3b7e8c2e58dceb3493ae233327519821184bf688605d85",
+      "public_sha256": "cf86bdeaa83be1338186bc08a41fad620d56c799a6138ece566bbb9e85b0e9dc",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-backup-2026-09-24.log",
+      "original_sha256": "aa8905802ccc245dd39ccb98f4a681b19f24ff079d6510cfb979d74e42251cfa",
+      "public_sha256": "aa8905802ccc245dd39ccb98f4a681b19f24ff079d6510cfb979d74e42251cfa",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/backup.json",
+      "original_sha256": "5b215d2a5c05c78e35fcc649a37baefa44c9524309cdcb5271ff5c9571b48b48",
+      "public_sha256": "b524a97516a2aee8edaed0ab1fd58e3f8b53661d6c43c43d934b5b65f7d5f41f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/connection-exact-pack.log",
+      "original_sha256": "31ae071b3be075ab101ae112a214910a820bc1ca6cbca43b9178336e5249921d",
+      "public_sha256": "31ae071b3be075ab101ae112a214910a820bc1ca6cbca43b9178336e5249921d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/connection-isolation.log",
+      "original_sha256": "51ac95192b4b076187f8979dd95bda65d79972caaacc8e486c20cbb4c31fc5c8",
+      "public_sha256": "51ac95192b4b076187f8979dd95bda65d79972caaacc8e486c20cbb4c31fc5c8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/connection-pack-sequence-enabled.log",
+      "original_sha256": "51ac95192b4b076187f8979dd95bda65d79972caaacc8e486c20cbb4c31fc5c8",
+      "public_sha256": "51ac95192b4b076187f8979dd95bda65d79972caaacc8e486c20cbb4c31fc5c8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/failed-algorithm-snapshot.json",
+      "original_sha256": "54521bc4405d58b19084660cd180db578bc4672a907b54c84c8cd8867d83c685",
+      "public_sha256": "54521bc4405d58b19084660cd180db578bc4672a907b54c84c8cd8867d83c685",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/physical-led-observation.json",
+      "original_sha256": "294942532b2450dee3a9b186f8bf4155219300b7b056e4c194d6e0a681bb330f",
+      "public_sha256": "294942532b2450dee3a9b186f8bf4155219300b7b056e4c194d6e0a681bb330f",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/program-attempt1.log",
+      "original_sha256": "349d2e02f07f8379c793fbfafaa8b945d21181c49769df2cbdb2158655fd8bc9",
+      "public_sha256": "53dd11759a30b1e802cf978edd9d7bb84698b585f46446d6a9f8957a0049a39e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/program-attempt2.log",
+      "original_sha256": "6c66704fae032af29fea457054ba7e04de3b4ec55aeeb2bb0f93db861be8ec33",
+      "public_sha256": "38d58f04fc553ffa2657af40bc3aa6d843533ca7c02ec8752171fe3e92aaff64",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/program-result-attempt1.json",
+      "original_sha256": "cc00f5147f99f08cba3d0c24bd478bbefcc96f32eb92870286132a048bf25887",
+      "public_sha256": "f91322fe69cd9f2ee767da65bb8a52fdc4f421ac6dd19f571c9567b0b98f1157",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/program-result-attempt2.json",
+      "original_sha256": "9737d4b0f23ebfa17a6089468869e27f7de3db974a40d697348fa020c77700e6",
+      "public_sha256": "9b7fd3e8c253323bf73030bf468552b98ef8a55b58926781a8f4faaa9eb3fc1f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/program-result.json",
+      "original_sha256": "50fd46b4448c489be5ed755afb7c23a4f53952980693591e66a8a1282533b22c",
+      "public_sha256": "bf730bd094147addb1fb9a94fa135c9edce0cbc25393c04f8d39e388bdb8da21",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/program.log",
+      "original_sha256": "20cbfcce22b20591427d6ec9e5d36b1d76423397cfb03025ce98e92613b8b1c8",
+      "public_sha256": "20cbfcce22b20591427d6ec9e5d36b1d76423397cfb03025ce98e92613b8b1c8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/README.md",
+      "original_sha256": "51b3993671828d7992f9fbd7b3eca414c49a3a4978783d436429829a6c29dac7",
+      "public_sha256": "0cf2eb746633f58391932266d346e232a43cb15e98549e6917747610791cf3b2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/led-flash-2026-09-24/reset-recovery-snapshot.json",
+      "original_sha256": "7a82b3c348e2fc98f6359af66db3344f0faba85c96944b740890d6d1d4dcbeb0",
+      "public_sha256": "7a82b3c348e2fc98f6359af66db3344f0faba85c96944b740890d6d1d4dcbeb0",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/native-firmware-tests.txt",
+      "original_sha256": "2616395dbcdae3edcc3fc374f4d20853f6d137b475a11d3b638fc18b498b8946",
+      "public_sha256": "343daabf967ef9bc52c5d6f122ed7915d0c0d3019b0f1ac6c7d35cafdc2910c8",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/build-app-normal.log",
+      "original_sha256": "caaf8e6dcabf2aebdb4312ea43de758f64fba120d20098ee3b8c2c2d91b37b6e",
+      "public_sha256": "a73ec04d3062d5c29c01c513e26495bf9b65646ec281a33408472bd362c8dff7",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/build-normal-tests-attempt1.log",
+      "original_sha256": "aaa4938cf40e5ff37cd966d342acd6be6386ab91a93f555a7c9c75725fc1527d",
+      "public_sha256": "b44acb0938ac48c575a28b21042c9481e6c6a95317cc424843d0dcc6ad60bf4a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/build-normal-tests.log",
+      "original_sha256": "9b9e7bb118e62ef61b4a8e88e26ce0e7242433e445cb6d8e46fbf2b51b61994e",
+      "public_sha256": "da0886ab83d32b780e8245286ad14f1dc70386fe96531988c5db2cad6a8d9c01",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/build-physical-normal.log",
+      "original_sha256": "c98142edf814ba195483c414e04a77598512a8d18972e393c1ab20eb5fdca1fb",
+      "public_sha256": "2ab34e86542c0baeb6a91e53510e327ce42ca67b087fcd55daaae4d014da3ec4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/canbench-normal-tests.log",
+      "original_sha256": "cadd1ca4bd47fadecce50f55da78fef6b13fa283da49a827c7a23969ffbfcdea",
+      "public_sha256": "89eea8c9aff69ea56ce2da8173389815100fdfc40310aa9a21023edb2c0209ef",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/canbench-tests.log",
+      "original_sha256": "760ba606a71f4cfde86e4725aba61ef774592f4281b9d1ffc8c4c9f66024b741",
+      "public_sha256": "b89c7a107b9f088f24eb6f981e126ad81ccad54d9fa68b7906871de5493903c2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/deployment.json",
+      "original_sha256": "4ba1fb6c6beb27ff6a4b7774149ccc3d3e3738e9379c21318bcc268cd0fb06f5",
+      "public_sha256": "6d603c7188d27826c05834709e54e02c6af62e80a0eb58a6492e5bbc73003bd5",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-normal-pass.png",
+      "original_sha256": "b967850c22aef7c182c6c76987c4231affce1cbd586e8d5a0f9b743d3db446cc",
+      "public_sha256": "b967850c22aef7c182c6c76987c4231affce1cbd586e8d5a0f9b743d3db446cc",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-normal-test.log",
+      "original_sha256": "194b3cd0c70aa762c0237834ee3777fd741dc4998ad0ef219455067f4f09dd92",
+      "public_sha256": "b828f33187ca1b0d5d312ca087768a42ab2b74f8cffa3444e4c1e0579db4d74b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-session/frames.jsonl",
+      "original_sha256": "efb60752d3afae72f634b63fe9bf2b7c620f3379cb4a679b40f458a1f7d2d50d",
+      "public_sha256": "ec73067ae83900f21cc0318e9569906b0d3a5c27dbf66a299d87f98f41e53614",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-session/normal-20260925-102412-136-27fe1257/result.json",
+      "original_sha256": "a10c17b47f13e96ccef7a001740e90c939606ade3dd736e6fa5ae899db37e3f9",
+      "public_sha256": "b61c7b6f1212d68628f229b1811f4a72f9d7ea06f41a69d4d3bc9da436f9e006",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-session/normal-20260925-102412-136-27fe1257/result.md",
+      "original_sha256": "b84361f48c0232d6ce10d7d655342a71a7b5e7062baed6e01da674e7896aef2a",
+      "public_sha256": "a7631a678e6829b02ee4515fb179c052952b89d2d806659285a23acd4c11c9c4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-session/report.json",
+      "original_sha256": "be5877cba86c8d2368d2b6dc7114824ce8c5038611cf45fd235bed1bd5265c50",
+      "public_sha256": "4827c9a3e99f4e072509695b8ba0d48751e09dfd61e417aa626bd0d82e109b86",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/physical-session/report.md",
+      "original_sha256": "e859709d6ed743bc80fd425e48b2e55c60f25c75dedddef1a979790c532c2d76",
+      "public_sha256": "8ab0e21663610c24b6a401dcf489d379865d75983c4c216210a6b355f62d4846",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/previous-idle-session/frames.jsonl",
+      "original_sha256": "2ebbcde2ba8022c3292c45480c33e928baeee01a774a78802fc50896cdde9c78",
+      "public_sha256": "70988eb5837c04c13ebfa89dedc3e9f4c0fa7c62c9f96b967206a15134075443",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/README.md",
+      "original_sha256": "4b0e20298c84d84f8f451585ddec4199395e62790c0063dc6dededd9af2f6bb6",
+      "public_sha256": "00a7e578150355c90e13ecdf16093f79d32df809a40cd49b6313988a828629a4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/source-sha256.json",
+      "original_sha256": "88983db55df8f39cd4385d6ba8bf4cc2e882b8995210850a8d6efbe4512c226b",
+      "public_sha256": "88983db55df8f39cd4385d6ba8bf4cc2e882b8995210850a8d6efbe4512c226b",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/audit.json",
+      "original_sha256": "724b3579118076b2ca1f650fb87e2cbf6bf3d6bbebb1ab57406004f277f23bd8",
+      "public_sha256": "5cc0482f4369a8a4d96d0a0380d7bc757d171f15894b2bfda056ebaa0f93cd66",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/board-state.json",
+      "original_sha256": "e28710895464e6fc62c5ba4f4de2108e0ef253f6a7664310b6f25ca670a0018f",
+      "public_sha256": "e28710895464e6fc62c5ba4f4de2108e0ef253f6a7664310b6f25ca670a0018f",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/board-state.log",
+      "original_sha256": "e28710895464e6fc62c5ba4f4de2108e0ef253f6a7664310b6f25ca670a0018f",
+      "public_sha256": "e28710895464e6fc62c5ba4f4de2108e0ef253f6a7664310b6f25ca670a0018f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/frames.jsonl",
+      "original_sha256": "206530fd5edcdf8ad399ddf8713191806a87629d1b97a66f970d050c3d62d6dd",
+      "public_sha256": "f3f1e27eb3599303aa24636633f51f9dec83c9116046ed11f353aeba4596761a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/normal-20260925-102636-092-24629ea5/result.json",
+      "original_sha256": "5eac3fefcec7e29f3e2ea6e9c93b76cdf204010735e55b4b1cacc365295eb7c5",
+      "public_sha256": "43a7cb7e3361e226ef61f1417911c8ff9cb6cdc0e5457d68fce05cea875ce980",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/normal-20260925-102636-092-24629ea5/result.md",
+      "original_sha256": "759b64c867abde563d7361f364504e5feaec9cf4e71f3f616bbd0df84c177748",
+      "public_sha256": "b659783268ab806c5d8026e82757be627ffd0ea3f480d3b5b42cce6ca14a9b54",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/normal-run-2026-09-25/user-check/README.md",
+      "original_sha256": "2bd7918dd7e391a011b0bb488f0ff3d263b413da95717e511d9c23233ed5958e",
+      "public_sha256": "7d10a163016ad69d2da5070d2b6c29e0e37e4f8f9ec3863e939d5adbb0167305",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-can-2026-09-25/acceptance.json",
+      "original_sha256": "9552672f8b44262aac339179747da0de6c8f69602bad1fd7d00f04ad7928efe0",
+      "public_sha256": "81e2d496af2c5da5a1b3fd1ddf9cdeca7760087110b158ff98c88279cbd4055c",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-can-2026-09-25/frames.jsonl",
+      "original_sha256": "993ff3dd7998f4ab177c73a8cfd3042c86368e06eb6e952071aa7ca3f5979443",
+      "public_sha256": "993ff3dd7998f4ab177c73a8cfd3042c86368e06eb6e952071aa7ca3f5979443",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/physical-can-2026-09-25/heartbeat-capture.jsonl",
+      "original_sha256": "226e372ba37b234a97c44e390fb64915998c3e34141bb8e2a6cdafc1ef0cfd87",
+      "public_sha256": "226e372ba37b234a97c44e390fb64915998c3e34141bb8e2a6cdafc1ef0cfd87",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/physical-can-2026-09-25/README.md",
+      "original_sha256": "8720888ef8adc43dd4a469dadf5387e1c465afdbb00d56d28d3978e9eb25d792",
+      "public_sha256": "0492c0600417f032dad3257102630f204d5cb59717c8fff691e320bf56559dac",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-can-2026-09-25/report.json",
+      "original_sha256": "b60ff4a06426356185cf1988063a92416db76d303542794316deae3a43e429a2",
+      "public_sha256": "a0a1c3bd3161a3091ffbf9d237f93884aff0d865e6f9645ca2417fc6bbba4b25",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-can-2026-09-25/user-led-observation.json",
+      "original_sha256": "b457c68bfb669a2f187b4f65ccef22c4bd5014d431f393acc16f25e602dacf51",
+      "public_sha256": "8bc68152d115af3579b6e3fdf1a247a74e0dfdb935d40ba1cb50e372f77de6d0",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/acceptance.json",
+      "original_sha256": "568b22d02d06e180759d0b618a927088a0564c087395a8a406415beed89da033",
+      "public_sha256": "568b22d02d06e180759d0b618a927088a0564c087395a8a406415beed89da033",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/before-reset-frames.jsonl",
+      "original_sha256": "712442c431a67452c93f3d8485c545a0954088052f335e150f913a832a24b4b5",
+      "public_sha256": "bce3e0d9f9405d8edad01b6fe351947fe3c48e1e81363768c51a41077c1a4d20",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/normal-control-check.json",
+      "original_sha256": "57c6285c502643d1e78ea0e04a26b12897effe4453a81989cd873104755b39f8",
+      "public_sha256": "e6bbf636d156496107c516353710b809993120a134da52b5c510188ab6a26c06",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/original-session/frames.jsonl",
+      "original_sha256": "d3da5924c3c0cef79e7c0023dd4402294667e4fa80a83268a9a70be378969607",
+      "public_sha256": "0c5e6b2189ae45e164b7de8427e4aa68c2adf6f08706d0db5017c14e6ac21da0",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/original-session/report.json",
+      "original_sha256": "040d1802b20399d5178001f402bc72bf012de91359b9c26a3dc6f48fd21c0ab7",
+      "public_sha256": "2d5674d351c638a37c64110eab2560c430606cc7d68dbe238cb8dd8d126e274e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/original-session/report.md",
+      "original_sha256": "5c62227370c56bba74edb7c81975eb094f45acc81a8368098c4dac7fbae1e55a",
+      "public_sha256": "ca9b4e932061a2b46b02fae8d680d5753f894ecf60a9d888534f6b1ef8f0cd6e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/README.md",
+      "original_sha256": "dd6bf4129aa51568f8ed65e13e5f9fc073be13d7954e13dc29867c812661b158",
+      "public_sha256": "bdd5b7ecd26cb96b1400140a31c41d844903c9044e6f05058c7c4a3dab85a15b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/reset-command.json",
+      "original_sha256": "a503df0b834d250fc6e1af20b738061dfec8e11b2601d43f14c2b12e9f15a71e",
+      "public_sha256": "04c0d9e16c8baea5bd35275d4d45e9fc651fdb57c2e39601a8b96d7ac4a40342",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/physical-gui-2026-09-25/reset.log",
+      "original_sha256": "04c0d9e16c8baea5bd35275d4d45e9fc651fdb57c2e39601a8b96d7ac4a40342",
+      "public_sha256": "04c0d9e16c8baea5bd35275d4d45e9fc651fdb57c2e39601a8b96d7ac4a40342",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/reconnect-2026-09-25/canable-dfu-properties.json",
+      "original_sha256": "21ca8285e2da9027dcbb202c9bda555a7ed1d8fd192651eed158e9c9f3c38831",
+      "public_sha256": "21ca8285e2da9027dcbb202c9bda555a7ed1d8fd192651eed158e9c9f3c38831",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/reconnect-2026-09-25/README.md",
+      "original_sha256": "e2c663c753082584bd200e34d617f9d1c417d8943b398742ce34e4605b6f99e5",
+      "public_sha256": "d7df0fcea519663974d0ecfc664ec4367502090021c45f29c32c345e28dd82b9",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/reconnect-2026-09-25/swd-command.json",
+      "original_sha256": "2f1f876c8989fcf87e1859ed3ac195d064dbe41b105ef09e458150476ad05ef8",
+      "public_sha256": "6c07b1ddf1b1920cd963ccc4bde5a27707825213034270bc237ec99f4b3b2fac",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/reconnect-2026-09-25/swd-identity.log",
+      "original_sha256": "36c767dd3e25137872367fa13aac3cecf6c3fc9a8f7d26553ce682cfcfbe8093",
+      "public_sha256": "36c767dd3e25137872367fa13aac3cecf6c3fc9a8f7d26553ce682cfcfbe8093",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/audit.json",
+      "original_sha256": "4254c6c308752199b248fa4aede62eb4c2d97ff6b60622f68020a7ca559de187",
+      "public_sha256": "4254c6c308752199b248fa4aede62eb4c2d97ff6b60622f68020a7ca559de187",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/before-usb-user-session/frames.jsonl",
+      "original_sha256": "e5d526b01e8a3666101fec9863d3380adc7741812677c423eb37d7ac8b1dc29b",
+      "public_sha256": "ffdef260aff4bc6b435e541d1f65b346dfd777a94417947c67791a9d965e21f6",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/build-app-recovery.log",
+      "original_sha256": "6ff0248983013cb40df9210277fe12d936a84da459567104ee7d2480f3b3aa48",
+      "public_sha256": "05898f6547483f96e97b6d13a80d1c26eccde0d7e13e57e32d955bc8a75a3416",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/build-physical-recovery.log",
+      "original_sha256": "45e8968418d26c36475c9b4a6cf658808ee7267fe6e7c1288cf8a33d082df84e",
+      "public_sha256": "f62a60a11d27212b1ac66a20189f15628b67b87eacf0a5cd570f351ba2090d1d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/build-physical-usb-recovery.log",
+      "original_sha256": "3ce705fead2c39dc5e65d80b1f761fa4c084d293666361ea754a85802433ac6b",
+      "public_sha256": "5d7bcaeb6b0d7b80891e2a0d535d8057d9c9c5fce979cf0268933a509ab2ab5c",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/build-recovery-tests.log",
+      "original_sha256": "ba3d0b2bb3f9249a9efc8e00375491dd0efded4718d3d496c3dc71ee1bf2693e",
+      "public_sha256": "ae67a7e3360bef8d0d0c6b9ab2900d453665974e807de06e91787214d136dede",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/canbench-continuous-tests.log",
+      "original_sha256": "f4d62851e18416068fd15a222e8f306ac705b4ab71a3048e9ca91267db3c6638",
+      "public_sha256": "636365f82656ededb0ea433dad1f3671ea12d55c6d1d2a7c40aecdeef8fb4fc3",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/canbench-normal-tests.log",
+      "original_sha256": "8892c7e56dd062ef67b761371b4756a8c597b7a65aa3a46a688bc0a3b2a8f3b9",
+      "public_sha256": "fc39bf7200f20debe30863121d7d2eb732d5acce87447e46ef71b138aeb84e92",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/canbench-recovery-tests.log",
+      "original_sha256": "baaa3e76cc65b08eb24ac2bbe22c9cf9f8f7668a21cdcc9e4a17593b12596793",
+      "public_sha256": "3aca2ecb9044f208f801f90744c60007cddaf32669f0285f0ddf2831ffa82993",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/canbench-tests.log",
+      "original_sha256": "51926c5ee798b89de71aae05aefd5d0a26cd53d8051f1bd8a786653320d72a0e",
+      "public_sha256": "bf3e94a62b64f9fa002f4612d6e919f9ae4902723da44552d452785aa1c3d966",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/deployment-after-usb.json",
+      "original_sha256": "7dcf6fd5a3db89c2d392cb20c7e2c23b5008444ccf504d605dcd7eef43731d09",
+      "public_sha256": "47a5f2ab37b94ff6490ee7a3044f0d4cc46e3c3f644acca4b119a8346fee883b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/deployment.json",
+      "original_sha256": "0ef268037620aa7058cb96242fcfc2a71b35be82fe618615d9d1d1fc72908089",
+      "public_sha256": "50b90d1b01c70d6e4cb978851665ce482d24e51b6470471de75164e6c475e369",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/desktop-after-usb.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/desktop-launch.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/fault-action.json",
+      "original_sha256": "711a173d41270c1810dbf987a0dbc8ac0f4d8a15cc6f8c3d43386938bb027ec0",
+      "public_sha256": "41dfc3c9e35bc11b50e238471570e57b36d59f60a50649f8acefd248a4611bb2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/fault-action.log",
+      "original_sha256": "711a173d41270c1810dbf987a0dbc8ac0f4d8a15cc6f8c3d43386938bb027ec0",
+      "public_sha256": "41dfc3c9e35bc11b50e238471570e57b36d59f60a50649f8acefd248a4611bb2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/observer-ready.json",
+      "original_sha256": "ae2491d93227717a1bc747d419332b319069ab658bed5b176967f6c1de238ff6",
+      "public_sha256": "da65aca3f296012345ca1ad1eff654b87fd3890e5c2af0b350b5c2f89e6e7881",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-recovery-pass.png",
+      "original_sha256": "c009f71f4c83d80de825e051b0e58704bd2a2ad1dfc537d6ac893ba1d22868fe",
+      "public_sha256": "c009f71f4c83d80de825e051b0e58704bd2a2ad1dfc537d6ac893ba1d22868fe",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-recovery-test.log",
+      "original_sha256": "6c3bf6280b46245c76a5d6c40fdd6a3be39974601ee8beb636355d44717c2030",
+      "public_sha256": "1c8744c6823605e4eeef8aecd5f7eb5968a98aef3b8acaf7b51e77f3fa438d26",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-session/frames.jsonl",
+      "original_sha256": "c94016796136650a5c8da7411f50733b2bc53267e7725cce555a60b6e33cd522",
+      "public_sha256": "31c742800dfcf08b84c36324fe6746a61b0350cbaaba42d88f752624986080be",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-session/recovery-20260925-105146-407-6dc0b12a/result.json",
+      "original_sha256": "ebad6c8de062cd029fc8d132fa082ae671a8d0a7cf282c4d593dae579d3a46ac",
+      "public_sha256": "6c0497fd00304cdc4e8a0030a2c5b2c017175cc232f1c310628528cf2eb181fc",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-session/recovery-20260925-105146-407-6dc0b12a/result.md",
+      "original_sha256": "359bd944e98f48f96be541c66be896658bf4fbf5567d6a764d1a1dd4d202a977",
+      "public_sha256": "36ac1b75dc2c6d5e105de641bfe89d0bc6c2ead58a86949cc62127fd2f789d3a",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-session/report.json",
+      "original_sha256": "0beeafca69200fa3726e3e15961011d9caa6651bf8b86529d8f2581e2abf339d",
+      "public_sha256": "1de1b05dd9702e301b09280051b1f29a7126ed7200a30d6424149cd3deb47923",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/physical-session/report.md",
+      "original_sha256": "69f00ef91678da1979bbdabe4decf882d0b744b4498c3724be648ca5b7863085",
+      "public_sha256": "023b910fae903292af411ff9aae6a6c6fe5eb2d72e860c33f440b50596c5de7c",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/previous-user-session/frames.jsonl",
+      "original_sha256": "4badf70b126a2c7b29e72b808f91cd6462c1f775db2d1033e32292b19e30189e",
+      "public_sha256": "ec1b7559f11406c123df72e495ba2441bd428afdae2e4a0725bdd530861e872b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/README.md",
+      "original_sha256": "21e4bfe6dd911f06d07aacf7cc0b02b30caf086a39c14701c54d0ea042871605",
+      "public_sha256": "410cb08795a367912d10dee4dc19616d25e6c5407e076e5967deb15a52defcba",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/ready-for-fault.json",
+      "original_sha256": "abea5f396176a17c50b00d0e0a8283f03ca8dd153059640b80d6755c33bfa0c5",
+      "public_sha256": "da65aca3f296012345ca1ad1eff654b87fd3890e5c2af0b350b5c2f89e6e7881",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/restore-can0-readonly-check.log",
+      "original_sha256": "0b676835ee63dc9e3e0c317df53ae63ce266f37eab8aad17bfdb296dc0481cfd",
+      "public_sha256": "4b2854b37c0175bee4f656b142754fa15876a9f20a1ae92cc52d28cb5da2fd80",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/source-sha256.json",
+      "original_sha256": "30fafdd43a17d582e01cee6d541c87dc005e44167a188474f9a29412682740b6",
+      "public_sha256": "30fafdd43a17d582e01cee6d541c87dc005e44167a188474f9a29412682740b6",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-progress.json",
+      "original_sha256": "969a56ff4e7c6558d3f1452ede3d622a74e1b1d333d29c79e4bff3d57e9718e2",
+      "public_sha256": "3f9fb532b4a28e6d9db483ca58d567d890a1d11e4f46f36386c52768c7d6da67",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/acceptance.json",
+      "original_sha256": "5657ec57994811079e51558963ee474e35ed6746c523bcfea1ce50fa7b84256b",
+      "public_sha256": "5657ec57994811079e51558963ee474e35ed6746c523bcfea1ce50fa7b84256b",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/after-session/frames.jsonl",
+      "original_sha256": "c074970dd02ba9200c7d53998cee5b8d5e5bd1a393adfa8032075ffef4824746",
+      "public_sha256": "ad80f9c48f3f733a1f22fcd8b998b3a2ac261539e188c6220962be841edebbc5",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/after-session/report.json",
+      "original_sha256": "f215e631aad9ede9c646ad3c2b2d83b864bd600882c292e07ffb7807f3723d53",
+      "public_sha256": "58064e779e3f3573ec115fdbf4787f42cb5454d75c54526a6790f6e13703efb5",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/after-session/report.md",
+      "original_sha256": "bcd1a742c9c840a6f1755fe082491f7aa3ec7366a111e80bfce24d39896ab4c4",
+      "public_sha256": "dc5a1af677d2b49ef7bd694dc3456ced21ae639734e2cda54e3df39d789239c2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/before-session/frames.jsonl",
+      "original_sha256": "06e0f70d8d7023085acca3a6e84b14b5a4bc9d34ed3fc07bf6842ef7ce25a16f",
+      "public_sha256": "b04fab7a4360fdcc40bd81afd14d779bb909e2c4a1f79a98be07326c5f0a8ecf",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/before-session/report.json",
+      "original_sha256": "85614e0a4d9c79fa7ca2e76935048abb262cbb6593fb8b6ad306a6987ab50dea",
+      "public_sha256": "d5b42cdae8f315c9945319b6234a16f4fa411c93915dbec10c144d0532e150c2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/before-session/report.md",
+      "original_sha256": "ff0e10676cc7b86bf1b277899f4b67444c93596cc38ed43696f0838a6d39ee67",
+      "public_sha256": "88a9240b9c023490eb5e751088dbe6508168bc5042f0cf4123e283fd78837603",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/passed.png",
+      "original_sha256": "2643d474fa8ddccc0805cf4f533962fec4f9a784c8875f28e7a110bf15feb438",
+      "public_sha256": "2643d474fa8ddccc0805cf4f533962fec4f9a784c8875f28e7a110bf15feb438",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/README.md",
+      "original_sha256": "18b7ced2be5b3aed54ad7c6b4505c234d898b7b540a3dfd1324ba644672ec2a3",
+      "public_sha256": "8ee8d49be0405f80c070a79d39cfc691c931fad5d8a8534777e52607e5857163",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/result.json",
+      "original_sha256": "8aa57fbfbbc5d5785ab1c8d12dcb76de83d9478cdcb586ea32deedab978b16f7",
+      "public_sha256": "e28038d2931a775d55c37c63d6287845f6757a02a794ea65c125e0d3ca02d3ae",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1-reset/fault-action.json",
+      "original_sha256": "65411254b26d6acccc5d96d11969479cbd522ebbce762b886cb3fce3f920c1ed",
+      "public_sha256": "765e90ea34bdfdaab9bf3dc3688d32ea2b0681ed19cceb6df19ce6660f06ea3d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-1-reset/reset.log",
+      "original_sha256": "65411254b26d6acccc5d96d11969479cbd522ebbce762b886cb3fce3f920c1ed",
+      "public_sha256": "765e90ea34bdfdaab9bf3dc3688d32ea2b0681ed19cceb6df19ce6660f06ea3d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-replug-test.log",
+      "original_sha256": "145e5240daab9d4ac413350cf0ea52b9287bfec0f57e3f34c9e59b284c874c5b",
+      "public_sha256": "3b00daf1b7501478a481b27d079a996e3e913f0683dba9b5d75f81fb34f8be46",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/recovery-run-2026-09-25/usb-test-process.json",
+      "original_sha256": "add2d3c896df34c4538a240a5d5b3b33eeb294d3b12ab105eba09b9688e4295b",
+      "public_sha256": "b82bd456dd6de622ea1e0fa8ac0cca74a4851d755be7861feed35708b8d69d74",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/cli.stdout.log",
+      "original_sha256": "37b61a8f2f6c930c8343a2fc86368860aafa9f94fdab20f6b17431857ad2c47b",
+      "public_sha256": "419c34c4492551f14bf40631e078f83e496c4e564a470b9cb274708739bae9e3",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/engine/report.json",
+      "original_sha256": "014ca53d2485e44023a33dd753f97f40279da593ea66feaa589d7b8b551cd083",
+      "public_sha256": "292c811c161dd1675937409905542443df49fa9b5f8137c9066965d55353c6ee",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/engine/report.md",
+      "original_sha256": "8184484edb75bc1cf001b70cf658460039a8c7c265e7c0cfc2466269964b5be3",
+      "public_sha256": "02eae71d1ee2b3deda8ec4844fbed5a109f475fdb53ee1d5ddae7242d8154f55",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/raw.jsonl",
+      "original_sha256": "3f57e40f234e89bb2db6ef07cafcc6126e6ace6d727a5e6d33d2e703b09f2bd6",
+      "public_sha256": "e2d47e6483a410ee410cafa6442069a7332d1ffd0ccc30f1d00e66fc8f6388c8",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/result.json",
+      "original_sha256": "6f4639d7ad319277793656fa79e8ff72f552a312d487128d9913c47ffc6bfa66",
+      "public_sha256": "7d179099d5e6a9d7f54a35e91fb5d73fdd34651219e7fa8ed321e3de4e894002",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/heartbeat-timeout/simulator.stdout.log",
+      "original_sha256": "42cc538d0a8d8cfcc23f04b1ee7d7ec31f94dcccd82b06b9b0173c3bad70c569",
+      "public_sha256": "78fbe0acb7123ba5f9e79a1c1ed7f54567d25698516b84395f48a17c9eb094ee",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/cli.stdout.log",
+      "original_sha256": "90954d521d4a682951ab6b7b6ff9dea2ca5fcbe2e73fc70389c0a8902fc272c3",
+      "public_sha256": "868b13a33806140438aa82ee3660fbf2cef5c674eaa9b2ea73874bdb68c80724",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/engine/report.json",
+      "original_sha256": "23333fb3b49c4340079ade89d38bb61e829ad2e96954fb239b4ff436294e4649",
+      "public_sha256": "a62dc544f213bf3e87561b9ff80df0c37c71b598cad0f3f8c7e5fbed762606fa",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/engine/report.md",
+      "original_sha256": "f93a6b39dbd1761b419c31ffd8facf37c5d743dc3da40b158e6da02c106dd713",
+      "public_sha256": "fabd60f19d04b4fa3f33a8f9eb10ad0d1db72fb7d1028e7465263f1245d4464d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/raw.jsonl",
+      "original_sha256": "1f19b0f1a4d02ff3c9b52f674a14c8680053ef5bdf3a34457d5ba212d989b8ff",
+      "public_sha256": "f3f394804dc9d57ceeabcbf381244634b54b43c8630b1f31d932a6e0b4af1d3f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/result.json",
+      "original_sha256": "51dcc18804217d3302525422936e8554b58946a06853da28a0dbac8c7efbc233",
+      "public_sha256": "8e47ff71aa75395bae7d9f81f84c2d8fb8b394e34301053bfa14e95657f2cf3b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/late-response/simulator.stdout.log",
+      "original_sha256": "eb16728c1112055177d0d94f2c19ff075b895739d9eacf43364de86ca0ab2156",
+      "public_sha256": "1fa7e2c0790d6430396224ff783cd9f0e3483400c57f2247ab22b3aafe915b68",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/cli.stdout.log",
+      "original_sha256": "d9b5735e91b24dca187b8a67a8f126399cab464f37ac1b4af6c1abddc212e2dd",
+      "public_sha256": "3c011da22c1b825e2fa0a77707830f185847be30926ee1e0ea6ba5e387c7599f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/engine/report.json",
+      "original_sha256": "8e8c879788e43518a7d892b5ff184cf0aea4d90ab70e5c92a13af21e3da6f5b6",
+      "public_sha256": "62607a5453f741216f6059c7dc6de2e967e5b28488f6c3d000b961b92678ae96",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/engine/report.md",
+      "original_sha256": "610385b277ce6fbf2b15d1a246ec63dd6e38e36104395cbb95268ede5b1b525c",
+      "public_sha256": "8e14dfd82ac5f3aedde2ec1aeb5a0899bb249c6bad1b5c56e5ef02ac26ef4ebc",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/raw.jsonl",
+      "original_sha256": "1267985518a74cc5513e038b3fd11355735232795618a3182028b9375caf2702",
+      "public_sha256": "16fdfbc3bfccc0eec3c667dd2d1245d4654753bebde23be117d70cd3bf88acba",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/result.json",
+      "original_sha256": "5c6d40e8a2b6745d0b1ffa84bb4b13fc6acf93afd1ee3ed6fd80e0a35b18d5c1",
+      "public_sha256": "45b65398a173facbacc038818e1c33bf7d8bc9d62d58504af14dac75dc267650",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/normal/simulator.stdout.log",
+      "original_sha256": "5ca3b208d3730fb102f700895b9e273dab40113e88f82dff5f5ee4ced6a4e650",
+      "public_sha256": "6b69cd9f957d82a0b1618430612f114d6b2072f22879010636c1be6f9ab2d75e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/cli.stdout.log",
+      "original_sha256": "3b967f7b07451674656a4c5ef7abe4c1ab63be8f02000eca67766d441135116f",
+      "public_sha256": "2cd3511d648b85b560f366c12813bbae3421185623e3f5149c434e1bef9edb46",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/engine/report.json",
+      "original_sha256": "27eb93d9112fb71c93fceaf008b4ddbfdbd23ae6b77e0bcca31b66e1c742f652",
+      "public_sha256": "fc6b655bba13de78f496b4a89ed2193604d180da5050d7aa6468b5d97c253739",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/engine/report.md",
+      "original_sha256": "ea91f8fbb11a12a344f8c05f9753b1a1f6aa298acec1047a3f1447654205f259",
+      "public_sha256": "25bfca16c38dc0fd21472605a829b37073d0030a4580bf3bbfdd66d6344de862",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/raw.jsonl",
+      "original_sha256": "73edb364fc09f29d8b821d7feed6789a5bd4b48b4b08acc6d22f71e2ece40701",
+      "public_sha256": "4dc9ed6ddf6c36776c1fc1b71abae106a79d2af66e036435ec456180923f8b0e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/result.json",
+      "original_sha256": "e96b3ed8637cdd1ff55152623604b6e92a6cee9b9af43a649c6eba5494353648",
+      "public_sha256": "a1372b62d67eef39ff3ddc48487aff90344852a1661782deb79f1e4f9607d967",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/response-timeout/simulator.stdout.log",
+      "original_sha256": "cec392cde7cb1d7e342ff4356b8d770902848ea4e0d00fa8ba0fb86e75bb6f22",
+      "public_sha256": "d4137c622800f1c848ac862677b82ec62a6859edd730d8c2abd2c9c2e6bdd0bf",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/cli.stdout.log",
+      "original_sha256": "d809e9bce34e88e2985d21b684a8b595c88b6779034da17066b3e71dff338dee",
+      "public_sha256": "422319cacd9f41ca07c5182bb6e13f34cf547b731c8c50f00f5418a0927334a4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/engine/report.json",
+      "original_sha256": "01bf087cfb188c962a1e0d5a4ac55c87f1ac8142a26861c11c8f09618f36e7af",
+      "public_sha256": "b752db5c4c84436e671ac5c49ec926366de80f6df3a66be0bea9be8dbcdc1e3c",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/engine/report.md",
+      "original_sha256": "064fb10324b44aecf0c075615df788d1a96df0a07ac9b38ad68363b29dc11f4c",
+      "public_sha256": "5a8419c81e0419d8ddadb155b96a7f521cc3598e533dd578eda661cde377b207",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/raw.jsonl",
+      "original_sha256": "c0605453c89db96cbf3a6e2ccfbf8660e2f63f9a168cc8b3a1e05351c0f75b3e",
+      "public_sha256": "7db5893899735e1aafd87d54cdf86f037d0a07d7be8ab391e76e3b9925403a1f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/result.json",
+      "original_sha256": "1da4280d1f72f77757de019aab123a156486b7c7759724d82377a4b3b2cca232",
+      "public_sha256": "343ff84a547f811f90521191342b653bfbacc05674dc7eb88590a223742e2350",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/restart/simulator.stdout.log",
+      "original_sha256": "d4934cbd2cdf762336468588dcbac56b1acc0141a451d61c566d214908bda9bf",
+      "public_sha256": "7460ab15591439e316aa0ce39006e7bc611eb583023329d962c3f4ec90871055",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/summary.json",
+      "original_sha256": "2736ee0ff629ad433e3611353a859a7c2462730e88af29b89e2c3cad7994f9ce",
+      "public_sha256": "93161baf8dfb9c37bfecf6a3537a3d99c5d6bac80874788a0aa2dd6368929453",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/summary.md",
+      "original_sha256": "db331ec263ced37d462bff969099f1a6a5e90a6d74d884e01c992e74bf1000df",
+      "public_sha256": "e8f46ff9aa24262f293b5bdeaa22e1405bb21b89a5817c6f1179c81d25b3474d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/cli.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/cli.stdout.log",
+      "original_sha256": "eda3c5823bf898b3823f009966ee4b175c31acde7ba96677c1de56143a716636",
+      "public_sha256": "012d5f8e047a5172683118b9dc2517747c27f754309d8cbc83add17827c952ba",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/engine/report.json",
+      "original_sha256": "a3cd22079daee9e3e5caf5e7866ea704c4b45149e6809a5abb5a3ae409216133",
+      "public_sha256": "4bf1e5054f554244610fd3aa439295adf111ffac50bad2df967da7b7b148de31",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/engine/report.md",
+      "original_sha256": "9620f215f6234266319dacabe32426d8ef951c743885cfc24a404058312ff3e9",
+      "public_sha256": "8886e824c2f856e545d39b57345c74115ea4d5f63695302df0c2fb373216d657",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/raw.jsonl",
+      "original_sha256": "34ad70e1d7ba21e3beb9aa61ceb04c2452ef04cc2c1f619315afd86ce07a40c6",
+      "public_sha256": "d1c9024156db76e9dd65c2b40cd295ba82d0c8a0bef8ea7ec08bda281a8db9dd",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/result.json",
+      "original_sha256": "e8cedf35863cc2138a0f4069e8e7638128877b06c8943b0b233d9474aa553f63",
+      "public_sha256": "d0f9ed90a777e6d13fa4160330cae014449bc1a9733ba246b5ebfdb0fb7c6897",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/simulator.stderr.log",
+      "original_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "public_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/regression-20260923-024640-467/wrong-seq/simulator.stdout.log",
+      "original_sha256": "6a57ce0193aaa60a390a316f5773b2f5c54a9b3aea909aaa2b857438774033d5",
+      "public_sha256": "18aae0a230894645f43ac2b794217b698dc7736692949d7df096f29c689181f2",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/source-sync-2026-09-23.json",
+      "original_sha256": "72be69148811e5c7f0e471b8b56704cdfdf653a4adb489366ec4f54c9bd5897c",
+      "public_sha256": "72be69148811e5c7f0e471b8b56704cdfdf653a4adb489366ec4f54c9bd5897c",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/identity-attach-command.json",
+      "original_sha256": "7a32f55d6fec6a8b9fcd3b130e3a71edab8f130f4c623444fda663b7e9a5e5d5",
+      "public_sha256": "3d60e86d9b9508aa8c21a2eab8c0e689c065f40ee3b3d9fc071c6f9008b52451",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/identity-attach.log",
+      "original_sha256": "f2341f02e16a01bd6f1ceb1d37ff42fc538c8109d7decf2fc3d7d3f1ce21a682",
+      "public_sha256": "f2341f02e16a01bd6f1ceb1d37ff42fc538c8109d7decf2fc3d7d3f1ce21a682",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/led-build-command.json",
+      "original_sha256": "d8efe15a5dfc7bbf8033d5c33477625c05e38d64423ff7b0d5288ea7018559e3",
+      "public_sha256": "18e151891f1af7275458548e2c0709a531285356cfb9322935fda40f5fb340b3",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/led-build-final-command.json",
+      "original_sha256": "7dc0f99bb9eb8c866349d7e905f73d9acc17a2e92607b27b9f59b987e11245d3",
+      "public_sha256": "3b1c35e02605bf714a8a923e408c3a2142b084718068b8b6e07990cc6eb45542",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/led-build-final.log",
+      "original_sha256": "778b3b61e85e04250bf749130702d23ac5dc1e77ee60e2b6515cf477caf71af9",
+      "public_sha256": "778b3b61e85e04250bf749130702d23ac5dc1e77ee60e2b6515cf477caf71af9",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/led-build.log",
+      "original_sha256": "11d58cc615d1951f43d62769b7a6ecfc8ee4e6c435f5d8374d6ef0dc80062c4e",
+      "public_sha256": "5e9e14b122ae2fda2c41413b38884acc50895a9f9811c3a4b4481b17b903eacd",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/led-image-check.json",
+      "original_sha256": "6901fbcc8278c1d47fcd084470c7423d894933d7dac36372440a430dd090346d",
+      "public_sha256": "6901fbcc8278c1d47fcd084470c7423d894933d7dac36372440a430dd090346d",
+      "transformation": "public export: paths/device IDs redacted; JSON formatting normalized; measurements unchanged"
+    },
+    {
+      "path": "artifacts/swd-2026-09-24/README.md",
+      "original_sha256": "ae0039c29b291c43af6d345a133dec42330b245a02d87467aa0580f5f723991f",
+      "public_sha256": "f9496c69ca6c247ca1eac1e9d006026e06def486d58445365cd5ac03ec47abd6",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/01-frames-snapshot.jsonl",
+      "original_sha256": "5f85fabcb583171cf792473a7d96804c2d9468a18996ddcf041058d22d709cac",
+      "public_sha256": "8358bd2c153aae72aeec642bd7b9f71aaf8e327d008375d98a8e301f71b939a6",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/01-user-led-on.png",
+      "original_sha256": "466f8347b7f8a8718c6bf515d88b9e6c9ebca2152a8692c7a15380a47c4e3e1f",
+      "public_sha256": "466f8347b7f8a8718c6bf515d88b9e6c9ebca2152a8692c7a15380a47c4e3e1f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/02-user-query-status.png",
+      "original_sha256": "b1cd42579e0e90b230624bcce256eb5c3ba67ede1720ed25bd185d410383400f",
+      "public_sha256": "b1cd42579e0e90b230624bcce256eb5c3ba67ede1720ed25bd185d410383400f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/03-user-led-off.png",
+      "original_sha256": "aa3667baef048cb44841dbaf2a236e6e2650af84faced16953ea446339491d5d",
+      "public_sha256": "aa3667baef048cb44841dbaf2a236e6e2650af84faced16953ea446339491d5d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/04-frames-snapshot.jsonl",
+      "original_sha256": "cdb26aa4a43796a7613274477c79fb6a71fcfa6f94418d3ba83a7ed5693ed665",
+      "public_sha256": "469751f4d97af80cc443d86b20265edf9e251b742ff1775cc23096636628f312",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/04-user-timeout.png",
+      "original_sha256": "a5799d4b0250b13a275822b4edbf9cced5e9f2ecdc4b6734262c0d6abf808ec3",
+      "public_sha256": "a5799d4b0250b13a275822b4edbf9cced5e9f2ecdc4b6734262c0d6abf808ec3",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/05-user-recovered-query.png",
+      "original_sha256": "0d0b5fca8027e4139bea929119952d7afdce350971d90f50a6e2501fa4969838",
+      "public_sha256": "0d0b5fca8027e4139bea929119952d7afdce350971d90f50a6e2501fa4969838",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/06-user-report-saved.png",
+      "original_sha256": "9b695c5d4717146181899c011aeac0ca4cf8a4ffbd0ffdc5c9bb08732de4165a",
+      "public_sha256": "9b695c5d4717146181899c011aeac0ca4cf8a4ffbd0ffdc5c9bb08732de4165a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/pause-events.jsonl",
+      "original_sha256": "2207b41c391db69f1b509decc608573bb765a9c3dcf1a9b8ba11b23e71d44dc0",
+      "public_sha256": "2207b41c391db69f1b509decc608573bb765a9c3dcf1a9b8ba11b23e71d44dc0",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/README.md",
+      "original_sha256": "5ca49591252881a952c2cf32e6d50d5442f33268fdd272ecbd7958e3fb3126d6",
+      "public_sha256": "f79a5ed48d0cc8d777d874ae4f7f951b863b1ea9e9692e51eb121f400e038d6f",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/report-check.json",
+      "original_sha256": "4e5ba1fda89e3c0eb0c72da6d99c9b9f4e18162a090c41cfd99158c20b073dba",
+      "public_sha256": "c77276a3d1806830693c52983c8114c49c854e58db840ea487bdf114a13d6ef1",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/report.json",
+      "original_sha256": "59e2a9f691beb5b7f6dc159b31761eb0ffe021fc97ba9fdc13a9b4e0189e728d",
+      "public_sha256": "97e012354aa7b465aca4963ac4d54ed09ec496fa521ed7e327cde08b6ee61566",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "artifacts/user-demo-2026-09-24/report.md",
+      "original_sha256": "a74cde13b0bbbd5499da75fcbc6a7167f1f939dc3258bce75e314c0de76f86eb",
+      "public_sha256": "491b3abf9594c2bfee4d77b35bb58e0824b288f3677f1553c05e6d6f5194e263",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "cli/cli.pro",
+      "original_sha256": "1c380d4a0638e6d3cac372aaedda52aa81d49720cb198e62a0260645d238d013",
+      "public_sha256": "1c380d4a0638e6d3cac372aaedda52aa81d49720cb198e62a0260645d238d013",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "cli/main.cpp",
+      "original_sha256": "f9c7875b1252e9f2608d07c26efbc69a2008db5a57c3950b46936d6b9aa5aaf0",
+      "public_sha256": "f9c7875b1252e9f2608d07c26efbc69a2008db5a57c3950b46936d6b9aa5aaf0",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/continuousrun.cpp",
+      "original_sha256": "f3a48aec8f4f24a06bdda7076db934c7fe168bef815c386b3688fea0244f8059",
+      "public_sha256": "f3a48aec8f4f24a06bdda7076db934c7fe168bef815c386b3688fea0244f8059",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/continuousrun.h",
+      "original_sha256": "c20adf977a2da60ace1cacdf729b1a5d4474dbb08c2d02d81c5748e7af2d1f83",
+      "public_sha256": "c20adf977a2da60ace1cacdf729b1a5d4474dbb08c2d02d81c5748e7af2d1f83",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/diagnosticengine.cpp",
+      "original_sha256": "45b1d9ec8bb3c4d72c0dedea4c8962e6c635f21813411f3054db902bf4e8f000",
+      "public_sha256": "45b1d9ec8bb3c4d72c0dedea4c8962e6c635f21813411f3054db902bf4e8f000",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/diagnosticengine.h",
+      "original_sha256": "6d7caf0b452b4b40da1aefe821a87208898926aeb41223864eb781033d6d9234",
+      "public_sha256": "6d7caf0b452b4b40da1aefe821a87208898926aeb41223864eb781033d6d9234",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/normalrun.cpp",
+      "original_sha256": "893147af8d2f146264eb0d9fc1c59853ade27ad98272649c785f07251467e94f",
+      "public_sha256": "893147af8d2f146264eb0d9fc1c59853ade27ad98272649c785f07251467e94f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/normalrun.h",
+      "original_sha256": "f24bd38eecd3bfbc3f3b2c53f23649ad35739db2f7fc8de7ea3f41cdb3f23e8f",
+      "public_sha256": "f24bd38eecd3bfbc3f3b2c53f23649ad35739db2f7fc8de7ea3f41cdb3f23e8f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/recoveryrun.cpp",
+      "original_sha256": "4455178b305064b2855049d6029f67ffeb5d81f797f9cb20438d2e21f6e66e4f",
+      "public_sha256": "4455178b305064b2855049d6029f67ffeb5d81f797f9cb20438d2e21f6e66e4f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/recoveryrun.h",
+      "original_sha256": "c9e4fc8dd54df6d656d3140aeae471c862a1dc5b156a641b7bb6256245af15d7",
+      "public_sha256": "c9e4fc8dd54df6d656d3140aeae471c862a1dc5b156a641b7bb6256245af15d7",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "core/socketcanidentity.h",
+      "original_sha256": "b16d69611bfa097f7cb191efd82c929e2d80a0a2e34db5a20421217606932521",
+      "public_sha256": "b16d69611bfa097f7cb191efd82c929e2d80a0a2e34db5a20421217606932521",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "docs/PROTOCOL.md",
+      "original_sha256": "a3ec839b75d2b1a0f23d4ab801f052cfe174db67ccaf36b1481b56b7613d5041",
+      "public_sha256": "a3ec839b75d2b1a0f23d4ab801f052cfe174db67ccaf36b1481b56b7613d5041",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "docs/UPSTREAM.md",
+      "original_sha256": "a1084fa144dfc4be1e7880203051a966cb3d1ffe60ca3834486d8e28810024d2",
+      "public_sha256": "48a88538a3483deb0fa45b726ee6945367c9e59cfc63c04856fb728ede011d44",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "docs/VALIDATION_2026-09-23.md",
+      "original_sha256": "760062260d520f199fab1bfd63c7eddcb212e93cd00891fb5d741e63eaa0d9c1",
+      "public_sha256": "9f011c2caef9fec2e7021cc1ada8866dcc65c7d3924ae1e21d6b1ed5b643d5c9",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "docs/下一步_CAN接线.md",
+      "original_sha256": "12a21df1e83092a9fe7df347e12ebfb106fd346fe41717c64e6e757dba8534f7",
+      "public_sha256": "f6576a8599e4fcfb52a3a6472062159065deb400e6e0ff04730ccee0c657beb5",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "docs/使用与恢复指南.md",
+      "original_sha256": "33fdc6512405cb44b58345e646542257638ed27a46d4d2787b35518e00d26ba9",
+      "public_sha256": "a1b6fe8ac780b6de5840f19fbbd59684ffef7e1c73c4c017351f1882c833e579",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "docs/初版项目报告.md",
+      "original_sha256": "c7bb8c026935066c8d44879bfa788d9f846a0548bc132068952b6feb931b544d",
+      "public_sha256": "6f8b21181b75a2e4acc176b093a259995e32811cf45250068b2ebf050bf2a14e",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "docs/项目操作答疑.md",
+      "original_sha256": "0a887071f8ea936929b488e7b4d51bb0271fa08bd4cced38d519c17eaecea7ba",
+      "public_sha256": "048af6cff38cfaf957dcb7aebd6825633378d50b2235923771e2c66646824f5d",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "docs/验收与证据索引.md",
+      "original_sha256": "add69b470f892895cd2f7af32d2f872e86fb473fd8a5aef4555ce8de785feec3",
+      "public_sha256": "bf867b4574ee5683c81ebca6b9975c5822508cc98e1dfced4a83ec184b2e1bd0",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/.gitignore",
+      "original_sha256": "1af1b42822a8d5e15c46f015e32ca2940f05661435339a26d701d162b914a6ac",
+      "public_sha256": "1af1b42822a8d5e15c46f015e32ca2940f05661435339a26d701d162b914a6ac",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/app_heartbeat.c",
+      "original_sha256": "7822dac92916260274312c947642f32243e8848a6ff7ddaa2f5bfc9f8337d222",
+      "public_sha256": "7822dac92916260274312c947642f32243e8848a6ff7ddaa2f5bfc9f8337d222",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/app_heartbeat.h",
+      "original_sha256": "8c1434d940ad5221bf556221d87708578dabae99529448bdc9711ea1fea63ee2",
+      "public_sha256": "8c1434d940ad5221bf556221d87708578dabae99529448bdc9711ea1fea63ee2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/app_protocol.c",
+      "original_sha256": "f6630a38d0f446d003e6763efe8d44618868d4f79acdc16cdf19adc14e0097cf",
+      "public_sha256": "f6630a38d0f446d003e6763efe8d44618868d4f79acdc16cdf19adc14e0097cf",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/app_protocol.h",
+      "original_sha256": "42521ff45bcfc995bfe1dddbee2e07a9a54f70184abe648a0fef143f0941151d",
+      "public_sha256": "42521ff45bcfc995bfe1dddbee2e07a9a54f70184abe648a0fef143f0941151d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/HAL_INTEGRATION.md",
+      "original_sha256": "9d252278fa159146fa1daa323a2928cd138397ac34b0198ab018c00949acac79",
+      "public_sha256": "f208811250df16077a5ec972ce76ff60539f903739ddf4088c71f9c9df693674",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/led-baseline/BH-F103.uvprojx",
+      "original_sha256": "e54712258ca81b4405112c6bab07733ca7fb481be1774898b0db5895a80af821",
+      "public_sha256": "e54712258ca81b4405112c6bab07733ca7fb481be1774898b0db5895a80af821",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/build/artifact-sha256.json",
+      "original_sha256": "9bf04c75dc18d749d787fafaad28dc2860341ce4dab4bc2afa2342d0fc3143b2",
+      "public_sha256": "410a72cd543cb0756519ec17597edd6a198a70ec8a03f0d02d296bd8938d13a4",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/led-baseline/build/led.map",
+      "original_sha256": "c00c688ed906863b236e8be669c15f4d7dab12db00716af40a9ebf79e8719f2e",
+      "public_sha256": "c00c688ed906863b236e8be669c15f4d7dab12db00716af40a9ebf79e8719f2e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/build.ps1",
+      "original_sha256": "6a30f05188833d639260b4adb6f111b6ec3371e76400a635e7d78b5ca9ce92d7",
+      "public_sha256": "6a30f05188833d639260b4adb6f111b6ec3371e76400a635e7d78b5ca9ce92d7",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/led.sct",
+      "original_sha256": "22f4fc1c3216b7e0f02ed6c54ee47d8e17a54807a69ca55d0dbdf7e130bb1eee",
+      "public_sha256": "22f4fc1c3216b7e0f02ed6c54ee47d8e17a54807a69ca55d0dbdf7e130bb1eee",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/main.c",
+      "original_sha256": "e405acb4e40992bb103ee2b78e1d29bd9c4454b2e40bcdfe23551da0256a43f2",
+      "public_sha256": "e405acb4e40992bb103ee2b78e1d29bd9c4454b2e40bcdfe23551da0256a43f2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/README.md",
+      "original_sha256": "b5ae5176c218747c3c9a5d88fa12bc7d39ed607a7b8ec47a022124b5e4dd0647",
+      "public_sha256": "1c6d78e09eb02cda3dbe426688f3a972762ac2e8c31cbc2a486c99fc6b7e6b09",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/led-baseline/startup_stm32f10x_hd.s",
+      "original_sha256": "00b2d696852f030216daa1594a0501a51cba69a39b7d1e1f94c5dff1760ea973",
+      "public_sha256": "00b2d696852f030216daa1594a0501a51cba69a39b7d1e1f94c5dff1760ea973",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/stm32f10x.h",
+      "original_sha256": "4f1cde2384dbde66bd09935b610b5e28f296b5ff9959953127bb89500129c6a6",
+      "public_sha256": "4f1cde2384dbde66bd09935b610b5e28f296b5ff9959953127bb89500129c6a6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/led-baseline/UPSTREAM.json",
+      "original_sha256": "a0ac979edcaf03246e45e12c975d03384cac946b49f89c7680f2ac2360adb5eb",
+      "public_sha256": "a0ac979edcaf03246e45e12c975d03384cac946b49f89c7680f2ac2360adb5eb",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/Makefile",
+      "original_sha256": "6aa7ac0d6df7e57085a33e8a0cbc968325f4965aea2fe821e913c32e04f3a528",
+      "public_sha256": "6aa7ac0d6df7e57085a33e8a0cbc968325f4965aea2fe821e913c32e04f3a528",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/native_test.c",
+      "original_sha256": "6ffa1ccbce4462aa331935b11b97bd26a9f4ac15180841ee3cf0771335e843ea",
+      "public_sha256": "6ffa1ccbce4462aa331935b11b97bd26a9f4ac15180841ee3cf0771335e843ea",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/build/artifact-sha256.json",
+      "original_sha256": "3823a7467d6dbb52d9dd21f7900acc9557253e4cfdabef39daec8b05e5caca8e",
+      "public_sha256": "4938318a1bad587581da4aa211fe952f31938a7a773a925291c074158b54f31b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/stm32-can/build/canbench.map",
+      "original_sha256": "0f69765b57f251d05f54579d669ffab01328743e90c9554cc9d4fade0815ef48",
+      "public_sha256": "3fd884a035afb14cc8f77257944fcfa2a778deeb3137111e1a6513556f1a11b1",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/stm32-can/build/image-check.json",
+      "original_sha256": "9f6cf369aa4e15fc254180ca8d1a52984bac9c4e5f9e7dafd5ae0eb033d1dc21",
+      "public_sha256": "9f6cf369aa4e15fc254180ca8d1a52984bac9c4e5f9e7dafd5ae0eb033d1dc21",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/build.ps1",
+      "original_sha256": "0341a36ed3d6094b4904f6d9308c154d83b9e986fb851eca64e325654d777cf6",
+      "public_sha256": "0341a36ed3d6094b4904f6d9308c154d83b9e986fb851eca64e325654d777cf6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/can_app.c",
+      "original_sha256": "bee4bbb06161c1d806fbdcef679f858395465b5483d47e805003f49d79ca48aa",
+      "public_sha256": "bee4bbb06161c1d806fbdcef679f858395465b5483d47e805003f49d79ca48aa",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/can_app.h",
+      "original_sha256": "768f82fdd7bf11ba2f9c672f14d2f6ad5796ae0e5a045baf2e4f53668edcf9be",
+      "public_sha256": "768f82fdd7bf11ba2f9c672f14d2f6ad5796ae0e5a045baf2e4f53668edcf9be",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/canbench.sct",
+      "original_sha256": "22f4fc1c3216b7e0f02ed6c54ee47d8e17a54807a69ca55d0dbdf7e130bb1eee",
+      "public_sha256": "22f4fc1c3216b7e0f02ed6c54ee47d8e17a54807a69ca55d0dbdf7e130bb1eee",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/check_image.py",
+      "original_sha256": "a95d1ab9b5938af552eb6f67c8347efe044847294356fa6e702712fb72e5db72",
+      "public_sha256": "a95d1ab9b5938af552eb6f67c8347efe044847294356fa6e702712fb72e5db72",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/main.c",
+      "original_sha256": "1634c42eaea0022def7e6b22846fda8fbe4008454a720cc3f8e687b9a71a69c2",
+      "public_sha256": "1634c42eaea0022def7e6b22846fda8fbe4008454a720cc3f8e687b9a71a69c2",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/NOTICE.txt",
+      "original_sha256": "1c043a94d96a0512664de1a4107815f30809874a79f496969af715f4629c08b0",
+      "public_sha256": "1c043a94d96a0512664de1a4107815f30809874a79f496969af715f4629c08b0",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/README.md",
+      "original_sha256": "1461b4c98c7e43db0c25aa0a4f01be95b64efc626c48cb4f9382e08e2759fd28",
+      "public_sha256": "1461b4c98c7e43db0c25aa0a4f01be95b64efc626c48cb4f9382e08e2759fd28",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/stm32f1xx_hal_conf.h",
+      "original_sha256": "9b2cd3c3542bc19ed0ff7064312cf9b0c00db4f9f92b9fe485294fa80fe5f945",
+      "public_sha256": "9b2cd3c3542bc19ed0ff7064312cf9b0c00db4f9f92b9fe485294fa80fe5f945",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/test-host.ps1",
+      "original_sha256": "1e50097c9898d5f3aaf53883b086909fdaa39f0ff06a7cce0df2ef3dd98b2ec7",
+      "public_sha256": "ced3d432837b7c4232b1814525f51b512e23252526bf13556fa3920e334750ca",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "firmware/stm32-can/tests/stubs/stm32f1xx_hal.h",
+      "original_sha256": "7c95c014f2c64aa6d8a4c7ee8b1293b3c1ff3b2f0270ecb4d4a816db12ee49d3",
+      "public_sha256": "7c95c014f2c64aa6d8a4c7ee8b1293b3c1ff3b2f0270ecb4d4a816db12ee49d3",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/tests/test_can_app.c",
+      "original_sha256": "c557df04c6be12fa081160206bb5f8bf9984778b991ccfd148baa4f212f07eea",
+      "public_sha256": "c557df04c6be12fa081160206bb5f8bf9984778b991ccfd148baa4f212f07eea",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/UPSTREAM.json",
+      "original_sha256": "da6e7f2b8e73312cddc6168c1015e1c3d2790992cdbdc9443d91d87aeca64860",
+      "public_sha256": "da6e7f2b8e73312cddc6168c1015e1c3d2790992cdbdc9443d91d87aeca64860",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h",
+      "original_sha256": "66bab4d3d39120ba0e23bbecae1c2112d1905c4259bc767c8c10c62e0b2dab90",
+      "public_sha256": "66bab4d3d39120ba0e23bbecae1c2112d1905c4259bc767c8c10c62e0b2dab90",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+      "original_sha256": "a68d2b0be3962c991ce43ecbda6c637ca887f891b1db0496641b1983b3cd65c3",
+      "public_sha256": "a68d2b0be3962c991ce43ecbda6c637ca887f891b1db0496641b1983b3cd65c3",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+      "original_sha256": "462966f1212ba23aaff7c68e403128d69fab6dc80b1a113ee6381148bda5d237",
+      "public_sha256": "462966f1212ba23aaff7c68e403128d69fab6dc80b1a113ee6381148bda5d237",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xe.s",
+      "original_sha256": "dcd6f1af809e2949a305226b99420ba8a01a5e9a4e31bbf9fc5b6a3131bce4f6",
+      "public_sha256": "dcd6f1af809e2949a305226b99420ba8a01a5e9a4e31bbf9fc5b6a3131bce4f6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/cmsis_armcc.h",
+      "original_sha256": "9f1711b4c540a294c6ed57da21b6fca9eba032022899e1588c4ba3d3ac4105fb",
+      "public_sha256": "9f1711b4c540a294c6ed57da21b6fca9eba032022899e1588c4ba3d3ac4105fb",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/cmsis_armcc_V6.h",
+      "original_sha256": "3e025edb744f0ca79e19afc91c4de43f2b417de58f374548738463b56d1964df",
+      "public_sha256": "3e025edb744f0ca79e19afc91c4de43f2b417de58f374548738463b56d1964df",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/cmsis_gcc.h",
+      "original_sha256": "6c7e75d09887cb3035f18bc6f4fdbd7392a50379cd556315deb3bcb762d99078",
+      "public_sha256": "6c7e75d09887cb3035f18bc6f4fdbd7392a50379cd556315deb3bcb762d99078",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cm3.h",
+      "original_sha256": "03a80f17ff18c5d0e3b234009f98698cd402b8ea972df687a6cfafd8b8a78654",
+      "public_sha256": "03a80f17ff18c5d0e3b234009f98698cd402b8ea972df687a6cfafd8b8a78654",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cmFunc.h",
+      "original_sha256": "1fdd226d82bde2a90231ba47a59377158b8907e4cada2a6215f32dcf13ab35cd",
+      "public_sha256": "1fdd226d82bde2a90231ba47a59377158b8907e4cada2a6215f32dcf13ab35cd",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cmInstr.h",
+      "original_sha256": "c9b8e36d05097da5d493f197aa7f81ce517f4532536925b568ccbd6e2c01eb8a",
+      "public_sha256": "c9b8e36d05097da5d493f197aa7f81ce517f4532536925b568ccbd6e2c01eb8a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cmSimd.h",
+      "original_sha256": "5d338d36730ccbd138126078e17f69c308a015f0a88d85bd639af072e527d53d",
+      "public_sha256": "5d338d36730ccbd138126078e17f69c308a015f0a88d85bd639af072e527d53d",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+      "original_sha256": "da9899c5f08c2ce8d34b45e7aaf2f90f99c4acc6a97478a55c34a4ccfed7dd4b",
+      "public_sha256": "da9899c5f08c2ce8d34b45e7aaf2f90f99c4acc6a97478a55c34a4ccfed7dd4b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h",
+      "original_sha256": "b012760ff81355bf251f0ccdca9c79908e741e255258f8d970acd316bc43079f",
+      "public_sha256": "b012760ff81355bf251f0ccdca9c79908e741e255258f8d970acd316bc43079f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h",
+      "original_sha256": "f1335e22de2a0f3a89e8cbe52e5b22e80656806970b9aed45d4012b94831d6ad",
+      "public_sha256": "f1335e22de2a0f3a89e8cbe52e5b22e80656806970b9aed45d4012b94831d6ad",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+      "original_sha256": "58a018d894ffa80c12236b6ea1d1adeaba61c7fd05deef4b0658d1e9cc50c251",
+      "public_sha256": "58a018d894ffa80c12236b6ea1d1adeaba61c7fd05deef4b0658d1e9cc50c251",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+      "original_sha256": "d561416fcd0e65d4ec43a4a06dc8c41e6bed7691446b884b652ca7b5afd0ea6b",
+      "public_sha256": "d561416fcd0e65d4ec43a4a06dc8c41e6bed7691446b884b652ca7b5afd0ea6b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+      "original_sha256": "cdd29db5e7c9c169fdde58952072f3fa0466d87dbd5bdc3c8c5e94cd8833fc62",
+      "public_sha256": "cdd29db5e7c9c169fdde58952072f3fa0466d87dbd5bdc3c8c5e94cd8833fc62",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+      "original_sha256": "8ba0aa328561e81f7551c3e3e237bc456c0f8ab9c71f4568740ce667b8088669",
+      "public_sha256": "8ba0aa328561e81f7551c3e3e237bc456c0f8ab9c71f4568740ce667b8088669",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+      "original_sha256": "6ac752a39d19b5ab29915dc4e00c6c377556b2bf8f26b36cab2d483286dc3613",
+      "public_sha256": "6ac752a39d19b5ab29915dc4e00c6c377556b2bf8f26b36cab2d483286dc3613",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+      "original_sha256": "2a5f0d7c0184d0b8659677a9b46448c48338724288121e45d0f04023c34638e8",
+      "public_sha256": "2a5f0d7c0184d0b8659677a9b46448c48338724288121e45d0f04023c34638e8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+      "original_sha256": "c1f2f50394f33bb20ca571506ef20c6b20cd04a548e762ee155d310687e9ec56",
+      "public_sha256": "c1f2f50394f33bb20ca571506ef20c6b20cd04a548e762ee155d310687e9ec56",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+      "original_sha256": "7d40c8b302ba4caa1b4f1808e08509a4ea08853f25c38a0396c94dd5c3613652",
+      "public_sha256": "7d40c8b302ba4caa1b4f1808e08509a4ea08853f25c38a0396c94dd5c3613652",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+      "original_sha256": "cf243764068fd589945e0840c1f918fa2b269306c1a3045f113a22e01851137e",
+      "public_sha256": "cf243764068fd589945e0840c1f918fa2b269306c1a3045f113a22e01851137e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+      "original_sha256": "ac13890dd1fa03834c5cd5e92b1a3ec6a91da656cfb648e1ea296db4909cab27",
+      "public_sha256": "ac13890dd1fa03834c5cd5e92b1a3ec6a91da656cfb648e1ea296db4909cab27",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+      "original_sha256": "ab3bfa1f1acd4dafa367fccce93dd3579ccdff1382339668aec061ebfaa35697",
+      "public_sha256": "ab3bfa1f1acd4dafa367fccce93dd3579ccdff1382339668aec061ebfaa35697",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+      "original_sha256": "c71091bd92a484b4379d9b7982a635caa013d9a21bff36478a16b57c43712aa8",
+      "public_sha256": "c71091bd92a484b4379d9b7982a635caa013d9a21bff36478a16b57c43712aa8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c",
+      "original_sha256": "fb74d315c1460acb588167fbae6a27c5c92435e34fb9b44dda64a3d5aed945a1",
+      "public_sha256": "fb74d315c1460acb588167fbae6a27c5c92435e34fb9b44dda64a3d5aed945a1",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+      "original_sha256": "b42c4465a617f3fab532343b3c493e9c92b9c9901897d9dbb4555d7629be8502",
+      "public_sha256": "b42c4465a617f3fab532343b3c493e9c92b9c9901897d9dbb4555d7629be8502",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+      "original_sha256": "aadc59f63e8308230274b19fae1a672badc007d23a453d502f6e2ff3cb1f9d8f",
+      "public_sha256": "aadc59f63e8308230274b19fae1a672badc007d23a453d502f6e2ff3cb1f9d8f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+      "original_sha256": "8dc2dd3f7aef7e0b28400f2af00793f59f196e93206608693d349d403aa39cbc",
+      "public_sha256": "8dc2dd3f7aef7e0b28400f2af00793f59f196e93206608693d349d403aa39cbc",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+      "original_sha256": "5fbd7c0f92be9cc4f2d192060b2a69246f07f4e093aff86b5e43a1e2456b4ab3",
+      "public_sha256": "5fbd7c0f92be9cc4f2d192060b2a69246f07f4e093aff86b5e43a1e2456b4ab3",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+      "original_sha256": "5ddb8faa5b1131a9145fcfd349741a4bf913064457654fb345e75e7ca5c758c6",
+      "public_sha256": "5ddb8faa5b1131a9145fcfd349741a4bf913064457654fb345e75e7ca5c758c6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+      "original_sha256": "aa42cbf0d5057656578cb05495186b79260e59972570a94bacd30fda22ea8e2b",
+      "public_sha256": "aa42cbf0d5057656578cb05495186b79260e59972570a94bacd30fda22ea8e2b",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+      "original_sha256": "0e3974b9f9607be328db7d73296bb3345d144ca5a552f3cc99b1e996934301fa",
+      "public_sha256": "0e3974b9f9607be328db7d73296bb3345d144ca5a552f3cc99b1e996934301fa",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+      "original_sha256": "7fc219c8b90a82c4f972da7f0adfe6b2c8bebd6562978d3affb1d05dff142127",
+      "public_sha256": "7fc219c8b90a82c4f972da7f0adfe6b2c8bebd6562978d3affb1d05dff142127",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+      "original_sha256": "811a2abc46b40917976788ba7a4e6d69c362046270f1f7be3d425af1ebb3d8af",
+      "public_sha256": "811a2abc46b40917976788ba7a4e6d69c362046270f1f7be3d425af1ebb3d8af",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Project/Fire_F103ZE.uvprojx",
+      "original_sha256": "8c80195a7f6dc23b5495374aded8c7dedfb09f698c558cd72a7879ca25749b58",
+      "public_sha256": "8c80195a7f6dc23b5495374aded8c7dedfb09f698c558cd72a7879ca25749b58",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/can/bsp_can.c",
+      "original_sha256": "35aef242ba38f67cf95ed89a55a30f7f3651a502a14401c4820d51ebfd538f97",
+      "public_sha256": "35aef242ba38f67cf95ed89a55a30f7f3651a502a14401c4820d51ebfd538f97",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/can/bsp_can.h",
+      "original_sha256": "82118238cd73a57027f004eee737cd99cbc118f15a65d444ef670bd7da211865",
+      "public_sha256": "82118238cd73a57027f004eee737cd99cbc118f15a65d444ef670bd7da211865",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/key/bsp_key.c",
+      "original_sha256": "a1403c86751c345254dd3261c7ba72415b5302b2738cfdab8d3e04dfda6ca189",
+      "public_sha256": "a1403c86751c345254dd3261c7ba72415b5302b2738cfdab8d3e04dfda6ca189",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/key/bsp_key.h",
+      "original_sha256": "4c5f2c2539405e1949f4ab853007ea6341705caf68af2f39ab54b7cb69972229",
+      "public_sha256": "4c5f2c2539405e1949f4ab853007ea6341705caf68af2f39ab54b7cb69972229",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/led/bsp_led.c",
+      "original_sha256": "7a61a511066950ca6450aab857fee15070d470ee1efa7df40c4dc6452d513169",
+      "public_sha256": "7a61a511066950ca6450aab857fee15070d470ee1efa7df40c4dc6452d513169",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/led/bsp_led.h",
+      "original_sha256": "366724f0164d2d606bc37187e41bfe1b560c6a993a720daba959a80dc889a7b6",
+      "public_sha256": "366724f0164d2d606bc37187e41bfe1b560c6a993a720daba959a80dc889a7b6",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/main.c",
+      "original_sha256": "ff5abfdc94e7b27d2e34f9d03384a68ab8211bb462844718a28183baa513a2ac",
+      "public_sha256": "ff5abfdc94e7b27d2e34f9d03384a68ab8211bb462844718a28183baa513a2ac",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/main.h",
+      "original_sha256": "a73e841142610c577efe336959f3de862d882f2c01209bee4074452ce3d95428",
+      "public_sha256": "a73e841142610c577efe336959f3de862d882f2c01209bee4074452ce3d95428",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/stm32f1xx_hal_conf.h",
+      "original_sha256": "7c39872e8aee0fbae91b45813200cc8906d628245df6a0c4fc264d320ec80110",
+      "public_sha256": "7c39872e8aee0fbae91b45813200cc8906d628245df6a0c4fc264d320ec80110",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/stm32f1xx_it.c",
+      "original_sha256": "792c15f8eaa44ca83267b53343898b94b680bc02739b210d153e1f0506ec4a82",
+      "public_sha256": "792c15f8eaa44ca83267b53343898b94b680bc02739b210d153e1f0506ec4a82",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/stm32f1xx_it.h",
+      "original_sha256": "6382b65736f909d421a1b6c594f1b0122285f1abb5b490338b1db662ed10557a",
+      "public_sha256": "6382b65736f909d421a1b6c594f1b0122285f1abb5b490338b1db662ed10557a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/system_stm32f1xx.c",
+      "original_sha256": "bd512da6eb9ac6cf91248b5b64a04b66917e89b37684341758c8f26b8ec64a06",
+      "public_sha256": "bd512da6eb9ac6cf91248b5b64a04b66917e89b37684341758c8f26b8ec64a06",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/usart/bsp_debug_usart.c",
+      "original_sha256": "3de8be7ef28f6e590ea8f014a46cdb8a727cb8b445d8cf1d3aa17887c5d134e1",
+      "public_sha256": "3de8be7ef28f6e590ea8f014a46cdb8a727cb8b445d8cf1d3aa17887c5d134e1",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/usart/bsp_debug_usart.h",
+      "original_sha256": "bc4d33eb2f4501c11667cdc53d17fa7e4bb4a43cb35161b7857a61cf54a50541",
+      "public_sha256": "bc4d33eb2f4501c11667cdc53d17fa7e4bb4a43cb35161b7857a61cf54a50541",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "PROJECT.md",
+      "original_sha256": "a9378e2999fec4013f3e6a7750781d4d28dd3f8729ff45cbdef6ca082bfa50bf",
+      "public_sha256": "250a3c9122296c4c76c8269a00fc3d955e1f3e53e95ad8914bb0b13e56ba41de",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "d702707ab5c849564b61bd01d558480be17b878064cf2d11f852bbaeb5812a35",
+      "public_sha256": "a506f9364595a709dc8c24825231982a4dae696137e8005ff5078e78e294d9cf",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "tests/continuous.pro",
+      "original_sha256": "1eacb82ba90b035f67f50c47ff1aa1bb4f592f0644cb30f36c90276c93403af7",
+      "public_sha256": "1eacb82ba90b035f67f50c47ff1aa1bb4f592f0644cb30f36c90276c93403af7",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/gui.pro",
+      "original_sha256": "dfc32bcac3a388e7c6f4e8d5dfb90bdb1cbd0f0f6cb56f3e58d5d6e0d2ad9c55",
+      "public_sha256": "dfc32bcac3a388e7c6f4e8d5dfb90bdb1cbd0f0f6cb56f3e58d5d6e0d2ad9c55",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/identity.pro",
+      "original_sha256": "90fd53306255123f49ba2504ab1de0e8b2abbab114828a5f16e32ba8d29289af",
+      "public_sha256": "90fd53306255123f49ba2504ab1de0e8b2abbab114828a5f16e32ba8d29289af",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/normal.pro",
+      "original_sha256": "d6933fcb74b112963cca691625567fda59fd73c10404acebb643ca21df21dd85",
+      "public_sha256": "d6933fcb74b112963cca691625567fda59fd73c10404acebb643ca21df21dd85",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/physical_continuous.pro",
+      "original_sha256": "040a0ba1cbb139e9419934a9651479849b8f3f7674abd59574a25a2e5815d036",
+      "public_sha256": "040a0ba1cbb139e9419934a9651479849b8f3f7674abd59574a25a2e5815d036",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/physical_normal.pro",
+      "original_sha256": "d25af8977cc3523633c07f4c3037b1c208b781a867ab0d2e4c10678e9fefa19a",
+      "public_sha256": "d25af8977cc3523633c07f4c3037b1c208b781a867ab0d2e4c10678e9fefa19a",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/physical_recovery.pro",
+      "original_sha256": "feed4e275da20e32470d5f25dab66e91254017a190071c7660d0803b010485aa",
+      "public_sha256": "feed4e275da20e32470d5f25dab66e91254017a190071c7660d0803b010485aa",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/physical_usb_recovery.pro",
+      "original_sha256": "29699851a1976b4224fa689bc847ab7cfac18b5bbdf4fa8b2c270431a632ea58",
+      "public_sha256": "29699851a1976b4224fa689bc847ab7cfac18b5bbdf4fa8b2c270431a632ea58",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/recovery.pro",
+      "original_sha256": "c7c639685a317b4b9e489fe1133b61c13b3a5b01dffbb4b24e579cb4b39bfe68",
+      "public_sha256": "c7c639685a317b4b9e489fe1133b61c13b3a5b01dffbb4b24e579cb4b39bfe68",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/run_acceptance.py",
+      "original_sha256": "5d9024a255ffdaddb222a3e6ba064f4aea62ddb6e86c25ab8aa3490ef03ea893",
+      "public_sha256": "5d9024a255ffdaddb222a3e6ba064f4aea62ddb6e86c25ab8aa3490ef03ea893",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_continuousrun.cpp",
+      "original_sha256": "4799844d363fdb43690e6fb440f960204d113ced89a45864b86fffa7f75f9d1e",
+      "public_sha256": "4799844d363fdb43690e6fb440f960204d113ced89a45864b86fffa7f75f9d1e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_engine.cpp",
+      "original_sha256": "1fef26b455e7b4e468e9463270684c0684101deaf5d0d6e91f14dd588607c5b1",
+      "public_sha256": "1fef26b455e7b4e468e9463270684c0684101deaf5d0d6e91f14dd588607c5b1",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_gui.cpp",
+      "original_sha256": "fc482f4ac11c95df85a320eb352770e899294de7b18f530358a6280fde36bee8",
+      "public_sha256": "fc482f4ac11c95df85a320eb352770e899294de7b18f530358a6280fde36bee8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_normalrun.cpp",
+      "original_sha256": "51b076351d3acdf9a86266befe796b3ee2e557001602f5d69fdf6501488d177f",
+      "public_sha256": "51b076351d3acdf9a86266befe796b3ee2e557001602f5d69fdf6501488d177f",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_physical_continuous.cpp",
+      "original_sha256": "497bfa56de71b5d9a2dd46a1596f7e6057a01d62ffa160e42ad833c7af54c957",
+      "public_sha256": "497bfa56de71b5d9a2dd46a1596f7e6057a01d62ffa160e42ad833c7af54c957",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_physical_normal.cpp",
+      "original_sha256": "a256e58834409fd88f18ce9ddf6d11aa93eebe68e2a3e77fcdf0daf8afe06a14",
+      "public_sha256": "a256e58834409fd88f18ce9ddf6d11aa93eebe68e2a3e77fcdf0daf8afe06a14",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_physical_recovery.cpp",
+      "original_sha256": "4a459b6ea3b6ec01a500ded1fed9d65026ea2059d14f8e6c9e1327eb569bc2ac",
+      "public_sha256": "4a459b6ea3b6ec01a500ded1fed9d65026ea2059d14f8e6c9e1327eb569bc2ac",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_physical_usb_recovery.cpp",
+      "original_sha256": "f556c469ffe21cc7a2cc2fadfebeb4e1549dbbb59ae6384594db0f2877e4cb31",
+      "public_sha256": "f556c469ffe21cc7a2cc2fadfebeb4e1549dbbb59ae6384594db0f2877e4cb31",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_recoveryrun.cpp",
+      "original_sha256": "de0c675cd4506dd0e8f13184baed519ee7d0f5ddf37572d720e62f968caa2f71",
+      "public_sha256": "de0c675cd4506dd0e8f13184baed519ee7d0f5ddf37572d720e62f968caa2f71",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/test_socketcanidentity.cpp",
+      "original_sha256": "1405c41ab90935ce100d9e412476af6caab9b3ef4fd167efac53bed8966df29c",
+      "public_sha256": "1405c41ab90935ce100d9e412476af6caab9b3ef4fd167efac53bed8966df29c",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tests/tests.pro",
+      "original_sha256": "985a7dee8052f5fb907516e769157e8c28797272a29e505bfd0432cf1fc15bf9",
+      "public_sha256": "985a7dee8052f5fb907516e769157e8c28797272a29e505bfd0432cf1fc15bf9",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/backup_stm32_flash.py",
+      "original_sha256": "4d2643b654582dedd8a65e9012ee64ec7bca50944f2f617f7ae00147dde07458",
+      "public_sha256": "06c6d2bbbe4e13cbe32a10e1704943e28697f6afc14ea031f8ba4fa602d6e75b",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "tools/build.sh",
+      "original_sha256": "4dabb20f7e6608cd63130eccea7e08e434ca6b2b0e9be84722f6dd333b97285e",
+      "public_sha256": "4dabb20f7e6608cd63130eccea7e08e434ca6b2b0e9be84722f6dd333b97285e",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/check_gui.sh",
+      "original_sha256": "ae443d8a19c9d48f30a0a66c95a520c823704a3e281c6c8936c36f4c870b4492",
+      "public_sha256": "ae443d8a19c9d48f30a0a66c95a520c823704a3e281c6c8936c36f4c870b4492",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/exercise_node_recovery.py",
+      "original_sha256": "5fd876a5609366aa483eb693ca83c60836d382f5dcdb6b34e44ab2e968e80b02",
+      "public_sha256": "5fd876a5609366aa483eb693ca83c60836d382f5dcdb6b34e44ab2e968e80b02",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/program_can_baseline.py",
+      "original_sha256": "dc5551e125e519989596b71e551bed5b0f219820384ee510984610549681ded4",
+      "public_sha256": "dc5551e125e519989596b71e551bed5b0f219820384ee510984610549681ded4",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/program_led_baseline.py",
+      "original_sha256": "3e999c93b519dce2684b473107210783f6cfef672491d76305c78150f1b4d8c8",
+      "public_sha256": "3e999c93b519dce2684b473107210783f6cfef672491d76305c78150f1b4d8c8",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/requirements-probe.txt",
+      "original_sha256": "ab249bcae1953a61b4ac32da2907a992769cf3ebb8847aedfe95e15b4ea726f8",
+      "public_sha256": "dcbfb27ae9c7ef3bc9f7e382bb943117bddebbe10290b4b2b1ea02a2eb49d673",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "tools/restore_can0.sh",
+      "original_sha256": "d3b6b1129394fbbbaa249763559675532a8a4b32d1c9b1bd3c340290d2ca874a",
+      "public_sha256": "8b29c12fc3e8b632e5e0e201e510a71210493ec1ff1a13b1135bd6f60a9c7d28",
+      "transformation": "Public copy: sanitized metadata and/or explanatory documentation; see source-check for tool settings. Historical numerical evidence retained."
+    },
+    {
+      "path": "tools/run_demo.py",
+      "original_sha256": "52c09d4c70f48d86773fe83d7611ed41c4f92561af6fdf83ec28136c358b0722",
+      "public_sha256": "52c09d4c70f48d86773fe83d7611ed41c4f92561af6fdf83ec28136c358b0722",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/sim_node.py",
+      "original_sha256": "64ca9f3d58f6350532a99f1ea21292fc9ba1efb1d730bf3473044830125a4000",
+      "public_sha256": "64ca9f3d58f6350532a99f1ea21292fc9ba1efb1d730bf3473044830125a4000",
+      "transformation": "byte-identical"
+    },
+    {
+      "path": "tools/verify_can_runtime.py",
+      "original_sha256": "329096a1375fd0e8d074a3a62550c1591622f0e9d3874baefb5f2828237ffa4b",
+      "public_sha256": "329096a1375fd0e8d074a3a62550c1591622f0e9d3874baefb5f2828237ffa4b",
+      "transformation": "byte-identical"
+    }
+  ],
+  "excluded": [
+    "artifacts/can-flash-2026-09-25/application-sectors.bin",
+    "artifacts/can-flash-2026-09-25/flash-after.bin",
+    "artifacts/can-flash-2026-09-25/option-bytes-before.bin",
+    "artifacts/can-flash-2026-09-25/original-flash.bin",
+    "artifacts/can-flash-2026-09-25/program-script-used.py",
+    "artifacts/continuous-run-2026-09-25/source-before/app/can.pro",
+    "artifacts/continuous-run-2026-09-25/source-before/app/mainwindow.cpp",
+    "artifacts/continuous-run-2026-09-25/source-before/app/mainwindow.h",
+    "artifacts/continuous-run-2026-09-25/source-before/tests/gui.pro",
+    "artifacts/continuous-run-2026-09-25/source-before/tools/build.sh",
+    "artifacts/documentation-review-2026-09-25/before-documents.zip",
+    "artifacts/documentation-review-2026-09-25/before-manifest.json",
+    "artifacts/documentation-review-2026-09-25/coverage.md",
+    "artifacts/documentation-review-2026-09-25/external-manifest.json",
+    "artifacts/documentation-review-2026-09-25/README.md",
+    "artifacts/documentation-review-2026-09-25/validation.json",
+    "artifacts/identity-fix-2026-09-25/can-diagnostic-bench-before-fix",
+    "artifacts/led-flash-2026-09-24/flash-after.bin",
+    "artifacts/led-flash-2026-09-24/option-bytes-before.bin",
+    "artifacts/led-flash-2026-09-24/original-flash.bin",
+    "artifacts/led-flash-2026-09-24/page0-after-failed-algorithm.bin",
+    "artifacts/led-flash-2026-09-24/page0-with-led.bin",
+    "artifacts/normal-run-2026-09-25/source-before/app/can.pro",
+    "artifacts/normal-run-2026-09-25/source-before/app/mainwindow.cpp",
+    "artifacts/normal-run-2026-09-25/source-before/app/mainwindow.h",
+    "artifacts/normal-run-2026-09-25/source-before/tests/gui.pro",
+    "artifacts/normal-run-2026-09-25/source-before/tools/build.sh",
+    "artifacts/normal-run-2026-09-25/user-check/read_board_state.py",
+    "artifacts/recovery-run-2026-09-25/can-diagnostic-bench-before-recovery",
+    "artifacts/recovery-run-2026-09-25/source-before/app/can.pro",
+    "artifacts/recovery-run-2026-09-25/source-before/app/mainwindow.cpp",
+    "artifacts/recovery-run-2026-09-25/source-before/app/mainwindow.h",
+    "artifacts/recovery-run-2026-09-25/source-before/tests/gui.pro",
+    "artifacts/recovery-run-2026-09-25/source-before/tools/build.sh",
+    "docs/项目操作答疑_历史记录_2026-09-25.md",
+    "firmware/led-baseline/build/led.axf",
+    "firmware/led-baseline/build/led.bin",
+    "firmware/led-baseline/build/led.hex",
+    "firmware/led-baseline/build/main.o",
+    "firmware/led-baseline/build/startup.o",
+    "firmware/stm32-can/build/app_heartbeat.o",
+    "firmware/stm32-can/build/app_protocol.o",
+    "firmware/stm32-can/build/can_app.o",
+    "firmware/stm32-can/build/canbench.axf",
+    "firmware/stm32-can/build/canbench.bin",
+    "firmware/stm32-can/build/canbench.hex",
+    "firmware/stm32-can/build/main.o",
+    "firmware/stm32-can/build/startup.o",
+    "firmware/stm32-can/build/stm32f1xx_hal.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_can.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_cortex.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_dma.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_flash.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_flash_ex.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_gpio.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_gpio_ex.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_pwr.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_rcc.o",
+    "firmware/stm32-can/build/stm32f1xx_hal_rcc_ex.o",
+    "firmware/stm32-can/build/system_stm32f1xx.o",
+    "firmware/stm32-can/build/test_can_app.exe",
+    "firmware/stm32-can/build/test_protocol.exe",
+    "HANDOFF.md",
+    "tests/__pycache__/run_acceptance.cpython-311.pyc",
+    "tools/__pycache__/backup_stm32_flash.cpython-311.pyc",
+    "tools/__pycache__/program_can_baseline.cpython-311.pyc",
+    "tools/__pycache__/program_led_baseline.cpython-311.pyc",
+    "tools/__pycache__/sim_node.cpython-311.pyc"
+  ],
+  "excluded_environment_note": "Entire .venv-pyocd excluded; per-package file list intentionally omitted."
+}

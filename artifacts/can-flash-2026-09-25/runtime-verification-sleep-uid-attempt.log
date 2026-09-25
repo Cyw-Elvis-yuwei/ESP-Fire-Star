@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "$LOCAL_PROJECT\tools\verify_can_runtime.py", line 63, in <module>
+    main()
+  File "$LOCAL_PROJECT\tools\verify_can_runtime.py", line 36, in main
+    raise RuntimeError('Chip identity differs')
+RuntimeError: Chip identity differs

@@ -1,0 +1,9 @@
+QT += core testlib serialbus
+QT -= gui
+CONFIG += console testcase c++11
+CONFIG -= app_bundle
+TEMPLATE = app
+TARGET = canbench-tests
+INCLUDEPATH += ../core
+SOURCES += test_engine.cpp ../core/diagnosticengine.cpp
+HEADERS += ../core/diagnosticengine.h

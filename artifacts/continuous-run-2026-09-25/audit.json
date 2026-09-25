@@ -1,0 +1,27 @@
+{
+  "physical_can": true,
+  "interface": "can0",
+  "samples": 574,
+  "first_sequence": 8,
+  "last_sequence": 581,
+  "independent_raw_pair_matching": true,
+  "queries_only": true,
+  "all_reported_led_off": true,
+  "duration_ms": 60008,
+  "success_rate_percent": 100,
+  "latency_ms": {
+    "count": 574,
+    "max": 13,
+    "mean": 4.494773519163763,
+    "min": 1,
+    "p95": 13
+  },
+  "heartbeat_timeouts_delta": 0,
+  "transport_errors_delta": 0,
+  "log_errors_delta": 0,
+  "ui_timer_ticks": 600,
+  "offscreen_size_hint_warning_lines": 853,
+  "report_sha256": "5fd89be43898c5f3b6d39f52b75acd1c2b5e614de6d03bd495722255b8b39910",
+  "frames_sha256": "298aa9ddeafa54faee60a134956c1f0bccf7045c27f5f11271f844be91ea741f",
+  "user_clicked_new_continuous_button": false
+}

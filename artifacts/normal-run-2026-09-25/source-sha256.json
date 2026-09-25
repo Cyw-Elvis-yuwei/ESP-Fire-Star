@@ -1,0 +1,13 @@
+{
+  "app/mainwindow.cpp": "a9a1d449e19ed85866a2be8c9eb8e439bc06c0361815ec710c73c2fcca19d786",
+  "app/mainwindow.h": "b103a483218631cf992e2b57d741afea7d0442d62ad863a41c959455b4cf4963",
+  "app/can.pro": "f0a37ee1e59a781d66f7bcb69690d2d5489db9b4165a1d2d974b8434915ad783",
+  "tests/gui.pro": "1caa53284828f184177acfd95b66361f3b73441cba032436905057d3ff82922b",
+  "tools/build.sh": "cf1251a453a39d67ca17e4c53ca63e91830300c1ab11f8c94bdff36f64d919d1",
+  "core/normalrun.cpp": "893147af8d2f146264eb0d9fc1c59853ade27ad98272649c785f07251467e94f",
+  "core/normalrun.h": "f24bd38eecd3bfbc3f3b2c53f23649ad35739db2f7fc8de7ea3f41cdb3f23e8f",
+  "tests/normal.pro": "d6933fcb74b112963cca691625567fda59fd73c10404acebb643ca21df21dd85",
+  "tests/test_normalrun.cpp": "51b076351d3acdf9a86266befe796b3ee2e557001602f5d69fdf6501488d177f",
+  "tests/physical_normal.pro": "d25af8977cc3523633c07f4c3037b1c208b781a867ab0d2e4c10678e9fefa19a",
+  "tests/test_physical_normal.cpp": "a256e58834409fd88f18ce9ddf6d11aa93eebe68e2a3e77fcdf0daf8afe06a14"
+}

@@ -1,0 +1,29 @@
+{
+  "commit": "6afb695f68d33c2a4e84b1cc1147fd8a422912f6",
+  "files": [
+    {
+      "file": "BH-F103.uvprojx",
+      "source_url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/7-%E4%BD%BF%E7%94%A8%E5%AF%84%E5%AD%98%E5%99%A8%E7%82%B9%E4%BA%AELED%E7%81%AF/BH-F103.uvprojx",
+      "sha256": "e54712258ca81b4405112c6bab07733ca7fb481be1774898b0db5895a80af821",
+      "bytes": 14313
+    },
+    {
+      "file": "main.c",
+      "source_url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/7-%E4%BD%BF%E7%94%A8%E5%AF%84%E5%AD%98%E5%99%A8%E7%82%B9%E4%BA%AELED%E7%81%AF/main.c",
+      "sha256": "e405acb4e40992bb103ee2b78e1d29bd9c4454b2e40bcdfe23551da0256a43f2",
+      "bytes": 480
+    },
+    {
+      "file": "stm32f10x.h",
+      "source_url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/7-%E4%BD%BF%E7%94%A8%E5%AF%84%E5%AD%98%E5%99%A8%E7%82%B9%E4%BA%AELED%E7%81%AF/stm32f10x.h",
+      "sha256": "4f1cde2384dbde66bd09935b610b5e28f296b5ff9959953127bb89500129c6a6",
+      "bytes": 936
+    },
+    {
+      "file": "startup_stm32f10x_hd.s",
+      "source_url": "https://raw.githubusercontent.com/Embedfire-stm32f103-badao/ebf_stm32f103_badao_hal_code/6afb695f68d33c2a4e84b1cc1147fd8a422912f6/7-%E4%BD%BF%E7%94%A8%E5%AF%84%E5%AD%98%E5%99%A8%E7%82%B9%E4%BA%AELED%E7%81%AF/startup_stm32f10x_hd.s",
+      "sha256": "00b2d696852f030216daa1594a0501a51cba69a39b7d1e1f94c5dff1760ea973",
+      "bytes": 15145
+    }
+  ]
+}

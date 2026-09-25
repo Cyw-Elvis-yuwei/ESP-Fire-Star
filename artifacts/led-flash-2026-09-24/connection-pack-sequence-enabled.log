@@ -1,0 +1,3 @@
+Setting SWD clock to 100 kHz
+e0042000:  10036414                               |..d.|
+1ffff7e0:  0200                                       |..|

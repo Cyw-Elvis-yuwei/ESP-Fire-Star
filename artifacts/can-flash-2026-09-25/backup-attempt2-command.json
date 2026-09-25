@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-25T17:52:40.870330+08:00",
+  "command": [
+    "C:\\Users\\PUBLIC_USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "tools/backup_stm32_flash.py",
+    "--output",
+    "$LOCAL_PROJECT\\artifacts\\can-flash-2026-09-25",
+    "--limit-packets"
+  ],
+  "timeout_seconds": 120,
+  "exit_code": 0,
+  "elapsed_seconds": 89.08
+}

@@ -1,0 +1,27 @@
+build*/
+**/build/
+.venv*/
+__pycache__/
+*.pyc
+*.o
+*.axf
+*.exe
+*.uvguix.*
+*.uvoptx
+# Personal device backup/working data must never be published.
+private/
+.env
+*.pem
+*.key
+**/original-flash.bin
+**/flash-after.bin
+**/option-bytes-before.bin
+# Evidence metadata is intentionally retained; binaries are release assets.
+!firmware/stm32-can/build/
+firmware/stm32-can/build/*
+!firmware/stm32-can/build/*.json
+!firmware/stm32-can/build/*.map
+!firmware/led-baseline/build/
+firmware/led-baseline/build/*
+!firmware/led-baseline/build/*.json
+!firmware/led-baseline/build/*.map

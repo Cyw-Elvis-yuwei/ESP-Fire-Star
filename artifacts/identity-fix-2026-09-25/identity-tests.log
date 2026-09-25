@@ -1,0 +1,19 @@
+********* Start testing of IdentityTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : IdentityTest::initTestCase()
+PASS   : IdentityTest::classify(slcan-no-kind)
+PASS   : IdentityTest::classify(physical-can)
+PASS   : IdentityTest::classify(explicit-slcan)
+PASS   : IdentityTest::classify(vcan-renamed-can0)
+PASS   : IdentityTest::classify(vxcan)
+PASS   : IdentityTest::classify(ethernet)
+PASS   : IdentityTest::classify(wrong-name)
+PASS   : IdentityTest::classify(unknown-kind)
+PASS   : IdentityTest::classify(missing-type)
+PASS   : IdentityTest::classify(empty)
+PASS   : IdentityTest::classify(multiple)
+PASS   : IdentityTest::classify(malformed)
+PASS   : IdentityTest::actualInterfaceWhenRequested()
+PASS   : IdentityTest::cleanupTestCase()
+Totals: 15 passed, 0 failed, 0 skipped, 0 blacklisted, 2ms
+********* Finished testing of IdentityTest *********

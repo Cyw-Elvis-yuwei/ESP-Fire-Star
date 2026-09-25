@@ -1,0 +1,13 @@
+{
+  "started_at": "2026-09-25T17:54:45.307739+08:00",
+  "command": [
+    "C:\\Users\\PUBLIC_USER\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "tools/program_can_baseline.py",
+    "--backup",
+    "$LOCAL_PROJECT\\artifacts\\can-flash-2026-09-25",
+    "--execute"
+  ],
+  "timeout_seconds": 180,
+  "exit_code": 1,
+  "elapsed_seconds": 91.36
+}

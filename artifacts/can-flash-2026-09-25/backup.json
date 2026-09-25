@@ -1,0 +1,32 @@
+{
+  "captured_at": "2026-09-25T17:54:09.885241+08:00",
+  "probe_id": "DAP_ID_REDACTED",
+  "identity": {
+    "dbgmcu_idcode": 268657684,
+    "cpuid": 1092600369,
+    "flash_kb": 512,
+    "uid_hex": "MCU_UID_REDACTED"
+  },
+  "flash_start": 134217728,
+  "flash_bytes": 524288,
+  "two_complete_reads_equal": true,
+  "backup_sha256": "a86a77e1fcb81e61dfd756d7672377e6dd3cd4dde78528d5a58d1bbd1e49653a",
+  "option_bytes_sha256": "c0b942fbb9fe967ec0e7b675e080d48c930fc5fe3fde70f6dd6f9646fdffc0d3",
+  "initial_sp": "0x20000660",
+  "reset_vector": "0x80001b1",
+  "state_before": "RUNNING",
+  "programmed": false,
+  "erased": false,
+  "probe_options": {
+    "target_override": "cortex_m",
+    "connect_mode": "attach",
+    "frequency": 1000000,
+    "auto_unlock": false,
+    "resume_on_disconnect": false,
+    "pack.debug_sequences.enable": false,
+    "cache.enable_memory": false,
+    "cmsis_dap.limit_packets": true,
+    "no_config": true,
+    "project_dir": "$LOCAL_PROJECT\\artifacts\\can-flash-2026-09-25"
+  }
+}

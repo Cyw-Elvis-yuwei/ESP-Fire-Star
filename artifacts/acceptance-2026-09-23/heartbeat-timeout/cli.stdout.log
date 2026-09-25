@@ -1,0 +1,4 @@
+initial_set_on seq=1 success 0 ms
+query_while_offline seq=2 success 1 ms
+recovery_query seq=3 success 0 ms
+PASS heartbeat-timeout

@@ -1,0 +1,13 @@
+PASS: 139 native firmware checks (protocol + heartbeat)
+PASS filter, first heartbeat boundary
+PASS copied RX frames, LED, reply ordering, one in flight
+PASS HAL_BUSY retains reply
+PASS early completion does not stick in flight
+PASS RX overflow count and bounded reply backpressure
+PASS replies before latest heartbeat, no heartbeat backlog
+PASS invalid requests and bad DLC
+PASS error latched, abort and no new TX
+PASS bounded TX timeout
+PASS RX rearm, TX submit and init failures
+PASS incoming PRIMASK preserved
+11 host-only adapter scenarios passed; no hardware verified.

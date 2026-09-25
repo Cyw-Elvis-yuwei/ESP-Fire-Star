@@ -1,0 +1,7 @@
+{
+  "case": "normal",
+  "configuration_error": "Regression refuses an interface that is not verified info_kind=vcan",
+  "hardware_verified": false,
+  "pass": false,
+  "simulated": true
+}

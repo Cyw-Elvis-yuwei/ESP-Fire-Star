@@ -1,0 +1,280 @@
+{
+  "date": "2026-09-24",
+  "arm_compiler": "ARM Compiler 5.05 update 1 (build 106), MDK-ARM Lite 5.14",
+  "host_compiler": "clang 22.1.8, x86_64-pc-windows-msvc",
+  "arm_build_exit": 0,
+  "host_tests_exit": 0,
+  "image_check_exit": 0,
+  "flashed": false,
+  "hardware_verified": false,
+  "files": [
+    {
+      "path": "firmware/app_heartbeat.c",
+      "sha256": "7822dac92916260274312c947642f32243e8848a6ff7ddaa2f5bfc9f8337d222"
+    },
+    {
+      "path": "firmware/app_heartbeat.h",
+      "sha256": "8c1434d940ad5221bf556221d87708578dabae99529448bdc9711ea1fea63ee2"
+    },
+    {
+      "path": "firmware/app_protocol.c",
+      "sha256": "f6630a38d0f446d003e6763efe8d44618868d4f79acdc16cdf19adc14e0097cf"
+    },
+    {
+      "path": "firmware/app_protocol.h",
+      "sha256": "42521ff45bcfc995bfe1dddbee2e07a9a54f70184abe648a0fef143f0941151d"
+    },
+    {
+      "path": "firmware/native_test.c",
+      "sha256": "6ffa1ccbce4462aa331935b11b97bd26a9f4ac15180841ee3cf0771335e843ea"
+    },
+    {
+      "path": "firmware/stm32-can/build.ps1",
+      "sha256": "0341a36ed3d6094b4904f6d9308c154d83b9e986fb851eca64e325654d777cf6"
+    },
+    {
+      "path": "firmware/stm32-can/can_app.c",
+      "sha256": "bee4bbb06161c1d806fbdcef679f858395465b5483d47e805003f49d79ca48aa"
+    },
+    {
+      "path": "firmware/stm32-can/can_app.h",
+      "sha256": "768f82fdd7bf11ba2f9c672f14d2f6ad5796ae0e5a045baf2e4f53668edcf9be"
+    },
+    {
+      "path": "firmware/stm32-can/canbench.sct",
+      "sha256": "22f4fc1c3216b7e0f02ed6c54ee47d8e17a54807a69ca55d0dbdf7e130bb1eee"
+    },
+    {
+      "path": "firmware/stm32-can/check_image.py",
+      "sha256": "a95d1ab9b5938af552eb6f67c8347efe044847294356fa6e702712fb72e5db72"
+    },
+    {
+      "path": "firmware/stm32-can/main.c",
+      "sha256": "1634c42eaea0022def7e6b22846fda8fbe4008454a720cc3f8e687b9a71a69c2"
+    },
+    {
+      "path": "firmware/stm32-can/NOTICE.txt",
+      "sha256": "1c043a94d96a0512664de1a4107815f30809874a79f496969af715f4629c08b0"
+    },
+    {
+      "path": "firmware/stm32-can/stm32f1xx_hal_conf.h",
+      "sha256": "9b2cd3c3542bc19ed0ff7064312cf9b0c00db4f9f92b9fe485294fa80fe5f945"
+    },
+    {
+      "path": "firmware/stm32-can/test-host.ps1",
+      "sha256": "1e50097c9898d5f3aaf53883b086909fdaa39f0ff06a7cce0df2ef3dd98b2ec7"
+    },
+    {
+      "path": "firmware/stm32-can/tests/stubs/stm32f1xx_hal.h",
+      "sha256": "7c95c014f2c64aa6d8a4c7ee8b1293b3c1ff3b2f0270ecb4d4a816db12ee49d3"
+    },
+    {
+      "path": "firmware/stm32-can/tests/test_can_app.c",
+      "sha256": "c557df04c6be12fa081160206bb5f8bf9984778b991ccfd148baa4f212f07eea"
+    },
+    {
+      "path": "firmware/stm32-can/UPSTREAM.json",
+      "sha256": "da6e7f2b8e73312cddc6168c1015e1c3d2790992cdbdc9443d91d87aeca64860"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h",
+      "sha256": "66bab4d3d39120ba0e23bbecae1c2112d1905c4259bc767c8c10c62e0b2dab90"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h",
+      "sha256": "a68d2b0be3962c991ce43ecbda6c637ca887f891b1db0496641b1983b3cd65c3"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h",
+      "sha256": "462966f1212ba23aaff7c68e403128d69fab6dc80b1a113ee6381148bda5d237"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Device/ST/STM32F1xx/Source/Templates/arm/startup_stm32f103xe.s",
+      "sha256": "dcd6f1af809e2949a305226b99420ba8a01a5e9a4e31bbf9fc5b6a3131bce4f6"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/cmsis_armcc.h",
+      "sha256": "9f1711b4c540a294c6ed57da21b6fca9eba032022899e1588c4ba3d3ac4105fb"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/cmsis_armcc_V6.h",
+      "sha256": "3e025edb744f0ca79e19afc91c4de43f2b417de58f374548738463b56d1964df"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/cmsis_gcc.h",
+      "sha256": "6c7e75d09887cb3035f18bc6f4fdbd7392a50379cd556315deb3bcb762d99078"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cm3.h",
+      "sha256": "03a80f17ff18c5d0e3b234009f98698cd402b8ea972df687a6cfafd8b8a78654"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cmFunc.h",
+      "sha256": "1fdd226d82bde2a90231ba47a59377158b8907e4cada2a6215f32dcf13ab35cd"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cmInstr.h",
+      "sha256": "c9b8e36d05097da5d493f197aa7f81ce517f4532536925b568ccbd6e2c01eb8a"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/CMSIS/Include/core_cmSimd.h",
+      "sha256": "5d338d36730ccbd138126078e17f69c308a015f0a88d85bd639af072e527d53d"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h",
+      "sha256": "da9899c5f08c2ce8d34b45e7aaf2f90f99c4acc6a97478a55c34a4ccfed7dd4b"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can.h",
+      "sha256": "b012760ff81355bf251f0ccdca9c79908e741e255258f8d970acd316bc43079f"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_can_ex.h",
+      "sha256": "f1335e22de2a0f3a89e8cbe52e5b22e80656806970b9aed45d4012b94831d6ad"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h",
+      "sha256": "58a018d894ffa80c12236b6ea1d1adeaba61c7fd05deef4b0658d1e9cc50c251"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h",
+      "sha256": "d561416fcd0e65d4ec43a4a06dc8c41e6bed7691446b884b652ca7b5afd0ea6b"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h",
+      "sha256": "cdd29db5e7c9c169fdde58952072f3fa0466d87dbd5bdc3c8c5e94cd8833fc62"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h",
+      "sha256": "8ba0aa328561e81f7551c3e3e237bc456c0f8ab9c71f4568740ce667b8088669"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h",
+      "sha256": "6ac752a39d19b5ab29915dc4e00c6c377556b2bf8f26b36cab2d483286dc3613"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h",
+      "sha256": "2a5f0d7c0184d0b8659677a9b46448c48338724288121e45d0f04023c34638e8"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h",
+      "sha256": "c1f2f50394f33bb20ca571506ef20c6b20cd04a548e762ee155d310687e9ec56"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h",
+      "sha256": "7d40c8b302ba4caa1b4f1808e08509a4ea08853f25c38a0396c94dd5c3613652"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h",
+      "sha256": "cf243764068fd589945e0840c1f918fa2b269306c1a3045f113a22e01851137e"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h",
+      "sha256": "ac13890dd1fa03834c5cd5e92b1a3ec6a91da656cfb648e1ea296db4909cab27"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h",
+      "sha256": "ab3bfa1f1acd4dafa367fccce93dd3579ccdff1382339668aec061ebfaa35697"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c",
+      "sha256": "c71091bd92a484b4379d9b7982a635caa013d9a21bff36478a16b57c43712aa8"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_can.c",
+      "sha256": "fb74d315c1460acb588167fbae6a27c5c92435e34fb9b44dda64a3d5aed945a1"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c",
+      "sha256": "b42c4465a617f3fab532343b3c493e9c92b9c9901897d9dbb4555d7629be8502"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c",
+      "sha256": "aadc59f63e8308230274b19fae1a672badc007d23a453d502f6e2ff3cb1f9d8f"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c",
+      "sha256": "8dc2dd3f7aef7e0b28400f2af00793f59f196e93206608693d349d403aa39cbc"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c",
+      "sha256": "5fbd7c0f92be9cc4f2d192060b2a69246f07f4e093aff86b5e43a1e2456b4ab3"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c",
+      "sha256": "5ddb8faa5b1131a9145fcfd349741a4bf913064457654fb345e75e7ca5c758c6"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c",
+      "sha256": "aa42cbf0d5057656578cb05495186b79260e59972570a94bacd30fda22ea8e2b"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c",
+      "sha256": "0e3974b9f9607be328db7d73296bb3345d144ca5a552f3cc99b1e996934301fa"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c",
+      "sha256": "7fc219c8b90a82c4f972da7f0adfe6b2c8bebd6562978d3affb1d05dff142127"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/Libraries/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c",
+      "sha256": "811a2abc46b40917976788ba7a4e6d69c362046270f1f7be3d425af1ebb3d8af"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/can/bsp_can.c",
+      "sha256": "35aef242ba38f67cf95ed89a55a30f7f3651a502a14401c4820d51ebfd538f97"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/can/bsp_can.h",
+      "sha256": "82118238cd73a57027f004eee737cd99cbc118f15a65d444ef670bd7da211865"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/key/bsp_key.c",
+      "sha256": "a1403c86751c345254dd3261c7ba72415b5302b2738cfdab8d3e04dfda6ca189"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/key/bsp_key.h",
+      "sha256": "4c5f2c2539405e1949f4ab853007ea6341705caf68af2f39ab54b7cb69972229"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/led/bsp_led.c",
+      "sha256": "7a61a511066950ca6450aab857fee15070d470ee1efa7df40c4dc6452d513169"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/led/bsp_led.h",
+      "sha256": "366724f0164d2d606bc37187e41bfe1b560c6a993a720daba959a80dc889a7b6"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/main.c",
+      "sha256": "ff5abfdc94e7b27d2e34f9d03384a68ab8211bb462844718a28183baa513a2ac"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/main.h",
+      "sha256": "a73e841142610c577efe336959f3de862d882f2c01209bee4074452ce3d95428"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/stm32f1xx_hal_conf.h",
+      "sha256": "7c39872e8aee0fbae91b45813200cc8906d628245df6a0c4fc264d320ec80110"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/stm32f1xx_it.c",
+      "sha256": "792c15f8eaa44ca83267b53343898b94b680bc02739b210d153e1f0506ec4a82"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/stm32f1xx_it.h",
+      "sha256": "6382b65736f909d421a1b6c594f1b0122285f1abb5b490338b1db662ed10557a"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/system_stm32f1xx.c",
+      "sha256": "bd512da6eb9ac6cf91248b5b64a04b66917e89b37684341758c8f26b8ec64a06"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/usart/bsp_debug_usart.c",
+      "sha256": "3de8be7ef28f6e590ea8f014a46cdb8a727cb8b445d8cf1d3aa17887c5d134e1"
+    },
+    {
+      "path": "firmware/stm32-can/vendor/User/usart/bsp_debug_usart.h",
+      "sha256": "bc4d33eb2f4501c11667cdc53d17fa7e4bb4a43cb35161b7857a61cf54a50541"
+    }
+  ]
+}

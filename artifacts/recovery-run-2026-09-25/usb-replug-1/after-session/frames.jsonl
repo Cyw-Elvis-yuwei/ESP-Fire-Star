@@ -1,0 +1,9 @@
+{"detail": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-110124-673/frames.jsonl", "kind": "event", "monotonic_ms": 1, "name": "log_started", "utc": "2026-09-25T11:01:24.673Z"}
+{"detail": "can0", "kind": "event", "monotonic_ms": 1, "name": "connected", "utc": "2026-09-25T11:01:24.673Z"}
+{"brs": false, "direction": "rx", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 291, "kind": "frame", "local_echo": false, "monotonic_ms": 32861, "payload_hex": "0100010065000000", "type": 1, "utc": "2026-09-25T11:01:57.533Z"}
+{"detail": "Fresh protocol heartbeat observed", "kind": "event", "monotonic_ms": 32862, "name": "heartbeat_online", "utc": "2026-09-25T11:01:57.533Z"}
+{"brs": false, "direction": "tx_attempt", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 801, "kind": "frame", "local_echo": false, "monotonic_ms": 32892, "payload_hex": "0102010000000000", "type": 1, "utc": "2026-09-25T11:01:57.563Z"}
+{"detail": "seq=1 op=2", "kind": "event", "monotonic_ms": 32892, "name": "tx_accepted", "utc": "2026-09-25T11:01:57.564Z"}
+{"brs": false, "direction": "rx", "dlc": 8, "esi": false, "extended": false, "fd": false, "id": 802, "kind": "frame", "local_echo": false, "monotonic_ms": 32894, "payload_hex": "0102010000000000", "type": 1, "utc": "2026-09-25T11:01:57.565Z"}
+{"kind": "command_result", "latency_ms": 2, "monotonic_ms": 32894, "op": 2, "outcome": "success", "seq": 1, "success": true, "utc": "2026-09-25T11:01:57.565Z"}
+{"detail": "can0", "kind": "event", "monotonic_ms": 32968, "name": "disconnected", "utc": "2026-09-25T11:01:57.639Z"}

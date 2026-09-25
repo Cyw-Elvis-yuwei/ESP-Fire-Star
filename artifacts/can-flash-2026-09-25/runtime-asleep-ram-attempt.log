@@ -1,0 +1,27 @@
+{
+  "application_matches_reviewed": true,
+  "application_sha256": "231407bd9f23191dc61f92862b31c3241791c1bdfcd7c4599b46c537a6503b1e",
+  "state_before": "SLEEPING",
+  "state_after": "SLEEPING",
+  "tick_delta_ms": 0,
+  "boot_stage": 0,
+  "diagnostics": {
+    "rx_frames": 0,
+    "rx_dropped": 0,
+    "rejected_frames": 0,
+    "tx_completed": 1286,
+    "tx_busy_retries": 0,
+    "last_hal_error": 0,
+    "fault": 0
+  },
+  "reset_performed": false,
+  "brief_halt_for_identity_and_flash": true,
+  "flashed": false,
+  "success": false
+}
+Traceback (most recent call last):
+  File "$LOCAL_PROJECT\tools\verify_can_runtime.py", line 72, in <module>
+    main()
+  File "$LOCAL_PROJECT\tools\verify_can_runtime.py", line 68, in main
+    raise RuntimeError('Runtime verification failed; no reflash attempted')
+RuntimeError: Runtime verification failed; no reflash attempted

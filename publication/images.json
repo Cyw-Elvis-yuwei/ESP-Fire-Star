@@ -1,0 +1,142 @@
+[
+  {
+    "path": "artifacts/board-usb-2026-09-24/device-manager-com10.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "f5b6d95df8964a4803b8d03c4d220dcf21f8fa9ed90cf2c6345783d98fb480e6",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/board-usb-2026-09-24/user-swd-connectors.jpg",
+    "kind": "user physical photograph",
+    "sha256": "7214d77582c857ac4ec16746e7d05336705c43454f954996dcfda7572b37d431",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/canable-usb-2026-09-24/user-board-j40.jpg",
+    "kind": "user physical photograph",
+    "sha256": "dc016c658997685c5e275d1bfc42b65a0f0a6439fcfa71fa0b148a8194745503",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/canable-usb-2026-09-24/user-canable-case.jpg",
+    "kind": "user physical photograph",
+    "sha256": "2c4c9ebb9eedcc6b9a9f8085bedbb3e7b7528b607acb7a6cfa90be291bc33cf5",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/continuous-run-2026-09-25/physical-continuous-pass.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "1294035af70daaf39c5a943b6e9b914b7cf1c1a42350bbfd62809690aa9e73d2",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/dap-usb-2026-09-24/01-device-manager-com8.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "b9e2d15170e2febdeb594cdb5ea7a1c9cd3aa3c815a46cb318d53373f4654569",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/gui-buttons-2026-09-23.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "1ef72ab808914f947171da19eaa0a6bc46e3a6614346f42b8ecede3f7766b7fd",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/gui-smoke-initial.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "e534707c2acca2151ad7726f8194b5041eb63fc9c06a2abb02b10ac554f00bc8",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/identity-fix-2026-09-25/physical-interface-smoke.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "81ea87a1e4043c21c8063436a14b2c00c1d98c8df7096645eb6afa311c2c25cc",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/normal-run-2026-09-25/physical-normal-pass.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "b967850c22aef7c182c6c76987c4231affce1cbd586e8d5a0f9b743d3db446cc",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/recovery-run-2026-09-25/physical-recovery-pass.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "c009f71f4c83d80de825e051b0e58704bd2a2ad1dfc537d6ac893ba1d22868fe",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/recovery-run-2026-09-25/usb-replug-1/passed.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "2643d474fa8ddccc0805cf4f533962fec4f9a784c8875f28e7a110bf15feb438",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/user-demo-2026-09-24/01-user-led-on.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "466f8347b7f8a8718c6bf515d88b9e6c9ebca2152a8692c7a15380a47c4e3e1f",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/user-demo-2026-09-24/02-user-query-status.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "b1cd42579e0e90b230624bcce256eb5c3ba67ede1720ed25bd185d410383400f",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/user-demo-2026-09-24/03-user-led-off.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "aa3667baef048cb44841dbaf2a236e6e2650af84faced16953ea446339491d5d",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/user-demo-2026-09-24/04-user-timeout.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "a5799d4b0250b13a275822b4edbf9cced5e9f2ecdc4b6734262c0d6abf808ec3",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/user-demo-2026-09-24/05-user-recovered-query.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "0d0b5fca8027e4139bea929119952d7afdce350971d90f50a6e2501fa4969838",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "artifacts/user-demo-2026-09-24/06-user-report-saved.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "9b695c5d4717146181899c011aeac0ca4cf8a4ffbd0ffdc5c9bb08732de4165a",
+    "matches_existing_original": true,
+    "new_capture_this_publication": false
+  },
+  {
+    "path": "publication/current-live-can.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "86ae1680b4e4298bde725fc813c2252139f47002f3ca3f46bfb1fd1dc98c5a54",
+    "matches_existing_original": false,
+    "new_capture_this_publication": true
+  },
+  {
+    "path": "publication/normal-release-pass.png",
+    "kind": "actual application or OS screenshot",
+    "sha256": "56d56a931cbbdd23a561c14f91b220ed7920962e54401e8f2a1b592075d94fb9",
+    "matches_existing_original": false,
+    "new_capture_this_publication": true
+  }
+]

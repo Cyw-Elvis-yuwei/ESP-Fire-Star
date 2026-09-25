@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "session": "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-101308-852",
+  "receive_only": true,
+  "interface": "can0",
+  "simulated": false,
+  "hardware_verified": false,
+  "valid_heartbeats": 15,
+  "commands_sent": 0
+}

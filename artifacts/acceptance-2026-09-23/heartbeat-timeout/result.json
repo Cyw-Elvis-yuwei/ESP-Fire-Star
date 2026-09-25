@@ -1,0 +1,134 @@
+{
+  "assertions": [
+    {
+      "name": "all_scheduled_commands_completed",
+      "pass": true
+    },
+    {
+      "name": "device_connected",
+      "pass": true
+    },
+    {
+      "name": "fresh_heartbeats_observed",
+      "pass": true
+    },
+    {
+      "name": "online_at_end",
+      "pass": true
+    },
+    {
+      "name": "no_transport_errors",
+      "pass": true
+    },
+    {
+      "name": "no_invalid_frames",
+      "pass": true
+    },
+    {
+      "name": "expected_heartbeat_timeout_count",
+      "pass": true
+    },
+    {
+      "name": "expected_restart_count",
+      "pass": true
+    },
+    {
+      "name": "expected_response_timeout_count",
+      "pass": true
+    },
+    {
+      "name": "initial_set_succeeded",
+      "pass": true
+    },
+    {
+      "name": "reply_during_heartbeat_outage_does_not_mark_online",
+      "pass": true
+    },
+    {
+      "name": "fresh_query_after_heartbeat_recovery",
+      "pass": true
+    },
+    {
+      "name": "engine_report_saved",
+      "pass": true
+    },
+    {
+      "name": "raw_log_has_no_errors",
+      "pass": true
+    }
+  ],
+  "case": "heartbeat-timeout",
+  "commands": [
+    {
+      "at_ms": 150,
+      "label": "initial_set_on",
+      "latency_ms": 0,
+      "led": true,
+      "online": true,
+      "op": 1,
+      "outcome": "success",
+      "seq": 1,
+      "success": true
+    },
+    {
+      "at_ms": 1201,
+      "label": "query_while_offline",
+      "latency_ms": 1,
+      "led": true,
+      "online": false,
+      "op": 2,
+      "outcome": "success",
+      "seq": 2,
+      "success": true
+    },
+    {
+      "at_ms": 1901,
+      "label": "recovery_query",
+      "latency_ms": 0,
+      "led": true,
+      "online": true,
+      "op": 2,
+      "outcome": "success",
+      "seq": 3,
+      "success": true
+    }
+  ],
+  "duration_ms": 2935,
+  "engine_report": "engine/report.json",
+  "events": [
+    {
+      "at_ms": 97,
+      "detail": "Fresh protocol heartbeat observed",
+      "name": "heartbeat_online"
+    },
+    {
+      "at_ms": 150,
+      "detail": "seq=1 op=1",
+      "name": "tx_accepted"
+    },
+    {
+      "at_ms": 1033,
+      "detail": "No fresh heartbeat for 500 ms",
+      "name": "heartbeat_timeout"
+    },
+    {
+      "at_ms": 1200,
+      "detail": "seq=2 op=2",
+      "name": "tx_accepted"
+    },
+    {
+      "at_ms": 1445,
+      "detail": "Fresh protocol heartbeat observed",
+      "name": "heartbeat_online"
+    },
+    {
+      "at_ms": 1901,
+      "detail": "seq=3 op=2",
+      "name": "tx_accepted"
+    }
+  ],
+  "hardware_verified": false,
+  "interface": "vcan0",
+  "pass": true,
+  "simulated": true
+}

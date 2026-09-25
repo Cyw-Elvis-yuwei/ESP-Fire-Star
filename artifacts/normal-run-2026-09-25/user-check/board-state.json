@@ -1,0 +1,31 @@
+{
+  "utc": "2026-09-25T10:28:04.632647+00:00",
+  "identity_matches": true,
+  "vector_prefix_matches": true,
+  "state_before": "SLEEPING",
+  "state_after": "SLEEPING",
+  "halt_and_read_ms": 93.0,
+  "boot_stage": 3,
+  "gpio_b": {
+    "CRL": "0x44284422",
+    "CRH": "0x444444b4",
+    "IDR": "0xf3f3",
+    "ODR": "0x33"
+  },
+  "pb0_output_high": true,
+  "pb0_input_high": true,
+  "green_led_commanded_on": false,
+  "diagnostics": {
+    "rx_frames": 15,
+    "rx_dropped": 0,
+    "rejected_frames": 0,
+    "tx_completed": 13224,
+    "tx_busy_retries": 0,
+    "last_hal_error": 0,
+    "fault": 0
+  },
+  "flashed": false,
+  "reset_performed": false,
+  "optical_observation": false,
+  "success": true
+}

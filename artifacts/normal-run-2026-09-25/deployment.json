@@ -1,0 +1,13 @@
+{
+  "pid": 7038,
+  "command": [
+    "/home/demo/can-diagnostic-bench/diagnostics/build-app/can-diagnostic-bench",
+    "--interface",
+    "can0"
+  ],
+  "binary_sha256": "26ab49d702757b7a06c6584c89f6813a4709067987e28d953522b6376f630b10",
+  "session": [
+    "/home/demo/can-diagnostic-bench/diagnostics/artifacts/gui-20260925-102436-559"
+  ],
+  "user_button_acceptance": "user_clicked; actual session 7/7; current board GPIO and fault checked; no optical observation"
+}

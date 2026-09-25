@@ -1,0 +1,102 @@
+INFO: Target type is stm32f103ze
+INFO: debugvar 'DbgMCU_CR' = 0x7 (7)
+INFO: DP IDR = 0x1ba01477 (v1 rev1)
+INFO: AHB-AP#0 IDR = 0x14770011 (AHB-AP var1 rev1)
+INFO: AHB-AP#0 Class 0x1 ROM table #0 @ 0xe00ff000 (designer=020:ST part=410)
+INFO: [0]<e000e000:SCS v7-M class=14 designer=43b:Arm part=000>
+INFO: [1]<e0001000:DWT v7-M class=14 designer=43b:Arm part=002>
+INFO: [2]<e0002000:FPB v7-M class=14 designer=43b:Arm part=003>
+INFO: [3]<e0000000:ITM v7-M class=14 designer=43b:Arm part=001>
+INFO: [4]<e0040000:TPIU M3 class=9 designer=43b:Arm part=923 devtype=11 archid=0000 devid=ca1:0:0>
+INFO: [5]<e0041000:ETM M3 class=9 designer=43b:Arm part=924 devtype=13 archid=0000 devid=0:0:0>
+INFO: CPU core #0: Cortex-M3 r1p1, v7.0-M architecture
+INFO: 4 hardware watchpoints
+INFO: 6 hardware breakpoints, 4 literal comparators
+Pre-write compare: 64/512 KB
+Pre-write compare: 128/512 KB
+Pre-write compare: 192/512 KB
+Pre-write compare: 256/512 KB
+Pre-write compare: 320/512 KB
+Pre-write compare: 384/512 KB
+Pre-write compare: 448/512 KB
+Pre-write compare: 512/512 KB
+PROGRAM: first four 2KB sectors only, preserving bytes outside 7044-byte application
+INFO: Erasing...
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+INFO: Programming...
+[---|---|---|---|---|---|---|---|---|----]
+[========================================]
+INFO: Erased 8192 bytes (4 sectors), programmed 8192 bytes (8 pages), identical 0 bytes (0 pages) at 5.25 kB/s
+Full readback: 64/512 KB
+Full readback: 128/512 KB
+Full readback: 192/512 KB
+Full readback: 256/512 KB
+Full readback: 320/512 KB
+Full readback: 384/512 KB
+Full readback: 448/512 KB
+Full readback: 512/512 KB
+{
+  "started_at": "2026-09-25T17:54:45.949704+08:00",
+  "probe_id": "DAP_ID_REDACTED",
+  "target": "stm32f103ze",
+  "options": {
+    "target_override": "stm32f103ze",
+    "pack": "C:\\Keil_v5\\ARM\\Pack\\Keil\\STM32F1xx_DFP\\2.4.1",
+    "connect_mode": "halt",
+    "frequency": 1000000,
+    "auto_unlock": false,
+    "resume_on_disconnect": false,
+    "pack.debug_sequences.enable": true,
+    "cache.enable_memory": false,
+    "cmsis_dap.limit_packets": true,
+    "cache.enable_register": false,
+    "cache.read_code_from_elf": false,
+    "chip_erase": "sector",
+    "keep_unwritten": true,
+    "smart_flash": false,
+    "fast_program": false,
+    "no_config": true,
+    "project_dir": "LOCAL_PROJECT_REDACTED\u8bbe\u5907\u8bca\u65ad\u6d4b\u8bd5\u53f0\\artifacts\\can-flash-2026-09-25"
+  },
+  "backup_sha256": "a86a77e1fcb81e61dfd756d7672377e6dd3cd4dde78528d5a58d1bbd1e49653a",
+  "application_sha256": "231407bd9f23191dc61f92862b31c3241791c1bdfcd7c4599b46c537a6503b1e",
+  "application_bytes": 7044,
+  "expected_full_flash_sha256": "5aadd16e242b08b37966f712a9046d5d597e406bb6de616e1732670c90db5b65",
+  "erase_start": 134217728,
+  "erase_bytes": 8192,
+  "phase": "runtime_check_failed",
+  "success": false,
+  "physical_can_verified": false,
+  "readback_sha256": "5aadd16e242b08b37966f712a9046d5d597e406bb6de616e1732670c90db5b65",
+  "full_flash_matches_expected": true,
+  "outside_image_unchanged": true,
+  "option_bytes_unchanged": true,
+  "runtime": {
+    "was_running": false,
+    "boot_stage": 3,
+    "pc": 134224516,
+    "diagnostics": {
+      "rx_frames": 0,
+      "rx_dropped": 0,
+      "rejected_frames": 0,
+      "tx_completed": 4,
+      "tx_busy_retries": 0,
+      "last_hal_error": 0,
+      "fault": 0
+    },
+    "rcc_cfgr": 1901578,
+    "gpiob_odr": 51,
+    "can_mcr": 65608,
+    "can_msr": 3080,
+    "can_esr": 0,
+    "can_btr": 2359303,
+    "running_after_check": false
+  }
+}
+Traceback (most recent call last):
+  File "$LOCAL_PROJECT\tools\program_can_baseline.py", line 191, in <module>
+    main()
+  File "$LOCAL_PROJECT\tools\program_can_baseline.py", line 182, in main
+    raise RuntimeError('Flash verified; runtime needs diagnosis, do not automatically reflash')
+RuntimeError: Flash verified; runtime needs diagnosis, do not automatically reflash

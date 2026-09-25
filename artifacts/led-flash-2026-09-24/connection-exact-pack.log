@@ -1,0 +1,2 @@
+Setting SWD clock to 100 kHz
+0000928 E Error while initing target: SWD/JTAG communication failure (No ACK); check USB cable, reduce debugger clock [commander]

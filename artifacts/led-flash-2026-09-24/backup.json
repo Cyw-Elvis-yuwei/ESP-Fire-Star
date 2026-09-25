@@ -1,0 +1,20 @@
+{
+  "captured_at": "2026-09-24T21:09:32.635722+08:00",
+  "probe_id": "DAP_ID_REDACTED",
+  "identity": {
+    "dbgmcu_idcode": 268657684,
+    "cpuid": 1092600369,
+    "flash_kb": 512,
+    "uid_hex": "MCU_UID_REDACTED"
+  },
+  "flash_start": 134217728,
+  "flash_bytes": 524288,
+  "two_complete_reads_equal": true,
+  "backup_sha256": "00450a0fa2c364f125943dda3edb93b223e34775248b2f48050db3a90ebe1f77",
+  "option_bytes_sha256": "c0b942fbb9fe967ec0e7b675e080d48c930fc5fe3fde70f6dd6f9646fdffc0d3",
+  "initial_sp": "0x2000fb10",
+  "reset_vector": "0x8000201",
+  "state_before": "RUNNING",
+  "programmed": false,
+  "erased": false
+}
