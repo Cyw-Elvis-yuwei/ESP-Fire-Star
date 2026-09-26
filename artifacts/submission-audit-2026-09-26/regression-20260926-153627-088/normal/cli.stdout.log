@@ -1,0 +1,5 @@
+initial_set_on seq=1 success 0 ms
+query_on seq=2 success 0 ms
+set_off seq=3 success 1 ms
+query_off seq=4 success 0 ms
+PASS normal

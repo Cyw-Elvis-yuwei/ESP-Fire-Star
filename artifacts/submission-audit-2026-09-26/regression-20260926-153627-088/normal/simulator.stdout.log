@@ -1,0 +1,2 @@
+READY {"interface": "vcan0", "scenario": "normal", "simulated": true, "hardware_verified": false}
+STOPPED

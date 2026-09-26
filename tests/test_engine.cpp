@@ -3,6 +3,12 @@
 #include <QJsonDocument>
 #include <QSignalSpy>
 #include <QTemporaryDir>
+#include <QDir>
+#include <QFileInfo>
+#ifdef Q_OS_LINUX
+#include <fcntl.h>
+#include <unistd.h>
+#endif
 #include "diagnosticengine.h"
 
 namespace {
@@ -55,6 +61,14 @@ private slots:
     void disconnectAndTransportFailure();
     void boundedHistoryAndReports();
     void failedLogIsVisible();
+    void submissionStopsWhenLoggingFails_data();
+    void submissionStopsWhenLoggingFails();
+    void failedSessionRejectsNewSubmission();
+    void submissionCancelledByDisconnect();
+    void pendingCallbackReplacesRequest();
+    void senderRemovedBeforeSubmission();
+    void noLogSynchronousReplyStillWorks();
+    void loggingFailureAfterSubmissionDoesNotUndoTransport();
 };
 
 void EngineTest::initTestCase()
@@ -437,6 +451,190 @@ void EngineTest::failedLogIsVisible()
         QCOMPARE(counter(full, "log_errors"), 1);
     }
 #endif
+}
+
+
+void EngineTest::submissionStopsWhenLoggingFails_data()
+{
+    QTest::addColumn<bool>("kernelWriteFailure");
+    QTest::newRow("log-open-failure-in-pending-callback") << false;
+#ifdef Q_OS_LINUX
+    QTest::newRow("actual-write-enospc-before-transport") << true;
+#endif
+}
+
+void EngineTest::submissionStopsWhenLoggingFails()
+{
+    QFETCH(bool, kernelWriteFailure);
+    DiagnosticEngine engine;
+    QTemporaryDir dir;
+    QVERIFY(dir.isValid());
+    const QString path = dir.filePath("frames.jsonl");
+    QString error;
+    QVERIFY(engine.startLog(path, &error));
+    engine.setConnected(true);
+    int submissions = 0;
+    bool injected = false;
+    bool injectionWorked = false;
+    engine.setSender([&](const QCanBusFrame &, QString *) { ++submissions; return true; });
+    QSignalSpy completed(&engine, &DiagnosticEngine::commandFinished);
+    connect(&engine, &DiagnosticEngine::pendingChanged, &engine, [&](bool pending) {
+        if (!pending || injected) return;
+        injected = true;
+        if (!kernelWriteFailure) {
+            QString why;
+            injectionWorked = !engine.startLog(dir.path(), &why);
+            return;
+        }
+#ifdef Q_OS_LINUX
+        // Replace only this test's own log descriptor. QFile's next write/flush
+        // then receives real ENOSPC; no resource limit, mount or CAN device changes.
+        const auto descriptors = QDir("/proc/self/fd").entryList(QDir::Files | QDir::System | QDir::NoDotAndDotDot);
+        for (const auto &name : descriptors) {
+            const QFileInfo info("/proc/self/fd/" + name);
+            if (info.symLinkTarget() != path) continue;
+            bool ok = false;
+            const int logFd = name.toInt(&ok);
+            const int fullFd = ::open("/dev/full", O_WRONLY);
+            if (ok && fullFd >= 0) {
+                injectionWorked = ::dup2(fullFd, logFd) == logFd;
+                ::close(fullFd);
+            }
+            break;
+        }
+#endif
+    });
+    const bool accepted = engine.sendSetLed(true);
+    QVERIFY(injected);
+    QVERIFY2(injectionWorked, "The test must induce a real log failure before asserting behaviour");
+    QCOMPARE(counter(engine, "log_errors"), 1);
+    QCOMPARE(submissions, 0);
+    QVERIFY(!accepted);
+    QVERIFY(!engine.pending());
+    QCOMPARE(completed.size(), 1);
+    QCOMPARE(lastOutcome(engine), QStringLiteral("log_error"));
+    QCOMPARE(counter(engine, "commands_attempted"), 1);
+    QCOMPARE(counter(engine, "commands_failed"), 1);
+    QCOMPARE(counter(engine, "commands_sent"), 0);
+    QCOMPARE(counter(engine, "transport_errors"), 0);
+}
+
+void EngineTest::failedSessionRejectsNewSubmission()
+{
+    DiagnosticEngine engine;
+    QTemporaryDir dir;
+    QString error;
+    QVERIFY(!engine.startLog(dir.path(), &error));
+    int submissions = 0;
+    engine.setSender([&](const QCanBusFrame &, QString *) { ++submissions; return true; });
+    engine.setConnected(true);
+    QVERIFY(!engine.sendGetStatus());
+    QCOMPARE(submissions, 0);
+    QVERIFY(!engine.pending());
+    QCOMPARE(counter(engine, "commands_rejected"), 1);
+    QCOMPARE(counter(engine, "commands_attempted"), 0);
+}
+
+void EngineTest::submissionCancelledByDisconnect()
+{
+    DiagnosticEngine engine;
+    int submissions = 0;
+    engine.setSender([&](const QCanBusFrame &, QString *) { ++submissions; return true; });
+    engine.setConnected(true);
+    QSignalSpy completed(&engine, &DiagnosticEngine::commandFinished);
+    connect(&engine, &DiagnosticEngine::pendingChanged, &engine, [&](bool pending) {
+        if (pending) engine.setConnected(false);
+    });
+    QVERIFY(!engine.sendGetStatus());
+    QCOMPARE(submissions, 0);
+    QCOMPARE(completed.size(), 1);
+    QCOMPARE(lastOutcome(engine), QStringLiteral("disconnected"));
+}
+
+
+void EngineTest::pendingCallbackReplacesRequest()
+{
+    DiagnosticEngine engine;
+    QList<QCanBusFrame> submitted;
+    engine.setSender([&](const QCanBusFrame &frame, QString *) { submitted.append(frame); return true; });
+    engine.setConnected(true);
+    bool replaced = false;
+    bool nestedAccepted = false;
+    connect(&engine, &DiagnosticEngine::pendingChanged, &engine, [&](bool pending) {
+        if (!pending || replaced) return;
+        replaced = true;
+        engine.setConnected(false);
+        engine.setConnected(true);
+        nestedAccepted = engine.sendGetStatus();
+    });
+    QVERIFY(!engine.sendSetLed(true));
+    QVERIFY(nestedAccepted);
+    QCOMPARE(submitted.size(), 1);
+    QCOMPARE(submitted.first().payload(), QByteArray::fromHex("0102020000000000"));
+    QVERIFY(engine.pending());
+    engine.receiveFrame(response(1, 1, 0, true));
+    QVERIFY(engine.pending());
+    engine.receiveFrame(response(2));
+    QVERIFY(!engine.pending());
+    QCOMPARE(counter(engine, "commands_succeeded"), 1);
+    QCOMPARE(counter(engine, "commands_failed"), 1);
+}
+
+void EngineTest::senderRemovedBeforeSubmission()
+{
+    DiagnosticEngine engine;
+    connectEngine(engine);
+    connect(&engine, &DiagnosticEngine::pendingChanged, &engine, [&](bool pending) {
+        if (pending) engine.setSender({});
+    });
+    QVERIFY(!engine.sendGetStatus());
+    QVERIFY(!engine.pending());
+    QCOMPARE(lastOutcome(engine), QStringLiteral("transport_error"));
+    QCOMPARE(counter(engine, "commands_sent"), 0);
+}
+
+void EngineTest::noLogSynchronousReplyStillWorks()
+{
+    DiagnosticEngine engine;
+    engine.setConnected(true);
+    int submissions = 0;
+    engine.setSender([&](const QCanBusFrame &frame, QString *) {
+        ++submissions;
+        const auto p = frame.payload();
+        const quint16 seq = quint8(p[2]) | (quint16(quint8(p[3])) << 8);
+        engine.receiveFrame(response(seq));
+        return true;
+    });
+    QVERIFY(engine.sendGetStatus());
+    QCOMPARE(submissions, 1);
+    QCOMPARE(lastOutcome(engine), QStringLiteral("success"));
+    QVERIFY(!engine.pending());
+    QCOMPARE(counter(engine, "commands_sent"), 1);
+}
+
+void EngineTest::loggingFailureAfterSubmissionDoesNotUndoTransport()
+{
+    qint64 time = 0;
+    DiagnosticEngine engine(nullptr, [&] { return time; });
+    QTemporaryDir dir;
+    QString error;
+    QVERIFY(engine.startLog(dir.filePath("frames.jsonl"), &error));
+    engine.setConnected(true);
+    int submissions = 0;
+    engine.setSender([&](const QCanBusFrame &, QString *) {
+        ++submissions;
+        QString why;
+        engine.startLog(dir.path(), &why); // The transport has already accepted the frame.
+        return true;
+    });
+    QVERIFY(engine.sendGetStatus());
+    QCOMPARE(submissions, 1);
+    QCOMPARE(counter(engine, "commands_sent"), 1);
+    QVERIFY(engine.pending());
+    time = 500;
+    engine.checkTimeouts();
+    QCOMPARE(lastOutcome(engine), QStringLiteral("timeout"));
+    QCOMPARE(submissions, 1);
 }
 
 QTEST_GUILESS_MAIN(EngineTest)

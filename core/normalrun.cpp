@@ -172,7 +172,15 @@ bool NormalRun::save(QString *error)
     md += QStringLiteral("\n原始报文：%1\n\n起止UTC：%2 ～ %3\n")
         .arg(m_report.value("raw_log").toString()).arg(m_report.value("started_utc").toString())
         .arg(m_report.value("finished_utc").toString());
-    if (!writeFile(QDir(m_directory).filePath("result.md"), md.toUtf8(), error)) return false;
-    m_report["report_saved"] = true;
-    return writeFile(QDir(m_directory).filePath("result.json"), QJsonDocument(m_report).toJson(), error);
+    const bool markdownSaved = writeFile(QDir(m_directory).filePath("result.md"), md.toUtf8(), error);
+    m_report["report_saved"] = markdownSaved;
+    if (!markdownSaved) m_report["report_error"] = *error;
+    // Preserve the final results and the Markdown error whenever JSON is still writable.
+    QString jsonError;
+    const bool jsonSaved = writeFile(QDir(m_directory).filePath("result.json"), QJsonDocument(m_report).toJson(), &jsonError);
+    if (!jsonSaved) {
+        if (!error->isEmpty()) *error += '\n';
+        *error += jsonError;
+    }
+    return markdownSaved && jsonSaved;
 }

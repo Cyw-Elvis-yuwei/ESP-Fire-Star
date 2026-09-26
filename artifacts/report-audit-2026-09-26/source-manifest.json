@@ -1,0 +1,47 @@
+{
+  "baseline_commit": "5d66d1baca7635f1d9f46a3ec1ee43d93612aaae",
+  "validation": "Qt fake-transport unit tests; no CAN device access",
+  "phase_sources": {
+    "red": {
+      "core/normalrun.cpp": "893147af8d2f146264eb0d9fc1c59853ade27ad98272649c785f07251467e94f",
+      "core/normalrun.h": "f24bd38eecd3bfbc3f3b2c53f23649ad35739db2f7fc8de7ea3f41cdb3f23e8f",
+      "core/continuousrun.cpp": "f3a48aec8f4f24a06bdda7076db934c7fe168bef815c386b3688fea0244f8059",
+      "core/continuousrun.h": "c20adf977a2da60ace1cacdf729b1a5d4474dbb08c2d02d81c5748e7af2d1f83",
+      "core/recoveryrun.cpp": "4455178b305064b2855049d6029f67ffeb5d81f797f9cb20438d2e21f6e66e4f",
+      "core/recoveryrun.h": "c9e4fc8dd54df6d656d3140aeae471c862a1dc5b156a641b7bb6256245af15d7",
+      "tests/normal.pro": "d6933fcb74b112963cca691625567fda59fd73c10404acebb643ca21df21dd85",
+      "tests/continuous.pro": "1eacb82ba90b035f67f50c47ff1aa1bb4f592f0644cb30f36c90276c93403af7",
+      "tests/recovery.pro": "c7c639685a317b4b9e489fe1133b61c13b3a5b01dffbb4b24e579cb4b39bfe68",
+      "tests/test_normalrun.cpp": "beb0c64f2a7eb7aa4e350dbac61d927e0f9f6f433a5a6b0273cb01111b4ecb88",
+      "tests/test_continuousrun.cpp": "21d082a47829da76261983d7e9d682a97d98d7e0510f5d11e18efeff917d0344",
+      "tests/test_recoveryrun.cpp": "b78be5fa4de6216fba80e192d54afa3e22411f076d8e5ef54c5e42a6f9c79300",
+      "core/diagnosticengine.cpp": "45b1d9ec8bb3c4d72c0dedea4c8962e6c635f21813411f3054db902bf4e8f000",
+      "core/diagnosticengine.h": "6d7caf0b452b4b40da1aefe821a87208898926aeb41223864eb781033d6d9234"
+    },
+    "green": {
+      "core/normalrun.cpp": "9c0802bab97bf2f27866456cc45beb31471fb373c9ce7e38885d604ce705bab7",
+      "core/normalrun.h": "f24bd38eecd3bfbc3f3b2c53f23649ad35739db2f7fc8de7ea3f41cdb3f23e8f",
+      "core/continuousrun.cpp": "af75166d97a1d89a9c5a247a77a7800b52bf8dcafb8a3cc16aca49d6267689be",
+      "core/continuousrun.h": "c20adf977a2da60ace1cacdf729b1a5d4474dbb08c2d02d81c5748e7af2d1f83",
+      "core/recoveryrun.cpp": "4ed8fb036ccce785aeccfef8a6cb3e1b5ca254563004fdac57b99d5b504a6190",
+      "core/recoveryrun.h": "c9e4fc8dd54df6d656d3140aeae471c862a1dc5b156a641b7bb6256245af15d7",
+      "tests/normal.pro": "d6933fcb74b112963cca691625567fda59fd73c10404acebb643ca21df21dd85",
+      "tests/continuous.pro": "1eacb82ba90b035f67f50c47ff1aa1bb4f592f0644cb30f36c90276c93403af7",
+      "tests/recovery.pro": "c7c639685a317b4b9e489fe1133b61c13b3a5b01dffbb4b24e579cb4b39bfe68",
+      "tests/test_normalrun.cpp": "c8f6a00bc246cd536a4f619d655d0cf15a677408f7a995a90136e2858d5767d0",
+      "tests/test_continuousrun.cpp": "43e346926d4b18c9ef55a1b17130680ab09491f2605e106b78f7ee34972385ea",
+      "tests/test_recoveryrun.cpp": "67dd2357680d416ffe227d7ba69a55bc91dc0cd19fe9c9fe758560ef78eb19ce",
+      "core/diagnosticengine.cpp": "45b1d9ec8bb3c4d72c0dedea4c8962e6c635f21813411f3054db902bf4e8f000",
+      "core/diagnosticengine.h": "6d7caf0b452b4b40da1aefe821a87208898926aeb41223864eb781033d6d9234"
+    }
+  },
+  "final_files": {
+    "core/normalrun.cpp": "9c0802bab97bf2f27866456cc45beb31471fb373c9ce7e38885d604ce705bab7",
+    "core/continuousrun.cpp": "af75166d97a1d89a9c5a247a77a7800b52bf8dcafb8a3cc16aca49d6267689be",
+    "core/recoveryrun.cpp": "4ed8fb036ccce785aeccfef8a6cb3e1b5ca254563004fdac57b99d5b504a6190",
+    "tests/test_normalrun.cpp": "c8f6a00bc246cd536a4f619d655d0cf15a677408f7a995a90136e2858d5767d0",
+    "tests/test_continuousrun.cpp": "43e346926d4b18c9ef55a1b17130680ab09491f2605e106b78f7ee34972385ea",
+    "tests/test_recoveryrun.cpp": "67dd2357680d416ffe227d7ba69a55bc91dc0cd19fe9c9fe758560ef78eb19ce"
+  },
+  "hash_note": "Phase source hashes normalize CRLF to LF only; final_files hashes are exact final workspace bytes. All six final files equal green phase after this normalization."
+}

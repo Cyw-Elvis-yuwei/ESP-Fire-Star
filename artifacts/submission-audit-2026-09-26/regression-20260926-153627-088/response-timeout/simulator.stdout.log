@@ -1,0 +1,3 @@
+READY {"interface": "vcan0", "scenario": "drop-response", "simulated": true, "hardware_verified": false}
+EVENT dropped first response
+STOPPED

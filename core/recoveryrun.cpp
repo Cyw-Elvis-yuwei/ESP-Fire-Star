@@ -140,9 +140,14 @@ void RecoveryRun::finish(const QString &outcome)
         .arg(m_metadata.value("finished_utc").toString()).arg(m_metadata.value("raw_log").toString());
     QString error;
     m_saved=writeFile(QDir(m_directory).filePath("result.md"),md.toUtf8(),&error);
-    if(!writeJson(&error))m_saved=false;
-    if(!m_saved)m_error=error;
-    emit finished(outcome=="passed"&&m_saved,!m_saved?QStringLiteral("恢复检查报告保存失败：")+error
+    if(!m_saved)m_error=error; // Include the Markdown failure in the final JSON.
+    QString jsonError;
+    if(!writeJson(&jsonError)) {
+        m_saved=false;
+        if(!m_error.isEmpty())m_error+='\n';
+        m_error+=jsonError;
+    }
+    emit finished(outcome=="passed"&&m_saved,!m_saved?QStringLiteral("恢复检查报告保存失败：")+m_error
         :QStringLiteral("节点恢复检查%1。报告：%2").arg(outcome=="passed"?QStringLiteral("通过：离线、超时及恢复后新查询均已确认")
             :QStringLiteral("未通过（%1）").arg(outcome)).arg(m_directory));
 }

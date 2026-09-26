@@ -202,7 +202,15 @@ bool ContinuousRun::save(QString *error)
     md += QStringLiteral("%1\n\n完整逐条结果见result.json；原始报文：%2\n\n起止UTC：%3 ～ %4\n")
         .arg(m_metadata.value("note").toString()).arg(m_metadata.value("raw_log").toString())
         .arg(m_metadata.value("started_utc").toString()).arg(m_metadata.value("finished_utc").toString());
-    if (!writeFile(QDir(m_directory).filePath("result.md"), md.toUtf8(), error)) return false;
-    m_reportSaved = true;
-    return writeFile(QDir(m_directory).filePath("result.json"), QJsonDocument(report()).toJson(), error);
+    const bool markdownSaved = writeFile(QDir(m_directory).filePath("result.md"), md.toUtf8(), error);
+    m_reportSaved = markdownSaved;
+    if (!markdownSaved) m_reportError = *error;
+    // Preserve all samples even when the human-readable report cannot be saved.
+    QString jsonError;
+    const bool jsonSaved = writeFile(QDir(m_directory).filePath("result.json"), QJsonDocument(report()).toJson(), &jsonError);
+    if (!jsonSaved) {
+        if (!error->isEmpty()) *error += '\n';
+        *error += jsonError;
+    }
+    return markdownSaved && jsonSaved;
 }

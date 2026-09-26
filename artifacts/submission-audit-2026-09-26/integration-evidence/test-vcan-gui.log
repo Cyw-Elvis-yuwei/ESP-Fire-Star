@@ -1,0 +1,8 @@
+********* Start testing of GuiTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : GuiTest::initTestCase()
+QWARN  : GuiTest::virtualDeviceButtonsAndRegression() This plugin does not support propagateSizeHints()
+PASS   : GuiTest::virtualDeviceButtonsAndRegression()
+PASS   : GuiTest::cleanupTestCase()
+Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 18406ms
+********* Finished testing of GuiTest *********
