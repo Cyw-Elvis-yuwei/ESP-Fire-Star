@@ -1,0 +1,32 @@
+{
+  "source_commit": "67286acbff8828b9f45470de5f23c42c0daa9f95",
+  "preflight_matched_files": 52,
+  "phase": "installed",
+  "success": true,
+  "hardware_touched": false,
+  "firmware_written": false,
+  "before_sha256": {
+    "core/continuousrun.cpp": "f3a48aec8f4f24a06bdda7076db934c7fe168bef815c386b3688fea0244f8059",
+    "core/diagnosticengine.cpp": "45b1d9ec8bb3c4d72c0dedea4c8962e6c635f21813411f3054db902bf4e8f000",
+    "core/diagnosticengine.h": "6d7caf0b452b4b40da1aefe821a87208898926aeb41223864eb781033d6d9234",
+    "core/normalrun.cpp": "893147af8d2f146264eb0d9fc1c59853ade27ad98272649c785f07251467e94f",
+    "core/recoveryrun.cpp": "4455178b305064b2855049d6029f67ffeb5d81f797f9cb20438d2e21f6e66e4f",
+    "tests/test_continuousrun.cpp": "4799844d363fdb43690e6fb440f960204d113ced89a45864b86fffa7f75f9d1e",
+    "tests/test_engine.cpp": "1fef26b455e7b4e468e9463270684c0684101deaf5d0d6e91f14dd588607c5b1",
+    "tests/test_normalrun.cpp": "51b076351d3acdf9a86266befe796b3ee2e557001602f5d69fdf6501488d177f",
+    "tests/test_recoveryrun.cpp": "de0c675cd4506dd0e8f13184baed519ee7d0f5ddf37572d720e62f968caa2f71",
+    "build-app/can-diagnostic-bench": "79850a397e37a0e6f4660619628bb35c6ff8514cd92868d2e6802c6aa36fdeaf",
+    "build-cli/canbench-cli": "c3a45c0f542860988e8db147c022c2bd89762dcc498f7842b227aa0ff738c2f2"
+  },
+  "backup_sha256": "7c1d77905222960b2d4607b395eb768beb2ca7b075ff008a94f44a75b9f0cd06",
+  "started_utc": "2026-09-27T05:10:48.733095+00:00",
+  "app_qmake_exit": 0,
+  "app_make_exit": 0,
+  "app_built_sha256": "48c6dc1fa4d3555d845796762dc434fe5876cf8715aa315355f7510e05fc3fdd",
+  "cli_qmake_exit": 0,
+  "cli_make_exit": 0,
+  "cli_built_sha256": "f80e7824eb75b4bfc62a3e40c5572eb14ac0f1730dabfce8a42cad40cbdeab5f",
+  "app_installed_sha256": "48c6dc1fa4d3555d845796762dc434fe5876cf8715aa315355f7510e05fc3fdd",
+  "cli_installed_sha256": "f80e7824eb75b4bfc62a3e40c5572eb14ac0f1730dabfce8a42cad40cbdeab5f",
+  "finished_utc": "2026-09-27T05:10:56.062941+00:00"
+}

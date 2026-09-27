@@ -1,0 +1,11 @@
+Usage: ./build-cli/canbench-cli [options]
+Simulated protocol regression on verified Linux vcan only.
+
+Options:
+  -h, --help                    Displays this help.
+  --interface <name>            Verified vcan interface
+  --output <directory>          New directory for result, raw log and engine
+                                reports
+  --case <name>                 normal|response-timeout|heartbeat-timeout|resta
+                                rt|wrong-seq|late-response
+  --duration-ms <milliseconds>  Observation duration (2300..30000 ms)
