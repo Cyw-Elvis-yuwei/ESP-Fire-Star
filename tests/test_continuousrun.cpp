@@ -122,9 +122,36 @@ private slots:
         f.engine.setConnected(false);QVERIFY(!f.start());f.engine.setConnected(true);QVERIFY(!f.start());f.beat();
         QVERIFY(!f.run.start(f.temp.filePath("missing/child"),&error));
         QVERIFY(f.start(200));QVERIFY(!f.run.start(f.temp.filePath("overlap"),&error));
+        QSignalSpy finished(&f.run, &ContinuousRun::finished);
         f.poll();f.reply(1);QVERIFY(QDir(f.run.directory()).mkdir("result.md"));
         f.advance(99);f.reply(1);f.advance(99);
         QVERIFY(!f.run.report().value("report_saved").toBool());QVERIFY(f.run.report().contains("report_error"));
+        QCOMPARE(finished.size(), 1);QVERIFY(!finished.first().first().toBool());
+        QFile file(f.run.directory()+"/result.json");QVERIFY(file.open(QIODevice::ReadOnly));
+        QCOMPARE(QJsonDocument::fromJson(file.readAll()).object(), f.run.report());
+        QVERIFY(f.run.report().value("report_error").toString().contains("result.md"));
+    }
+    void jsonWriteFailureNeverReportsSaved_data() {
+        QTest::addColumn<bool>("failMarkdown");
+        QTest::newRow("json-only") << false;
+        QTest::newRow("both-files") << true;
+    }
+    void jsonWriteFailureNeverReportsSaved() {
+        QFETCH(bool, failMarkdown);
+        Fixture f;QVERIFY(f.start(200));QSignalSpy finished(&f.run, &ContinuousRun::finished);
+        f.poll();f.reply(1);
+        QVERIFY(QFile::remove(f.run.directory()+"/result.json"));
+        QVERIFY(QDir(f.run.directory()).mkdir("result.json"));
+        if (failMarkdown) QVERIFY(QDir(f.run.directory()).mkdir("result.md"));
+        f.advance(99);f.reply(1);f.advance(99);
+        QCOMPARE(finished.size(), 1);QVERIFY(!finished.first().first().toBool());
+        QVERIFY(f.run.report().value("protocol_passed").toBool());
+        QVERIFY(!f.run.report().value("report_saved").toBool());
+        QVERIFY(f.run.report().value("report_error").toString().contains("result.json"));
+        if (failMarkdown)
+            QVERIFY(f.run.report().value("report_error").toString().contains("result.md"));
+        else
+            QVERIFY(QFileInfo(f.run.directory()+"/result.md").isFile());
     }
     void synchronousSendFailureCountedOnce() {
         Fixture f;f.reject=true;QVERIFY(f.start());f.poll();QVERIFY(!f.run.running());

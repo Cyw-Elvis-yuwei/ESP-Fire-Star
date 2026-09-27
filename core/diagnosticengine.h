@@ -58,7 +58,7 @@ private:
     void receiveResponse(const QByteArray &payload, qint64 at);
     void count(const QString &name);
     void emitEvent(const QString &name, const QString &detail);
-    void logFrame(const QString &direction, const QCanBusFrame &frame);
+    bool logFrame(const QString &direction, const QCanBusFrame &frame);
     bool writeLog(QJsonObject entry);
     void failLog(const QString &detail);
     void rejectFrame(const QString &reason);

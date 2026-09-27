@@ -137,9 +137,36 @@ private slots:
         // A write failure at the end must not be displayed as a successful saved run.
         QTRY_VERIFY_WITH_TIMEOUT(f.sent == 1 && !f.engine.pending(), 500);
         QVERIFY(QDir(f.run.directory()).mkdir("result.md"));
+        QSignalSpy finished(&f.run, &NormalRun::finished);
         f.run.cancel();
         QVERIFY(!f.run.report().value("report_saved").toBool());
         QVERIFY(f.run.report().contains("report_error"));
+        QCOMPARE(finished.size(), 1);QVERIFY(!finished.first().first().toBool());
+        QFile file(f.run.directory()+"/result.json");QVERIFY(file.open(QIODevice::ReadOnly));
+        QCOMPARE(QJsonDocument::fromJson(file.readAll()).object(), f.run.report());
+        QVERIFY(f.run.report().value("report_error").toString().contains("result.md"));
+    }
+    void jsonWriteFailureNeverReportsSaved_data() {
+        QTest::addColumn<bool>("failMarkdown");
+        QTest::newRow("json-only") << false;
+        QTest::newRow("both-files") << true;
+    }
+    void jsonWriteFailureNeverReportsSaved() {
+        QFETCH(bool, failMarkdown);
+        Fixture f;QString error;QVERIFY(f.run.start(f.output(), &error));
+        QSignalSpy finished(&f.run, &NormalRun::finished);
+        QVERIFY(QFile::remove(f.run.directory()+"/result.json"));
+        QVERIFY(QDir(f.run.directory()).mkdir("result.json"));
+        if (failMarkdown) QVERIFY(QDir(f.run.directory()).mkdir("result.md"));
+        QTRY_VERIFY_WITH_TIMEOUT(!f.run.running(), 6000);
+        QCOMPARE(finished.size(), 1);QVERIFY(!finished.first().first().toBool());
+        QVERIFY(f.run.report().value("protocol_passed").toBool());
+        QVERIFY(!f.run.report().value("report_saved").toBool());
+        QVERIFY(f.run.report().value("report_error").toString().contains("result.json"));
+        if (failMarkdown)
+            QVERIFY(f.run.report().value("report_error").toString().contains("result.md"));
+        else
+            QVERIFY(QFileInfo(f.run.directory()+"/result.md").isFile());
     }
     void senderFailure() {
         Fixture f; f.rejectSend = true; QString error;

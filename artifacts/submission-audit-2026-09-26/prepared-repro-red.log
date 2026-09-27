@@ -1,0 +1,11 @@
+********* Start testing of LogFailureOrderingTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : LogFailureOrderingTest::initTestCase()
+QINFO  : LogFailureOrderingTest::noSubmissionAfterRunStopsForLogFailure() TRACE ("inject_log_open_failure", "normal_run_finished", "fake_sender_called") SUBMISSIONS 1 AFTER_FINISHED true
+FAIL!  : LogFailureOrderingTest::noSubmissionAfterRunStopsForLogFailure() Compared values are not the same
+   Actual   (submissions): 1
+   Expected (0)          : 0
+   Loc: [../repro/test_log_failure_ordering.cpp(66)]
+PASS   : LogFailureOrderingTest::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped, 0 blacklisted, 7ms
+********* Finished testing of LogFailureOrderingTest *********

@@ -1,0 +1,18 @@
+********* Start testing of RecoveryTest *********
+Config: Using QtTest library 5.12.8, Qt 5.12.8 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 9.3.0)
+PASS   : RecoveryTest::initTestCase()
+PASS   : RecoveryTest::fullOutageTimeoutFreshQuery()
+PASS   : RecoveryTest::heartbeatAloneIsNotRecovery()
+PASS   : RecoveryTest::restoredTooSoonDoesNotPass()
+PASS   : RecoveryTest::noOutageAndNoRecoveryDeadlines()
+PASS   : RecoveryTest::cannotStartUnreadyOrOverwrite()
+PASS   : RecoveryTest::faults(adapter)
+PASS   : RecoveryTest::faults(transport)
+PASS   : RecoveryTest::faults(log)
+PASS   : RecoveryTest::faults(cancel)
+PASS   : RecoveryTest::reportFailure()
+PASS   : RecoveryTest::jsonWriteFailureNeverReportsSaved(json-only)
+PASS   : RecoveryTest::jsonWriteFailureNeverReportsSaved(both-files)
+PASS   : RecoveryTest::cleanupTestCase()
+Totals: 14 passed, 0 failed, 0 skipped, 0 blacklisted, 57ms
+********* Finished testing of RecoveryTest *********

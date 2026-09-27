@@ -133,9 +133,9 @@ bool DiagnosticEngine::writeLog(QJsonObject entry)
     return true;
 }
 
-void DiagnosticEngine::logFrame(const QString &direction, const QCanBusFrame &frame)
+bool DiagnosticEngine::logFrame(const QString &direction, const QCanBusFrame &frame)
 {
-    writeLog(QJsonObject{{QStringLiteral("kind"), QStringLiteral("frame")},
+    return writeLog(QJsonObject{{QStringLiteral("kind"), QStringLiteral("frame")},
         {QStringLiteral("direction"), direction},
         {QStringLiteral("id"), double(frame.frameId())},
         {QStringLiteral("payload_hex"), QString::fromLatin1(frame.payload().toHex())},
@@ -161,10 +161,12 @@ bool DiagnosticEngine::sendGetStatus() { return sendCommand(2, false); }
 bool DiagnosticEngine::sendCommand(quint8 operation, bool desiredLed)
 {
     checkTimeouts();
-    if (!m_connected || m_pending || !m_sender) {
+    const bool logUnavailable = m_logRequested && (!m_log.isOpen() || !m_logError.isEmpty());
+    if (!m_connected || m_pending || !m_sender || logUnavailable) {
         count(QStringLiteral("commands_rejected"));
         emitEvent(QStringLiteral("command_rejected"), !m_connected ? QStringLiteral("disconnected")
-                  : m_pending ? QStringLiteral("busy") : QStringLiteral("sender_missing"));
+                  : m_pending ? QStringLiteral("busy") : !m_sender ? QStringLiteral("sender_missing")
+                  : QStringLiteral("log_unavailable"));
         return false;
     }
     m_pending = true;
@@ -179,9 +181,22 @@ bool DiagnosticEngine::sendCommand(quint8 operation, bool desiredLed)
     payload[3] = char(m_pendingSequence >> 8);
     payload[4] = operation == 1 && desiredLed ? 1 : 0;
     const QCanBusFrame frame(0x321, payload);
+    const quint16 sequence = m_pendingSequence;
     count(QStringLiteral("commands_attempted"));
     emit pendingChanged(true);
-    logFrame(QStringLiteral("tx_attempt"), frame);
+    // Same-thread signal handlers can disconnect/finish the request before
+    // submission. Do not submit an old request or complete a newer one.
+    if (!m_connected || !m_pending || m_pendingSequence != sequence) return false;
+    if (!logFrame(QStringLiteral("tx_attempt"), frame)) {
+        if (m_pending && m_pendingSequence == sequence)
+            finishCommand(false, QStringLiteral("log_error"), now());
+        return false;
+    }
+    if (!m_connected || !m_pending || m_pendingSequence != sequence) return false;
+    if (!m_sender) {
+        recordTransportError(QStringLiteral("Sender removed before submission"));
+        return false;
+    }
     QString error;
     if (!m_sender(frame, &error)) {
         recordTransportError(error.isEmpty() ? QStringLiteral("Sender rejected frame") : error);

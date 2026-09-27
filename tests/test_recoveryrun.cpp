@@ -71,7 +71,35 @@ private slots:
         QVERIFY(!f.run.running());QVERIFY(!f.run.report().value("protocol_passed").toBool());
         int n=f.sent.size();f.time+=1000;f.poll();QCOMPARE(f.sent.size(),n);}
     void reportFailure(){Fixture f;QVERIFY(f.start());f.poll();f.reply();QVERIFY(QDir(f.run.directory()).mkdir("result.md"));
-        f.run.cancel();QVERIFY(!f.run.report().value("report_saved").toBool());}
+        QSignalSpy finished(&f.run, &RecoveryRun::finished);
+        f.run.cancel();QVERIFY(!f.run.report().value("report_saved").toBool());
+        QCOMPARE(finished.size(), 1);QVERIFY(!finished.first().first().toBool());
+        QFile file(f.run.directory()+"/result.json");QVERIFY(file.open(QIODevice::ReadOnly));
+        QCOMPARE(QJsonDocument::fromJson(file.readAll()).object(), f.run.report());
+        QVERIFY(f.run.report().value("report_error").toString().contains("result.md"));
+    }
+    void jsonWriteFailureNeverReportsSaved_data() {
+        QTest::addColumn<bool>("failMarkdown");
+        QTest::newRow("json-only") << false;
+        QTest::newRow("both-files") << true;
+    }
+    void jsonWriteFailureNeverReportsSaved(){
+        QFETCH(bool, failMarkdown);
+        Fixture f;QVERIFY(f.start());f.poll();f.reply();f.outage();f.recover();
+        QSignalSpy finished(&f.run, &RecoveryRun::finished);
+        QVERIFY(QFile::remove(f.run.directory()+"/result.json"));
+        QVERIFY(QDir(f.run.directory()).mkdir("result.json"));
+        if (failMarkdown) QVERIFY(QDir(f.run.directory()).mkdir("result.md"));
+        f.reply();QVERIFY(!f.run.running());
+        QCOMPARE(finished.size(), 1);QVERIFY(!finished.first().first().toBool());
+        QVERIFY(f.run.report().value("protocol_passed").toBool());
+        QVERIFY(!f.run.report().value("report_saved").toBool());
+        QVERIFY(f.run.report().value("report_error").toString().contains("result.json"));
+        if (failMarkdown)
+            QVERIFY(f.run.report().value("report_error").toString().contains("result.md"));
+        else
+            QVERIFY(QFileInfo(f.run.directory()+"/result.md").isFile());
+    }
 };
 QTEST_GUILESS_MAIN(RecoveryTest)
 #include "test_recoveryrun.moc"

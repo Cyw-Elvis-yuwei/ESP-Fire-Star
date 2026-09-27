@@ -1,0 +1,41 @@
+{"detail":"<test-workspace>/artifacts/regression-20260926-153627-088/restart/raw.jsonl","kind":"event","monotonic_ms":0,"name":"log_started","utc":"2026-09-26T15:36:36.109Z"}
+{"detail":"vcan0","kind":"event","monotonic_ms":0,"name":"connected","utc":"2026-09-26T15:36:36.109Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":98,"payload_hex":"0100010065000000","type":1,"utc":"2026-09-26T15:36:36.207Z"}
+{"detail":"Fresh protocol heartbeat observed","kind":"event","monotonic_ms":98,"name":"heartbeat_online","utc":"2026-09-26T15:36:36.207Z"}
+{"brs":false,"direction":"tx_attempt","dlc":8,"esi":false,"extended":false,"fd":false,"id":801,"kind":"frame","local_echo":false,"monotonic_ms":151,"payload_hex":"0101010001000000","type":1,"utc":"2026-09-26T15:36:36.261Z"}
+{"detail":"seq=1 op=1","kind":"event","monotonic_ms":151,"name":"tx_accepted","utc":"2026-09-26T15:36:36.261Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":802,"kind":"frame","local_echo":false,"monotonic_ms":151,"payload_hex":"0101010000010000","type":1,"utc":"2026-09-26T15:36:36.261Z"}
+{"kind":"command_result","latency_ms":0,"monotonic_ms":151,"op":1,"outcome":"success","seq":1,"success":true,"utc":"2026-09-26T15:36:36.261Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":213,"payload_hex":"01010200d8000000","type":1,"utc":"2026-09-26T15:36:36.322Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":315,"payload_hex":"010103003f010000","type":1,"utc":"2026-09-26T15:36:36.425Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":417,"payload_hex":"01010400a5010000","type":1,"utc":"2026-09-26T15:36:36.527Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":519,"payload_hex":"010105000b020000","type":1,"utc":"2026-09-26T15:36:36.629Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":621,"payload_hex":"0101060071020000","type":1,"utc":"2026-09-26T15:36:36.731Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":724,"payload_hex":"01010700d7020000","type":1,"utc":"2026-09-26T15:36:36.833Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":826,"payload_hex":"010108003e030000","type":1,"utc":"2026-09-26T15:36:36.936Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":928,"payload_hex":"0100000014000000","type":1,"utc":"2026-09-26T15:36:37.038Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1031,"payload_hex":"010001007a000000","type":1,"utc":"2026-09-26T15:36:37.141Z"}
+{"detail":"Two progressing reset samples; hardware reset and command recovery unverified","kind":"event","monotonic_ms":1031,"name":"restart_observed","utc":"2026-09-26T15:36:37.141Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1133,"payload_hex":"01000200e0000000","type":1,"utc":"2026-09-26T15:36:37.243Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1235,"payload_hex":"0100030046010000","type":1,"utc":"2026-09-26T15:36:37.345Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1338,"payload_hex":"01000400ad010000","type":1,"utc":"2026-09-26T15:36:37.448Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1440,"payload_hex":"0100050014020000","type":1,"utc":"2026-09-26T15:36:37.550Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1543,"payload_hex":"010006007a020000","type":1,"utc":"2026-09-26T15:36:37.652Z"}
+{"brs":false,"direction":"tx_attempt","dlc":8,"esi":false,"extended":false,"fd":false,"id":801,"kind":"frame","local_echo":false,"monotonic_ms":1600,"payload_hex":"0102020000000000","type":1,"utc":"2026-09-26T15:36:37.710Z"}
+{"detail":"seq=2 op=2","kind":"event","monotonic_ms":1600,"name":"tx_accepted","utc":"2026-09-26T15:36:37.710Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":802,"kind":"frame","local_echo":false,"monotonic_ms":1600,"payload_hex":"0102020000000000","type":1,"utc":"2026-09-26T15:36:37.710Z"}
+{"kind":"command_result","latency_ms":0,"monotonic_ms":1600,"op":2,"outcome":"success","seq":2,"success":true,"utc":"2026-09-26T15:36:37.710Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1662,"payload_hex":"01000700f2020000","type":1,"utc":"2026-09-26T15:36:37.772Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1765,"payload_hex":"0100080058030000","type":1,"utc":"2026-09-26T15:36:37.875Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1868,"payload_hex":"01000900bf030000","type":1,"utc":"2026-09-26T15:36:37.978Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":1970,"payload_hex":"01000a0025040000","type":1,"utc":"2026-09-26T15:36:38.080Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2073,"payload_hex":"01000b008d040000","type":1,"utc":"2026-09-26T15:36:38.183Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2175,"payload_hex":"01000c00f3040000","type":1,"utc":"2026-09-26T15:36:38.285Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2279,"payload_hex":"01000d005a050000","type":1,"utc":"2026-09-26T15:36:38.388Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2380,"payload_hex":"01000e00c0050000","type":1,"utc":"2026-09-26T15:36:38.490Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2483,"payload_hex":"01000f0026060000","type":1,"utc":"2026-09-26T15:36:38.593Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2585,"payload_hex":"010010008c060000","type":1,"utc":"2026-09-26T15:36:38.694Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2687,"payload_hex":"01001100f3060000","type":1,"utc":"2026-09-26T15:36:38.797Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2789,"payload_hex":"0100120059070000","type":1,"utc":"2026-09-26T15:36:38.899Z"}
+{"brs":false,"direction":"rx","dlc":8,"esi":false,"extended":false,"fd":false,"id":291,"kind":"frame","local_echo":false,"monotonic_ms":2892,"payload_hex":"01001300bf070000","type":1,"utc":"2026-09-26T15:36:39.002Z"}
+{"detail":"vcan0","kind":"event","monotonic_ms":2926,"name":"disconnected","utc":"2026-09-26T15:36:39.036Z"}
